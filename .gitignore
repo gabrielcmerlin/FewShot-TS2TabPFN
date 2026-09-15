@@ -1,2 +1,5 @@
 data/download_monster.py
-data/*/
+data/mv_core/
+data/redux
+__pycache__
+.vscode

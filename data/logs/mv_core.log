@@ -1,0 +1,74 @@
+Preparing to download 66 Multiverse datasets to 'mv_core'
+
+[1/66] 'Alzheimers' ... done.
+[2/66] 'AppliancesEnergy_disc' ... done.
+[3/66] 'ArticularyWordRecognition' ... done.
+[4/66] 'AsphaltObstaclesCoordinates' ... done.
+[5/66] 'AsphaltRegularityCoordinates' ... done.
+[6/66] 'AtrialFibrillation' ... done.
+[7/66] 'AustraliaRainfall_disc' ... done.
+[8/66] 'AutomotiveRoadTrials' ... done.
+[9/66] 'BIDMC32HR_disc' ... done.
+[10/66] 'BIDMC32SpO2_disc' ... done.
+[11/66] 'BeijingPM10Quality_disc' ... done.
+[12/66] 'BeijingPM25Quality_disc' ... done.
+[13/66] 'BenzeneConcentration_disc' ... done.
+[14/66] 'Blink' ... done.
+[15/66] 'BoneIntensitiesAgeGroup' ... done.
+[16/66] 'BoneProbAgeGroup' ... done.
+[17/66] 'CharacterTrajectories' ... done.
+[18/66] 'CounterMovementJump' ... done.
+[19/66] 'Cricket' ... done.
+[20/66] 'CrowdSourced' ... done.
+[21/66] 'DuckDuckGeese' ... done.
+[22/66] 'ERing' ... done.
+[23/66] 'EigenWorms' ... done.
+[24/66] 'EmoPain' ... done.
+[25/66] 'Epilepsy' ... done.
+[26/66] 'EthanolConcentration' ... done.
+[27/66] 'EyesOpenShut' ... done.
+[28/66] 'FaceDetection' ... done.
+[29/66] 'FordChallenge' ... done.
+[30/66] 'HandMovementDirection' ... done.
+[31/66] 'Handwriting' ... done.
+[32/66] 'Heartbeat' ... done.
+[33/66] 'HouseholdPowerConsumption1_disc' ... done.
+[34/66] 'HouseholdPowerConsumption2_disc' ... done.
+[35/66] 'IEEEPPG_disc' ... done.
+[36/66] 'IRDS-SFL' ... done.
+[37/66] 'JapaneseVowels' ... done.
+[38/66] 'KERAAL-RTK' ... done.
+[39/66] 'KIMORE-PR-C' ... done.
+[40/66] 'KINECAL-QSEO' ... done.
+[41/66] 'LSST' ... done.
+[42/66] 'Libras' ... done.
+[43/66] 'Locust2022' ... done.
+[44/66] 'LowCost' ... done.
+[45/66] 'MindReading' ... done.
+[46/66] 'MotionSenseHAR' ... done.
+[47/66] 'MotorImagery' ... done.
+[48/66] 'NATOPS' ... done.
+[49/66] 'PEMS-SF' ... done.
+[50/66] 'PenDigits' ... done.
+[51/66] 'PhonemeSpectra' ... done.
+[52/66] 'PhotoStimulation' ... done.
+[53/66] 'RacketSports' ... done.
+[54/66] 'STEW' ... done.
+[55/66] 'SelfRegulationSCP1' ... done.
+[56/66] 'Skoda' ... done.
+[57/66] 'SpokenArabicDigits' ... done.
+[58/66] 'StandWalkJump' ... done.
+[59/66] 'TactileTextureRecognition' ... done.
+[60/66] 'Tiselac' ... done.
+[61/66] 'UCDHE-Rowing-MC' ... done.
+[62/66] 'UCIActivity' ... done.
+[63/66] 'UIPRMD-DS-C' ... done.
+[64/66] 'USCActivity' ... done.
+[65/66] 'UWaveGestureLibrary' ... done.
+[66/66] 'WISDM' ... done.
+
+--- Summary ---
+Already had: 0/66
+Newly downloaded: 66/66
+Successful overall: 66/66
+All datasets processed successfully.

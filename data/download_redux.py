@@ -13,6 +13,7 @@ This is the union of:
 """
 
 import argparse
+import shutil
 import sys
 import time
 from pathlib import Path
@@ -141,18 +142,18 @@ redux = [
     "AllGestureWiimoteX",
     "AllGestureWiimoteY",
     "AllGestureWiimoteZ",
-    "AsphaltObstacles",
-    "AsphaltPavementType",
-    "AsphaltRegularity",
+    "AsphaltObstaclesUni",
+    "AsphaltPavementTypeUni",
+    "AsphaltRegularityUni",
     "Colposcopy",
-    "Covid3Month",
+    "Covid3Month_disc",
     "DodgerLoopDay",
     "DodgerLoopGame",
     "DodgerLoopWeekend",
     "ElectricDeviceDetection",
-    "FloodModeling1",
-    "FloodModeling2",
-    "FloodModeling3",
+    "FloodModeling1_disc",
+    "FloodModeling2_disc",
+    "FloodModeling3_disc",
     "GestureMidAirD1",
     "GestureMidAirD2",
     "GestureMidAirD3",
@@ -168,13 +169,9 @@ redux = [
     "Tools",
 ]
 
-# Suffixes that mark a "corrected"/alternate version of a base .ts file.
-# If both `<stem>.ts` and `<stem><suffix>.ts` exist (e.g. `A_TRAIN.ts` and
-# `A_TRAIN_nmv.ts`), the plain `<stem>.ts` is considered the old/uncorrected
-# version and is removed, keeping only the suffixed one.
 OLD_VERSION_SUFFIXES = ("_nmv", "_eq", "_disc")
 
-def get_redux_142() -> list[str]:
+def get_redux() -> list[str]:
     """Return the sorted, de-duplicated union of the two dataset lists."""
     combined = sorted(set(univariate_equal_length) | set(redux))
     return combined
@@ -189,7 +186,6 @@ def is_already_downloaded(name: str, extract_path: str) -> bool:
     if not ds_dir.is_dir():
         return False
 
-    # Procura qualquer arquivo que termine com _TRAIN.ts e _TEST.ts dentro do diretório
     train_files = [f for f in ds_dir.glob("*_TRAIN.ts") if f.is_file() and f.stat().st_size > 0]
     test_files = [f for f in ds_dir.glob("*_TEST.ts") if f.is_file() and f.stat().st_size > 0]
 
@@ -204,18 +200,11 @@ def _remove_non_ts_files(ds_dir: Path) -> int:
                 path.unlink()
                 deleted += 1
             except OSError:
-                pass  # best-effort cleanup, don't fail the whole run
+                pass
     return deleted
 
 def _remove_old_ts_duplicates(ds_dir: Path) -> int:
-    """Delete plain `.ts` files that have a corrected/suffixed counterpart.
-
-    Corrected files are named `<name>_<suffix>_<SPLIT>.ts` (suffix inserted
-    right before the TRAIN/TEST marker), e.g. `AsphaltObstacles_eq_TEST.ts`
-    is the corrected counterpart of the plain `AsphaltObstacles_TEST.ts`.
-    When both exist, the plain file is deleted and only the suffixed one
-    is kept.
-    """
+    """Delete plain `.ts` files that have a corrected/suffixed counterpart."""
     ts_files = {p.stem: p for p in ds_dir.glob("*.ts")}
     deleted = 0
 
@@ -223,11 +212,11 @@ def _remove_old_ts_duplicates(ds_dir: Path) -> int:
         for split in ("_TRAIN", "_TEST"):
             if not stem.endswith(split):
                 continue
-            prefix = stem[: -len(split)]  # e.g. "AsphaltObstacles_eq"
+            prefix = stem[: -len(split)]
             for suffix in OLD_VERSION_SUFFIXES:
                 if prefix.endswith(suffix):
-                    base_prefix = prefix[: -len(suffix)]  # e.g. "AsphaltObstacles"
-                    old_stem = base_prefix + split  # e.g. "AsphaltObstacles_TEST"
+                    base_prefix = prefix[: -len(suffix)]
+                    old_stem = base_prefix + split
                     old_path = ts_files.get(old_stem)
                     if old_path is not None and old_path.exists():
                         try:
@@ -236,21 +225,12 @@ def _remove_old_ts_duplicates(ds_dir: Path) -> int:
                             ts_files.pop(old_stem, None)
                         except OSError:
                             pass
-            break  # matched TRAIN or TEST, no need to check the other
+            break
 
     return deleted
 
 def clean_dataset_folder(name: str, extract_path: str) -> int:
-    """Clean up a dataset's subfolder after download.
-
-    - Deletes any file that is not a `.ts` file (e.g. `.arff`, `.txt`,
-      `.md`, or anything else the archive shipped).
-    - Deletes "old"/uncorrected `.ts` files when a corrected counterpart
-      exists (suffixes `_nmv`, `_eq`, `_disc`), keeping only the
-      corrected version.
-
-    Returns the total number of files deleted.
-    """
+    """Clean up a dataset's subfolder after download."""
     ds_dir = Path(extract_path) / name
     if not ds_dir.is_dir():
         return 0
@@ -260,35 +240,47 @@ def clean_dataset_folder(name: str, extract_path: str) -> int:
     return deleted
 
 def download_dataset(
-    name: str, extract_path: str, max_retries: int = 3, force: bool = False
+    name: str, extract_path: str, max_retries: int = 10, force: bool = False
 ) -> tuple[str, bool, str]:
     """Download a single dataset (train + test splits), retrying on failure.
 
-    Skips the download entirely if the dataset already exists under
-    `extract_path`, unless `force` is True. After a successful download,
-    cleans up the dataset's subfolder: removes any non-.ts file, and
-    removes old/uncorrected .ts files that have a corrected counterpart.
+    If an error occurs at any attempt, the existing dataset directory is completely
+    deleted to remove corrupted cache files before trying again.
     """
+    ds_dir = Path(extract_path) / name
+
     if not force and is_already_downloaded(name, extract_path):
-        # Still clean up in case leftover docs/arff files exist from a
-        # previous run of an older version of this script.
         clean_dataset_folder(name, extract_path)
         return name, True, "skipped (already downloaded)"
 
     last_error = ""
     for attempt in range(1, max_retries + 1):
         try:
-            # Loading the "TRAIN" split is enough to trigger the download
-            # and extraction of the full dataset (both TRAIN and TEST
-            # arrive together in the .ts archive).
+            # Se for uma tentativa de retry e o diretório existir, apaga o cache incompleto/corrompido
+            if ds_dir.exists():
+                shutil.rmtree(ds_dir, ignore_errors=True)
+
+            # Baixa e extrai os splits TRAIN e TEST
             load_classification(name, split="TRAIN", extract_path=extract_path)
             load_classification(name, split="TEST", extract_path=extract_path)
+            
             clean_dataset_folder(name, extract_path)
-            return name, True, ""
+
+            # Valida se ambos os arquivos foram realmente baixados com sucesso
+            if is_already_downloaded(name, extract_path):
+                return name, True, ""
+            
+            raise RuntimeError("Download completed but .ts files are missing or empty.")
+
         except Exception as e:  # noqa: BLE001
             last_error = str(e)
+            # Garante a remoção da pasta em caso de erro para a próxima tentativa ser 100% limpa
+            if ds_dir.exists():
+                shutil.rmtree(ds_dir, ignore_errors=True)
+
             if attempt < max_retries:
-                time.sleep(2 * attempt)  # simple backoff
+                time.sleep(2 * attempt)  # backoff exponencial simples
+
     return name, False, last_error
 
 
@@ -296,8 +288,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--out",
-        default="./redux_142",
-        help="Directory to download/extract datasets into (default: ./redux_142)",
+        default="./redux",
+        help="Directory to download/extract datasets into (default: ./redux)",
     )
     parser.add_argument(
         "--retries",
@@ -315,7 +307,7 @@ def main() -> None:
     out_dir = Path(args.out)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    datasets = get_redux_142()
+    datasets = get_redux()
     print(f"Preparing to download {len(datasets)} datasets to '{out_dir}'\n")
 
     failed = []
@@ -326,7 +318,7 @@ def main() -> None:
             name, str(out_dir), max_retries=args.retries, force=args.force
         )
         if ok:
-            if err:  # non-empty message on success means it was skipped
+            if err:
                 skipped += 1
                 print(err)
             else:

@@ -13,18 +13,18 @@ from pathlib import Path
 from aeon.datasets import load_classification
 
 # 66 MTSC datasets recommended for general purpose algorithm comparison
-multiverse_core = [
+mv_core = [
     "Alzheimers",
-    "AppliancesEnergy",
+    "AppliancesEnergy_disc",
     "ArticularyWordRecognition",
     "AsphaltObstaclesCoordinates",
     "AsphaltRegularityCoordinates",
     "AtrialFibrillation",
-    "AustraliaRainfall",
+    "AustraliaRainfall_disc",
     "AutomotiveRoadTrials",
-    "BeijingPM10Quality",
-    "BeijingPM25Quality",
-    "BenzeneConcentration",
+    "BeijingPM10Quality_disc",
+    "BeijingPM25Quality_disc",
+    "BenzeneConcentration_disc",
     "BIDMC32HR_disc",
     "BIDMC32SpO2_disc",
     "Blink",
@@ -46,9 +46,9 @@ multiverse_core = [
     "HandMovementDirection",
     "Handwriting",
     "Heartbeat",
-    "HouseholdPowerConsumption1",
-    "HouseholdPowerConsumption2",
-    "IEEEPPG",
+    "HouseholdPowerConsumption1_disc",
+    "HouseholdPowerConsumption2_disc",
+    "IEEEPPG_disc",
     "IRDS-SFL",
     "JapaneseVowels",
     "KERAAL-RTK",
@@ -88,7 +88,7 @@ OLD_VERSION_SUFFIXES = ("_nmv", "_eq", "_disc")
 
 def get_multiverse_datasets() -> list[str]:
     """Return sorted and unique list of Multiverse core datasets."""
-    return sorted(set(multiverse_core))
+    return sorted(set(mv_core))
 
 
 def is_already_downloaded(name: str, extract_path: str) -> bool:
@@ -188,8 +188,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--out",
-        default="./multiverse_core",
-        help="Directory to download/extract datasets into (default: ./multiverse_core)",
+        default="./mv_core",
+        help="Directory to download/extract datasets into (default: ./mv_core)",
     )
     parser.add_argument(
         "--retries",
