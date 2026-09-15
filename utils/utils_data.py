@@ -4,25 +4,25 @@ import pandas as pd
 from aeon.datasets import load_from_ts_file
 from sklearn.utils import check_random_state
 
-def load_experiment_data(problem_path: str,dataset: str,resample_id: int,predefined_resample: bool):
+def load_experiment_data(problem_path: str,dataset: str,folder: str,resample_id: int,predefined_resample: bool):
     
     if resample_id is not None and predefined_resample:
         resample_str = "" if resample_id is None else str(resample_id)
 
         X_train, y_train = load_from_ts_file(
-            f"{problem_path}/{dataset}/{dataset}{resample_str}_TRAIN.ts"
+            f"{problem_path}/{folder}/{dataset}{resample_str}_TRAIN.ts"
         )
         X_test, y_test = load_from_ts_file(
-            f"{problem_path}/{dataset}/{dataset}{resample_str}_TEST.ts"
+            f"{problem_path}/{folder}/{dataset}{resample_str}_TEST.ts"
         )
 
         resample_data = False
     else:
         X_train, y_train = load_from_ts_file(
-            f"{problem_path}/{dataset}/{dataset}_TRAIN.ts"
+            f"{problem_path}/{folder}/{dataset}_TRAIN.ts"
         )
         X_test, y_test = load_from_ts_file(
-            f"{problem_path}/{dataset}/{dataset}_TEST.ts"
+            f"{problem_path}/{folder}/{dataset}_TEST.ts"
         )
 
         resample_data = True if resample_id != 0 else False
@@ -137,9 +137,10 @@ def stratified_resample_data(X_train, y_train, X_test, y_test, random_state=None
 
     return X_train, y_train, X_test, y_test
 
-def get_data(data_path, dataset_name, resample_id, predefined_resample=False):
+def get_data(data_path, dataset_name, folder_name, resample_id, predefined_resample=False):
+
     X_train, y_train, X_test, y_test, resample = load_experiment_data(
-        data_path, dataset_name, resample_id, predefined_resample
+        data_path, dataset_name, folder_name, resample_id, predefined_resample
     )
 
     if resample:

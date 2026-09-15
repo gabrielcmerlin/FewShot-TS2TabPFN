@@ -1,9 +1,10 @@
 """
-Download standard and Multiverse Multivariate Time Series Classification (MTSC) datasets.
+This processes the 66 recommended core datasets from the Multiverse MTSC archive [1].
 
-This script processes the 66 recommended datasets from the Multiverse core collection.
-Includes automatic retries, skip validation checking file sizes/suffixes (_eq, _nmv, _disc),
-and workspace post-cleaning.
+[1] M. Middlehurst, A. Rushbrooke, A. Ismail-Fawaz, M. Devanne, G. Forestier,
+    A. Dempster, G. I. Webb, C. Holder, and A. Bagnall. "The multiverse of time
+    series machine learning: an archive for multivariate time series classification".
+    arXiv preprint arXiv:2603.20352, 2026.
 """
 
 import argparse

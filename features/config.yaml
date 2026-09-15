@@ -3,9 +3,9 @@ benchmark: redux
 
 # redux
 datasets:
-    - ACSF1
-    - Adiac
-    - ArrowHead
+    # - ACSF1
+    # - Adiac
+    # - ArrowHead
     # - Beef
     # - BeetleFly
     # - BirdChicken
@@ -43,6 +43,7 @@ datasets:
     # - FreezerRegularTrain
     # - FreezerSmallTrain
     # - GunPoint
+    
     # - GunPointAgeSpan
     # - GunPointMaleVersusFemale
     # - GunPointOldVersusYoung
@@ -87,6 +88,7 @@ datasets:
     # - ScreenType
     # - SemgHandGenderCh2
     # - SemgHandMovementCh2
+
     # - SemgHandSubjectCh2
     # - ShapeletSim
     # - ShapesAll
@@ -115,8 +117,8 @@ datasets:
     # - Worms
     # - WormsTwoClass
     # - Yoga
-    # - AconityMINIPrinterLarge
-    # - AconityMINIPrinterSmall
+    - AconityMINIPrinterLarge
+    - AconityMINIPrinterSmall
     # - AllGestureWiimoteX
     # - AllGestureWiimoteY
     # - AllGestureWiimoteZ

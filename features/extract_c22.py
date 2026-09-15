@@ -17,6 +17,22 @@ from datetime import datetime
 
 warnings.filterwarnings("ignore", category=RuntimeWarning)
 
+
+def find_actual_dataset_name(dataset_folder_path):
+    """
+    Escaneia a pasta do dataset e identifica o prefixo real do arquivo _TRAIN.ts.
+    Resolve variações como 'ShakeGestureWiimoteZ_eq_TRAIN.ts' ou 'Dataset_nmv_TRAIN.ts'.
+    """
+    if not os.path.exists(dataset_folder_path):
+        return None
+
+    for f in os.listdir(dataset_folder_path):
+        if f.endswith("_TRAIN.ts"):
+            # Remove o sufixo '_TRAIN.ts' para obter o nome exato esperado por get_data
+            return f[:-9]
+    return None
+
+
 def main():
     parser = Parser()
     config = parser.parse()
@@ -36,7 +52,6 @@ def main():
     os.makedirs(logs_dir, exist_ok=True)
 
     run_id = datetime.now().strftime("%Y%m%d_%H%M%S")
-
     time_log_file = os.path.join(logs_dir, f"time_{run_id}.csv")
 
     if not datasets_list and os.path.exists(data_path):
@@ -50,22 +65,29 @@ def main():
     for dataset_name in datasets_list:
         print(f"\n=== Extraindo Catch22 para {dataset_name} ===")
 
-        # Create a specific directory for each dataset: features/<benchmark>/<dataset_name>/
+        target_folder = os.path.join(data_path, dataset_name)
+        
+        # Resolve o nome exato considerando sufixos (_eq, _nmv, etc.)
+        actual_name = find_actual_dataset_name(target_folder)
+        if not actual_name:
+            actual_name = dataset_name
+
         dataset_dir = os.path.join(output_base_dir, dataset_name)
         os.makedirs(dataset_dir, exist_ok=True)
 
-        # Initialize CodeCarbon per dataset
         tracker = EmissionsTracker(
             project_name=f"catch22_{benchmark}_{dataset_name}",
             output_dir=logs_dir,
-            output_file=f"emissions_{run_id}.csv",  # Appends individual runs to the same CSV
+            output_file=f"emissions_{run_id}.csv",
             log_level="critical",
         )
 
         tracker.start()
         try:
+            # Passa actual_name para resolver arquivos como ShakeGestureWiimoteZ_eq_TRAIN.ts
             X_train, y_train, X_test, y_test = get_data(
                 data_path,
+                actual_name,
                 dataset_name,
                 resample_id=0
             )
@@ -84,12 +106,11 @@ def main():
             if not isinstance(X_full_feat, np.ndarray):
                 X_full_feat = X_full_feat.to_numpy()
 
-            # Save arrays into features/<benchmark>/<dataset_name>/
+            # Salva na pasta do dataset usando o nome da pasta como identificador padrão
             np.save(os.path.join(dataset_dir, f"{dataset_name}_X.npy"), X_full_feat)
             np.save(os.path.join(dataset_dir, f"{dataset_name}_y.npy"), y_full)
             np.save(os.path.join(dataset_dir, f"{dataset_name}_ntrain.npy"), np.array([n_train]))
 
-            # Log runtime to CSV
             file_exists = os.path.isfile(time_log_file)
             with open(time_log_file, mode="a", newline="") as f:
                 writer = csv.writer(f)
@@ -110,6 +131,8 @@ def main():
         finally:
             emissions = tracker.stop()
             print(f"[CodeCarbon] Emissões ({dataset_name}): {emissions:.6f} kg CO2eq")
+
+    print('DONE!')
 
 
 if __name__ == "__main__":
