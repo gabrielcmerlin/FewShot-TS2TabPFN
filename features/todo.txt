@@ -1,0 +1,11 @@
+c22
+    - redux
+    - mv_core
+
+tsfresh
+    - redux
+    - mv_core
+        
+multiRocket
+    - redux
+    - mv_core

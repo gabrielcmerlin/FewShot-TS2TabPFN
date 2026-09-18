@@ -9,3 +9,13 @@ https://github.com/time-series-machine-learning/tsml-eval/tree/main/tsml_eval/pu
 
 Resultados multivariados (mv_core):
 ver se atualizaram
+
+
+mkdir logs
+mkdir logs/c22
+mkdir logs/tsfresh
+mkdir logs/multirocket
+nohup python3 -u extract_*.py -c config.yaml > logs/*/**.log &
+
+
+conda env export > env.yaml

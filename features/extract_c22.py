@@ -45,14 +45,14 @@ def main():
 
     # Base paths
     data_path = os.path.join(BASE_DIR, "data", benchmark)
-    output_base_dir = os.path.join(BASE_DIR, "features", benchmark)
-    logs_dir = os.path.join(BASE_DIR, "features", "logs")
+    output_base_dir = os.path.join(BASE_DIR, "features", "feat", "c22", benchmark)
+    logs_dir = os.path.join(BASE_DIR, "features", "logs", "c22")
 
     os.makedirs(output_base_dir, exist_ok=True)
     os.makedirs(logs_dir, exist_ok=True)
 
     run_id = datetime.now().strftime("%Y%m%d_%H%M%S")
-    time_log_file = os.path.join(logs_dir, f"time_{run_id}.csv")
+    time_log_file = os.path.join(logs_dir, "time", f"time_{run_id}.csv")
 
     if not datasets_list and os.path.exists(data_path):
         datasets_list = [
@@ -77,7 +77,7 @@ def main():
 
         tracker = EmissionsTracker(
             project_name=f"catch22_{benchmark}_{dataset_name}",
-            output_dir=logs_dir,
+            output_dir=os.path.join(logs_dir, "emission"),
             output_file=f"emissions_{run_id}.csv",
             log_level="critical",
         )

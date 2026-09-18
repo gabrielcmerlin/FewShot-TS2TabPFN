@@ -1,0 +1,1 @@
+The extracted features are stored in the `features/feat` directory. You can either extract them locally on your machine or download them as a ZIP file, as described in the repository main README.
