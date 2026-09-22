@@ -64,7 +64,7 @@ def resample_data(X_train, y_train, X_test, y_test, random_state=None):
 
     return X_train, y_train, X_test, y_test
 
-def stratified_resample_data(X_train, y_train, X_test, y_test, random_state=None):
+def stratified_resample_data(X_train, y_train, X_test, y_test, random_state):
     if isinstance(X_train, np.ndarray):
         is_array = True
     elif isinstance(X_train, list):
