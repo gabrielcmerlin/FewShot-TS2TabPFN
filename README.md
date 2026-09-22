@@ -31,9 +31,3 @@ nohup python3 -u extract_*.py -c config.yaml > logs/*/**.log &
 
 tem q aceitar a licença de cada TabPFN
 https://platform.priorlabs.ai/accept-license?hf_repo_id=tabpfn_2_5
-
-## TODO
-
-- mudar outputs e ver se tem mais algo pra logar
-    - qnt usa de gpu
-- trocar nome de model pra feature
