@@ -2,9 +2,7 @@ __pycache__
 .vscode
 
 data/download_monster.py
-data/mv_core/
+data/mv_core
 data/redux
 
-features/feat/c22
-features/feat/tsfresh
-features/feat/multirocket
+features/feat
