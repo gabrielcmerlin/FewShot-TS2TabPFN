@@ -78,7 +78,10 @@ def main():
     os.makedirs(logs_dir, exist_ok=True)
 
     run_id = datetime.now().strftime("%Y%m%d_%H%M%S")
-    time_log_file = os.path.join(logs_dir, "time", f"time_{run_id}.csv")
+
+    time_dir = os.path.join(logs_dir, "time")
+    os.makedirs(time_dir, exist_ok=True)
+    time_log_file = os.path.join(time_dir, f"time_{run_id}.csv")
 
     if not datasets_list and os.path.exists(data_path):
         datasets_list = [
@@ -102,9 +105,11 @@ def main():
         dataset_dir = os.path.join(output_base_dir, dataset_name)
         os.makedirs(dataset_dir, exist_ok=True)
 
+        emission_dir = os.path.join(logs_dir, "emission")
+        os.makedirs(emission_dir, exist_ok=True)
         tracker = EmissionsTracker(
             project_name=f"tsfresh_{benchmark}_{dataset_name}",
-            output_dir=os.path.join(logs_dir, "emission"),
+            output_dir=emission_dir,
             output_file=f"emissions_{run_id}.csv",
             log_level="critical",
         )
@@ -132,7 +137,7 @@ def main():
                 column_kind="kind",
                 column_value="value",
                 default_fc_parameters=EfficientFCParameters(),
-                n_jobs=1,
+                n_jobs=32,
                 disable_progressbar=True,
             )
             duration = time.time() - start_time
@@ -169,6 +174,7 @@ def main():
             print(f"Sucesso: {dataset_name}")
 
         except Exception as e:
+            print("ERROR!!!")
             print(
                 f"[ERRO] Falha no dataset {dataset_name}: {type(e).__name__} - {e}"
             )

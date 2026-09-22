@@ -1,0 +1,32 @@
+Benchmark: mv_core | Datasets encontrados: 11
+
+=== Extraindo TSFRESH para SpokenArabicDigits ===
+[codecarbon WARNING @ 14:18:04] Multiple instances of codecarbon are allowed to run at the same time.
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: SpokenArabicDigits
+[CodeCarbon] Emissões (SpokenArabicDigits): 0.003081 kg CO2eq
+
+=== Extraindo TSFRESH para StandWalkJump ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: StandWalkJump
+[CodeCarbon] Emissões (StandWalkJump): 0.000407 kg CO2eq
+
+=== Extraindo TSFRESH para STEW ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Process ForkPoolWorker-68:
+Traceback (most recent call last):
+  File "/home/gcmerlin/miniconda3/envs/thesis/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/home/gcmerlin/miniconda3/envs/thesis/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/home/gcmerlin/miniconda3/envs/thesis/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/home/gcmerlin/miniconda3/envs/thesis/lib/python3.11/multiprocessing/connection.py", line 420, in _send_bytes
+    self._send(header)
+  File "/home/gcmerlin/miniconda3/envs/thesis/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe

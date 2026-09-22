@@ -1,0 +1,34 @@
+Benchmark: mv_core | Datasets encontrados: 5
+
+=== Extraindo TSFRESH para CounterMovementJump ===
+[codecarbon WARNING @ 20:15:56] Multiple instances of codecarbon are allowed to run at the same time.
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: CounterMovementJump
+[CodeCarbon] Emissões (CounterMovementJump): 0.003383 kg CO2eq
+
+=== Extraindo TSFRESH para Cricket ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: Cricket
+[CodeCarbon] Emissões (Cricket): 0.000757 kg CO2eq
+
+=== Extraindo TSFRESH para CrowdSourced ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+ERROR!!!
+[ERRO] Falha no dataset CrowdSourced: ValueError - Buffer has wrong number of dimensions (expected 1, got 0)
+[CodeCarbon] Emissões (CrowdSourced): 0.002124 kg CO2eq
+
+=== Extraindo TSFRESH para DuckDuckGeese ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: DuckDuckGeese
+[CodeCarbon] Emissões (DuckDuckGeese): 0.001887 kg CO2eq
+
+=== Extraindo TSFRESH para EigenWorms ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: EigenWorms
+[CodeCarbon] Emissões (EigenWorms): 0.754655 kg CO2eq
+DONE!

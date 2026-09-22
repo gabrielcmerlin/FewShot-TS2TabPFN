@@ -1,0 +1,39 @@
+Benchmark: mv_core | Datasets encontrados: 6
+
+=== Extraindo TSFRESH para BIDMC32HR_disc ===
+[codecarbon WARNING @ 20:15:08] Multiple instances of codecarbon are allowed to run at the same time.
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: BIDMC32HR_disc
+[CodeCarbon] Emissões (BIDMC32HR_disc): 0.103264 kg CO2eq
+
+=== Extraindo TSFRESH para BIDMC32SpO2_disc ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: BIDMC32SpO2_disc
+[CodeCarbon] Emissões (BIDMC32SpO2_disc): 0.103302 kg CO2eq
+
+=== Extraindo TSFRESH para Blink ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: Blink
+[CodeCarbon] Emissões (Blink): 0.000828 kg CO2eq
+
+=== Extraindo TSFRESH para BoneIntensitiesAgeGroup ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: BoneIntensitiesAgeGroup
+[CodeCarbon] Emissões (BoneIntensitiesAgeGroup): 0.000261 kg CO2eq
+
+=== Extraindo TSFRESH para BoneProbAgeGroup ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: BoneProbAgeGroup
+[CodeCarbon] Emissões (BoneProbAgeGroup): 0.000247 kg CO2eq
+
+=== Extraindo TSFRESH para CharacterTrajectories ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: CharacterTrajectories
+[CodeCarbon] Emissões (CharacterTrajectories): 0.000240 kg CO2eq
+DONE!

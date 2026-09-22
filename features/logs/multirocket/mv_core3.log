@@ -1,0 +1,62 @@
+Benchmark: mv_core | Datasets encontrados: 11
+
+=== Extraindo MultiROCKET para EmoPain ===
+[codecarbon WARNING @ 11:16:23] Multiple instances of codecarbon are allowed to run at the same time.
+Ajustando e transformando com MultiROCKET...
+/home/gcmerlin/miniconda3/envs/thesis/lib/python3.11/site-packages/aeon/base/_base_collection.py:118: UserWarning: Data seen by instance of MultiRocket has one or more case/channel pairs with very little variation (std <= 1e-07). Some aeon methods may treat these series as effectively constant. If this is unintended, rescale (e.g., multiply by a constant) or normalise your data.
+  meta = self._check_X(X)
+/home/gcmerlin/miniconda3/envs/thesis/lib/python3.11/site-packages/aeon/base/_base_collection.py:118: UserWarning: Data seen by instance of MultiRocket has one or more case/channel pairs with very little variation (std <= 1e-07). Some aeon methods may treat these series as effectively constant. If this is unintended, rescale (e.g., multiply by a constant) or normalise your data.
+  meta = self._check_X(X)
+Sucesso: EmoPain
+[CodeCarbon] Emissões (EmoPain): 0.000038 kg CO2eq
+
+=== Extraindo MultiROCKET para Epilepsy ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Epilepsy
+[CodeCarbon] Emissões (Epilepsy): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para ERing ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: ERing
+[CodeCarbon] Emissões (ERing): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para EthanolConcentration ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: EthanolConcentration
+[CodeCarbon] Emissões (EthanolConcentration): 0.000024 kg CO2eq
+
+=== Extraindo MultiROCKET para EyesOpenShut ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: EyesOpenShut
+[CodeCarbon] Emissões (EyesOpenShut): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para FaceDetection ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: FaceDetection
+[CodeCarbon] Emissões (FaceDetection): 0.000069 kg CO2eq
+
+=== Extraindo MultiROCKET para FordChallenge ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: FordChallenge
+[CodeCarbon] Emissões (FordChallenge): 0.000134 kg CO2eq
+
+=== Extraindo MultiROCKET para HandMovementDirection ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: HandMovementDirection
+[CodeCarbon] Emissões (HandMovementDirection): 0.000004 kg CO2eq
+
+=== Extraindo MultiROCKET para Handwriting ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Handwriting
+[CodeCarbon] Emissões (Handwriting): 0.000007 kg CO2eq
+
+=== Extraindo MultiROCKET para Heartbeat ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Heartbeat
+[CodeCarbon] Emissões (Heartbeat): 0.000013 kg CO2eq
+
+=== Extraindo MultiROCKET para HouseholdPowerConsumption1_disc ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: HouseholdPowerConsumption1_disc
+[CodeCarbon] Emissões (HouseholdPowerConsumption1_disc): 0.000066 kg CO2eq
+DONE!

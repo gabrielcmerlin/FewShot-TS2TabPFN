@@ -1,0 +1,223 @@
+Benchmark: redux | Datasets encontrados: 44
+
+=== Extraindo MultiROCKET para GunPointAgeSpan ===
+[codecarbon WARNING @ 11:08:47] Multiple instances of codecarbon are allowed to run at the same time.
+Ajustando e transformando com MultiROCKET...
+Sucesso: GunPointAgeSpan
+[CodeCarbon] Emissões (GunPointAgeSpan): 0.000021 kg CO2eq
+
+=== Extraindo MultiROCKET para GunPointMaleVersusFemale ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: GunPointMaleVersusFemale
+[CodeCarbon] Emissões (GunPointMaleVersusFemale): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para GunPointOldVersusYoung ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: GunPointOldVersusYoung
+[CodeCarbon] Emissões (GunPointOldVersusYoung): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para Ham ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Ham
+[CodeCarbon] Emissões (Ham): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para HandOutlines ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: HandOutlines
+[CodeCarbon] Emissões (HandOutlines): 0.000071 kg CO2eq
+
+=== Extraindo MultiROCKET para Haptics ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Haptics
+[CodeCarbon] Emissões (Haptics): 0.000009 kg CO2eq
+
+=== Extraindo MultiROCKET para Herring ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Herring
+[CodeCarbon] Emissões (Herring): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para HouseTwenty ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: HouseTwenty
+[CodeCarbon] Emissões (HouseTwenty): 0.000008 kg CO2eq
+
+=== Extraindo MultiROCKET para InlineSkate ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: InlineSkate
+[CodeCarbon] Emissões (InlineSkate): 0.000029 kg CO2eq
+
+=== Extraindo MultiROCKET para InsectEPGRegularTrain ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: InsectEPGRegularTrain
+[CodeCarbon] Emissões (InsectEPGRegularTrain): 0.000005 kg CO2eq
+
+=== Extraindo MultiROCKET para InsectEPGSmallTrain ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: InsectEPGSmallTrain
+[CodeCarbon] Emissões (InsectEPGSmallTrain): 0.000005 kg CO2eq
+
+=== Extraindo MultiROCKET para InsectWingbeatSound ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: InsectWingbeatSound
+[CodeCarbon] Emissões (InsectWingbeatSound): 0.000014 kg CO2eq
+
+=== Extraindo MultiROCKET para ItalyPowerDemand ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: ItalyPowerDemand
+[CodeCarbon] Emissões (ItalyPowerDemand): 0.000003 kg CO2eq
+
+=== Extraindo MultiROCKET para LargeKitchenAppliances ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: LargeKitchenAppliances
+[CodeCarbon] Emissões (LargeKitchenAppliances): 0.000011 kg CO2eq
+
+=== Extraindo MultiROCKET para Lightning2 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Lightning2
+[CodeCarbon] Emissões (Lightning2): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para Lightning7 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Lightning7
+[CodeCarbon] Emissões (Lightning7): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para Mallat ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Mallat
+[CodeCarbon] Emissões (Mallat): 0.000040 kg CO2eq
+
+=== Extraindo MultiROCKET para Meat ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Meat
+[CodeCarbon] Emissões (Meat): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para MedicalImages ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: MedicalImages
+[CodeCarbon] Emissões (MedicalImages): 0.000004 kg CO2eq
+
+=== Extraindo MultiROCKET para MiddlePhalanxOutlineCorrect ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: MiddlePhalanxOutlineCorrect
+[CodeCarbon] Emissões (MiddlePhalanxOutlineCorrect): 0.000003 kg CO2eq
+
+=== Extraindo MultiROCKET para MiddlePhalanxOutlineAgeGroup ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: MiddlePhalanxOutlineAgeGroup
+[CodeCarbon] Emissões (MiddlePhalanxOutlineAgeGroup): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para MiddlePhalanxTW ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: MiddlePhalanxTW
+[CodeCarbon] Emissões (MiddlePhalanxTW): 0.000003 kg CO2eq
+
+=== Extraindo MultiROCKET para MixedShapesRegularTrain ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: MixedShapesRegularTrain
+[CodeCarbon] Emissões (MixedShapesRegularTrain): 0.000058 kg CO2eq
+
+=== Extraindo MultiROCKET para MixedShapesSmallTrain ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: MixedShapesSmallTrain
+[CodeCarbon] Emissões (MixedShapesSmallTrain): 0.000060 kg CO2eq
+
+=== Extraindo MultiROCKET para MoteStrain ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: MoteStrain
+[CodeCarbon] Emissões (MoteStrain): 0.000005 kg CO2eq
+
+=== Extraindo MultiROCKET para NonInvasiveFetalECGThorax1 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: NonInvasiveFetalECGThorax1
+[CodeCarbon] Emissões (NonInvasiveFetalECGThorax1): 0.000058 kg CO2eq
+
+=== Extraindo MultiROCKET para NonInvasiveFetalECGThorax2 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: NonInvasiveFetalECGThorax2
+[CodeCarbon] Emissões (NonInvasiveFetalECGThorax2): 0.000057 kg CO2eq
+
+=== Extraindo MultiROCKET para OliveOil ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: OliveOil
+[CodeCarbon] Emissões (OliveOil): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para OSULeaf ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: OSULeaf
+[CodeCarbon] Emissões (OSULeaf): 0.000004 kg CO2eq
+
+=== Extraindo MultiROCKET para PhalangesOutlinesCorrect ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: PhalangesOutlinesCorrect
+[CodeCarbon] Emissões (PhalangesOutlinesCorrect): 0.000014 kg CO2eq
+
+=== Extraindo MultiROCKET para Phoneme ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Phoneme
+[CodeCarbon] Emissões (Phoneme): 0.000063 kg CO2eq
+
+=== Extraindo MultiROCKET para PigAirwayPressure ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: PigAirwayPressure
+[CodeCarbon] Emissões (PigAirwayPressure): 0.000015 kg CO2eq
+
+=== Extraindo MultiROCKET para PigArtPressure ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: PigArtPressure
+[CodeCarbon] Emissões (PigArtPressure): 0.000011 kg CO2eq
+
+=== Extraindo MultiROCKET para PigCVP ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: PigCVP
+[CodeCarbon] Emissões (PigCVP): 0.000014 kg CO2eq
+
+=== Extraindo MultiROCKET para Plane ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Plane
+[CodeCarbon] Emissões (Plane): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para PowerCons ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: PowerCons
+[CodeCarbon] Emissões (PowerCons): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para ProximalPhalanxOutlineCorrect ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: ProximalPhalanxOutlineCorrect
+[CodeCarbon] Emissões (ProximalPhalanxOutlineCorrect): 0.000005 kg CO2eq
+
+=== Extraindo MultiROCKET para ProximalPhalanxOutlineAgeGroup ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: ProximalPhalanxOutlineAgeGroup
+[CodeCarbon] Emissões (ProximalPhalanxOutlineAgeGroup): 0.000004 kg CO2eq
+
+=== Extraindo MultiROCKET para ProximalPhalanxTW ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: ProximalPhalanxTW
+[CodeCarbon] Emissões (ProximalPhalanxTW): 0.000003 kg CO2eq
+
+=== Extraindo MultiROCKET para RefrigerationDevices ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: RefrigerationDevices
+[CodeCarbon] Emissões (RefrigerationDevices): 0.000015 kg CO2eq
+
+=== Extraindo MultiROCKET para Rock ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Rock
+[CodeCarbon] Emissões (Rock): 0.000004 kg CO2eq
+
+=== Extraindo MultiROCKET para ScreenType ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: ScreenType
+[CodeCarbon] Emissões (ScreenType): 0.000012 kg CO2eq
+
+=== Extraindo MultiROCKET para SemgHandGenderCh2 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: SemgHandGenderCh2
+[CodeCarbon] Emissões (SemgHandGenderCh2): 0.000040 kg CO2eq
+
+=== Extraindo MultiROCKET para SemgHandMovementCh2 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: SemgHandMovementCh2
+[CodeCarbon] Emissões (SemgHandMovementCh2): 0.000039 kg CO2eq
+DONE!

@@ -1,0 +1,3 @@
+dataset,n_samples,n_features,time_seconds
+UWaveGestureLibrary,440,49728,3.9021
+WISDM,17166,49728,65.7015

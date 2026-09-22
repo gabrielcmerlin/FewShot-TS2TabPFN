@@ -1,0 +1,39 @@
+Benchmark: mv_core | Datasets encontrados: 6
+
+=== Extraindo TSFRESH para UCDHE-Rowing-MC ===
+[codecarbon WARNING @ 10:30:26] Multiple instances of codecarbon are allowed to run at the same time.
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: UCDHE-Rowing-MC
+[CodeCarbon] Emissões (UCDHE-Rowing-MC): 0.001127 kg CO2eq
+
+=== Extraindo TSFRESH para UCIActivity ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: UCIActivity
+[CodeCarbon] Emissões (UCIActivity): 0.002699 kg CO2eq
+
+=== Extraindo TSFRESH para UIPRMD-DS-C ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: UIPRMD-DS-C
+[CodeCarbon] Emissões (UIPRMD-DS-C): 0.000331 kg CO2eq
+
+=== Extraindo TSFRESH para USCActivity ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: USCActivity
+[CodeCarbon] Emissões (USCActivity): 0.009390 kg CO2eq
+
+=== Extraindo TSFRESH para UWaveGestureLibrary ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: UWaveGestureLibrary
+[CodeCarbon] Emissões (UWaveGestureLibrary): 0.000051 kg CO2eq
+
+=== Extraindo TSFRESH para WISDM ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: WISDM
+[CodeCarbon] Emissões (WISDM): 0.001388 kg CO2eq
+DONE!

@@ -1,10 +1,10 @@
-# benchmark: redux
-benchmark: mv_core
+benchmark: redux
+# benchmark: mv_core
 
 # redux
-# datasets:
+datasets:
 
-    # - ACSF1
+    - ACSF1
     # - Adiac
     # - ArrowHead
     # - Beef
@@ -150,19 +150,18 @@ benchmark: mv_core
     # - Tools
 
 # mv_core
-datasets:
+# datasets:
 
-    # - Alzheimers
-    # - AppliancesEnergy_disc
     # - ArticularyWordRecognition
     # - AsphaltObstaclesCoordinates
     # - AsphaltRegularityCoordinates
     # - AtrialFibrillation
-    # - AustraliaRainfall_disc
     # - AutomotiveRoadTrials
     # - BeijingPM10Quality_disc
     # - BeijingPM25Quality_disc
     # - BenzeneConcentration_disc
+    # - AppliancesEnergy_disc
+    # - Alzheimers
     
     # - BIDMC32HR_disc
     # - BIDMC32SpO2_disc
@@ -172,7 +171,6 @@ datasets:
     # - CharacterTrajectories
     # - CounterMovementJump
     # - Cricket
-    # - CrowdSourced
     # - DuckDuckGeese
     # - EigenWorms
     
@@ -181,11 +179,8 @@ datasets:
     # - ERing
     # - EthanolConcentration
     # - EyesOpenShut
-    # - FaceDetection
-    # - FordChallenge
     # - HandMovementDirection
     # - Handwriting
-    # - Heartbeat
     # - HouseholdPowerConsumption1_disc
     
     # - HouseholdPowerConsumption2_disc
@@ -200,26 +195,36 @@ datasets:
     # - LowCost
     # - LSST
 
-    # - MindReading
     # - MotionSenseHAR
     # - MotorImagery
     # - NATOPS
     # - PEMS-SF
-    # - PenDigits
     # - PhonemeSpectra
-    # - PhotoStimulation
     # - RacketSports
     # - SelfRegulationSCP1
-    # - Skoda
+    # - PhotoStimulation
+    # - MindReading
 
     # - SpokenArabicDigits
     # - StandWalkJump
-    - STEW
-    - TactileTextureRecognition
-    - Tiselac
-    - UCDHE-Rowing-MC
-    - UCIActivity
-    - UIPRMD-DS-C
-    - USCActivity
-    - UWaveGestureLibrary
-    - WISDM
+    # - TactileTextureRecognition
+    # - UCDHE-Rowing-MC
+    # - UCIActivity
+    # - UIPRMD-DS-C
+    # - UWaveGestureLibrary
+    # - WISDM
+    # - USCActivity
+
+skipped:
+    # All are multivariate (from MV Core)
+    - FordChallenge                     # Tsfresh: Broken Pipe
+    - FaceDetection                     # Tsfresh: Broken Pipe
+    - Tiselac                           # Tsfresh: Broken Pipe
+    - Skoda                             # Tsfresh: Broken Pipe
+    - AustraliaRainfall_disc            # Tsfresh: Broken Pipe
+    - STEW                              # Tsfresh: Broken Pipe
+    
+    - Heartbeat                         # Tsfresh: Buffer has wrong number of dimensions (expected 1, got 0)
+    - CrowdSourced                      # Tsfresh: Buffer has wrong number of dimensions (expected 1, got 0)
+    
+    - PenDigits                         # MultiROCKET: n_timepoints must be >= 9, but found 8

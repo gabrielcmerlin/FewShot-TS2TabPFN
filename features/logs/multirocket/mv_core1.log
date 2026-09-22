@@ -1,0 +1,52 @@
+Benchmark: mv_core | Datasets encontrados: 11
+
+=== Extraindo MultiROCKET para ArticularyWordRecognition ===
+[codecarbon WARNING @ 10:50:03] Multiple instances of codecarbon are allowed to run at the same time.
+Ajustando e transformando com MultiROCKET...
+Sucesso: ArticularyWordRecognition
+[CodeCarbon] Emissões (ArticularyWordRecognition): 0.000005 kg CO2eq
+
+=== Extraindo MultiROCKET para AsphaltObstaclesCoordinates ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: AsphaltObstaclesCoordinates
+[CodeCarbon] Emissões (AsphaltObstaclesCoordinates): 0.000011 kg CO2eq
+
+=== Extraindo MultiROCKET para AsphaltRegularityCoordinates ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: AsphaltRegularityCoordinates
+[CodeCarbon] Emissões (AsphaltRegularityCoordinates): 0.000026 kg CO2eq
+
+=== Extraindo MultiROCKET para AtrialFibrillation ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: AtrialFibrillation
+[CodeCarbon] Emissões (AtrialFibrillation): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para AutomotiveRoadTrials ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: AutomotiveRoadTrials
+[CodeCarbon] Emissões (AutomotiveRoadTrials): 0.000004 kg CO2eq
+
+=== Extraindo MultiROCKET para BeijingPM10Quality_disc ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: BeijingPM10Quality_disc
+[CodeCarbon] Emissões (BeijingPM10Quality_disc): 0.000050 kg CO2eq
+
+=== Extraindo MultiROCKET para BeijingPM25Quality_disc ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: BeijingPM25Quality_disc
+[CodeCarbon] Emissões (BeijingPM25Quality_disc): 0.000050 kg CO2eq
+
+=== Extraindo MultiROCKET para BenzeneConcentration_disc ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: BenzeneConcentration_disc
+[CodeCarbon] Emissões (BenzeneConcentration_disc): 0.000115 kg CO2eq
+
+=== Extraindo MultiROCKET para AppliancesEnergy_disc ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: AppliancesEnergy_disc
+[CodeCarbon] Emissões (AppliancesEnergy_disc): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para Alzheimers ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Alzheimers
+[CodeCarbon] Emissões (Alzheimers): 0.000078 kg CO2eq

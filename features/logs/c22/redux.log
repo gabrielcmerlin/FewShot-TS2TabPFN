@@ -1,0 +1,571 @@
+Benchmark: redux | Datasets encontrados: 142
+
+=== Extraindo Catch22 para ACSF1 ===
+[codecarbon WARNING @ 10:05:47] Multiple instances of codecarbon are allowed to run at the same time.
+Sucesso: ACSF1
+[CodeCarbon] Emissões (ACSF1): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para Adiac ===
+Sucesso: Adiac
+[CodeCarbon] Emissões (Adiac): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para ArrowHead ===
+Sucesso: ArrowHead
+[CodeCarbon] Emissões (ArrowHead): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para Beef ===
+Sucesso: Beef
+[CodeCarbon] Emissões (Beef): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para BeetleFly ===
+Sucesso: BeetleFly
+[CodeCarbon] Emissões (BeetleFly): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para BirdChicken ===
+Sucesso: BirdChicken
+[CodeCarbon] Emissões (BirdChicken): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para BME ===
+Sucesso: BME
+[CodeCarbon] Emissões (BME): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para Car ===
+Sucesso: Car
+[CodeCarbon] Emissões (Car): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para CBF ===
+Sucesso: CBF
+[CodeCarbon] Emissões (CBF): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para Chinatown ===
+Sucesso: Chinatown
+[CodeCarbon] Emissões (Chinatown): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para ChlorineConcentration ===
+Sucesso: ChlorineConcentration
+[CodeCarbon] Emissões (ChlorineConcentration): 0.000003 kg CO2eq
+
+=== Extraindo Catch22 para CinCECGTorso ===
+Sucesso: CinCECGTorso
+[CodeCarbon] Emissões (CinCECGTorso): 0.000007 kg CO2eq
+
+=== Extraindo Catch22 para Coffee ===
+Sucesso: Coffee
+[CodeCarbon] Emissões (Coffee): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para Computers ===
+Sucesso: Computers
+[CodeCarbon] Emissões (Computers): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para CricketX ===
+Sucesso: CricketX
+[CodeCarbon] Emissões (CricketX): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para CricketY ===
+Sucesso: CricketY
+[CodeCarbon] Emissões (CricketY): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para CricketZ ===
+Sucesso: CricketZ
+[CodeCarbon] Emissões (CricketZ): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para Crop ===
+Sucesso: Crop
+[CodeCarbon] Emissões (Crop): 0.000011 kg CO2eq
+
+=== Extraindo Catch22 para DiatomSizeReduction ===
+Sucesso: DiatomSizeReduction
+[CodeCarbon] Emissões (DiatomSizeReduction): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para DistalPhalanxOutlineCorrect ===
+Sucesso: DistalPhalanxOutlineCorrect
+[CodeCarbon] Emissões (DistalPhalanxOutlineCorrect): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para DistalPhalanxOutlineAgeGroup ===
+Sucesso: DistalPhalanxOutlineAgeGroup
+[CodeCarbon] Emissões (DistalPhalanxOutlineAgeGroup): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para DistalPhalanxTW ===
+Sucesso: DistalPhalanxTW
+[CodeCarbon] Emissões (DistalPhalanxTW): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para Earthquakes ===
+Sucesso: Earthquakes
+[CodeCarbon] Emissões (Earthquakes): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para ECG200 ===
+Sucesso: ECG200
+[CodeCarbon] Emissões (ECG200): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para ECG5000 ===
+Sucesso: ECG5000
+[CodeCarbon] Emissões (ECG5000): 0.000004 kg CO2eq
+
+=== Extraindo Catch22 para ECGFiveDays ===
+Sucesso: ECGFiveDays
+[CodeCarbon] Emissões (ECGFiveDays): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para ElectricDevices ===
+Sucesso: ElectricDevices
+[CodeCarbon] Emissões (ElectricDevices): 0.000010 kg CO2eq
+
+=== Extraindo Catch22 para EOGHorizontalSignal ===
+Sucesso: EOGHorizontalSignal
+[CodeCarbon] Emissões (EOGHorizontalSignal): 0.000002 kg CO2eq
+
+=== Extraindo Catch22 para EOGVerticalSignal ===
+Sucesso: EOGVerticalSignal
+[CodeCarbon] Emissões (EOGVerticalSignal): 0.000003 kg CO2eq
+
+=== Extraindo Catch22 para EthanolLevel ===
+Sucesso: EthanolLevel
+[CodeCarbon] Emissões (EthanolLevel): 0.000005 kg CO2eq
+
+=== Extraindo Catch22 para FaceAll ===
+Sucesso: FaceAll
+[CodeCarbon] Emissões (FaceAll): 0.000002 kg CO2eq
+
+=== Extraindo Catch22 para FaceFour ===
+Sucesso: FaceFour
+[CodeCarbon] Emissões (FaceFour): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para FacesUCR ===
+Sucesso: FacesUCR
+[CodeCarbon] Emissões (FacesUCR): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para FiftyWords ===
+Sucesso: FiftyWords
+[CodeCarbon] Emissões (FiftyWords): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para Fish ===
+Sucesso: Fish
+[CodeCarbon] Emissões (Fish): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para FordA ===
+Sucesso: FordA
+[CodeCarbon] Emissões (FordA): 0.000005 kg CO2eq
+
+=== Extraindo Catch22 para FordB ===
+Sucesso: FordB
+[CodeCarbon] Emissões (FordB): 0.000005 kg CO2eq
+
+=== Extraindo Catch22 para FreezerRegularTrain ===
+Sucesso: FreezerRegularTrain
+[CodeCarbon] Emissões (FreezerRegularTrain): 0.000003 kg CO2eq
+
+=== Extraindo Catch22 para FreezerSmallTrain ===
+Sucesso: FreezerSmallTrain
+[CodeCarbon] Emissões (FreezerSmallTrain): 0.000002 kg CO2eq
+
+=== Extraindo Catch22 para GunPoint ===
+Sucesso: GunPoint
+[CodeCarbon] Emissões (GunPoint): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para GunPointAgeSpan ===
+Sucesso: GunPointAgeSpan
+[CodeCarbon] Emissões (GunPointAgeSpan): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para GunPointMaleVersusFemale ===
+Sucesso: GunPointMaleVersusFemale
+[CodeCarbon] Emissões (GunPointMaleVersusFemale): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para GunPointOldVersusYoung ===
+Sucesso: GunPointOldVersusYoung
+[CodeCarbon] Emissões (GunPointOldVersusYoung): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para Ham ===
+Sucesso: Ham
+[CodeCarbon] Emissões (Ham): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para HandOutlines ===
+Sucesso: HandOutlines
+[CodeCarbon] Emissões (HandOutlines): 0.000007 kg CO2eq
+
+=== Extraindo Catch22 para Haptics ===
+Sucesso: Haptics
+[CodeCarbon] Emissões (Haptics): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para Herring ===
+Sucesso: Herring
+[CodeCarbon] Emissões (Herring): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para HouseTwenty ===
+Sucesso: HouseTwenty
+[CodeCarbon] Emissões (HouseTwenty): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para InlineSkate ===
+Sucesso: InlineSkate
+[CodeCarbon] Emissões (InlineSkate): 0.000002 kg CO2eq
+
+=== Extraindo Catch22 para InsectEPGRegularTrain ===
+Sucesso: InsectEPGRegularTrain
+[CodeCarbon] Emissões (InsectEPGRegularTrain): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para InsectEPGSmallTrain ===
+Sucesso: InsectEPGSmallTrain
+[CodeCarbon] Emissões (InsectEPGSmallTrain): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para InsectWingbeatSound ===
+Sucesso: InsectWingbeatSound
+[CodeCarbon] Emissões (InsectWingbeatSound): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para ItalyPowerDemand ===
+Sucesso: ItalyPowerDemand
+[CodeCarbon] Emissões (ItalyPowerDemand): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para LargeKitchenAppliances ===
+Sucesso: LargeKitchenAppliances
+[CodeCarbon] Emissões (LargeKitchenAppliances): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para Lightning2 ===
+Sucesso: Lightning2
+[CodeCarbon] Emissões (Lightning2): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para Lightning7 ===
+Sucesso: Lightning7
+[CodeCarbon] Emissões (Lightning7): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para Mallat ===
+Sucesso: Mallat
+[CodeCarbon] Emissões (Mallat): 0.000004 kg CO2eq
+
+=== Extraindo Catch22 para Meat ===
+Sucesso: Meat
+[CodeCarbon] Emissões (Meat): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para MedicalImages ===
+Sucesso: MedicalImages
+[CodeCarbon] Emissões (MedicalImages): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para MiddlePhalanxOutlineCorrect ===
+Sucesso: MiddlePhalanxOutlineCorrect
+[CodeCarbon] Emissões (MiddlePhalanxOutlineCorrect): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para MiddlePhalanxOutlineAgeGroup ===
+Sucesso: MiddlePhalanxOutlineAgeGroup
+[CodeCarbon] Emissões (MiddlePhalanxOutlineAgeGroup): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para MiddlePhalanxTW ===
+Sucesso: MiddlePhalanxTW
+[CodeCarbon] Emissões (MiddlePhalanxTW): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para MixedShapesRegularTrain ===
+Sucesso: MixedShapesRegularTrain
+[CodeCarbon] Emissões (MixedShapesRegularTrain): 0.000005 kg CO2eq
+
+=== Extraindo Catch22 para MixedShapesSmallTrain ===
+Sucesso: MixedShapesSmallTrain
+[CodeCarbon] Emissões (MixedShapesSmallTrain): 0.000004 kg CO2eq
+
+=== Extraindo Catch22 para MoteStrain ===
+Sucesso: MoteStrain
+[CodeCarbon] Emissões (MoteStrain): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para NonInvasiveFetalECGThorax1 ===
+Sucesso: NonInvasiveFetalECGThorax1
+[CodeCarbon] Emissões (NonInvasiveFetalECGThorax1): 0.000007 kg CO2eq
+
+=== Extraindo Catch22 para NonInvasiveFetalECGThorax2 ===
+Sucesso: NonInvasiveFetalECGThorax2
+[CodeCarbon] Emissões (NonInvasiveFetalECGThorax2): 0.000006 kg CO2eq
+
+=== Extraindo Catch22 para OliveOil ===
+Sucesso: OliveOil
+[CodeCarbon] Emissões (OliveOil): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para OSULeaf ===
+Sucesso: OSULeaf
+[CodeCarbon] Emissões (OSULeaf): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para PhalangesOutlinesCorrect ===
+Sucesso: PhalangesOutlinesCorrect
+[CodeCarbon] Emissões (PhalangesOutlinesCorrect): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para Phoneme ===
+Sucesso: Phoneme
+[CodeCarbon] Emissões (Phoneme): 0.000004 kg CO2eq
+
+=== Extraindo Catch22 para PigAirwayPressure ===
+Sucesso: PigAirwayPressure
+[CodeCarbon] Emissões (PigAirwayPressure): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para PigArtPressure ===
+Sucesso: PigArtPressure
+[CodeCarbon] Emissões (PigArtPressure): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para PigCVP ===
+Sucesso: PigCVP
+[CodeCarbon] Emissões (PigCVP): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para Plane ===
+Sucesso: Plane
+[CodeCarbon] Emissões (Plane): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para PowerCons ===
+Sucesso: PowerCons
+[CodeCarbon] Emissões (PowerCons): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para ProximalPhalanxOutlineCorrect ===
+Sucesso: ProximalPhalanxOutlineCorrect
+[CodeCarbon] Emissões (ProximalPhalanxOutlineCorrect): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para ProximalPhalanxOutlineAgeGroup ===
+Sucesso: ProximalPhalanxOutlineAgeGroup
+[CodeCarbon] Emissões (ProximalPhalanxOutlineAgeGroup): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para ProximalPhalanxTW ===
+Sucesso: ProximalPhalanxTW
+[CodeCarbon] Emissões (ProximalPhalanxTW): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para RefrigerationDevices ===
+Sucesso: RefrigerationDevices
+[CodeCarbon] Emissões (RefrigerationDevices): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para Rock ===
+Sucesso: Rock
+[CodeCarbon] Emissões (Rock): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para ScreenType ===
+Sucesso: ScreenType
+[CodeCarbon] Emissões (ScreenType): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para SemgHandGenderCh2 ===
+Sucesso: SemgHandGenderCh2
+[CodeCarbon] Emissões (SemgHandGenderCh2): 0.000003 kg CO2eq
+
+=== Extraindo Catch22 para SemgHandMovementCh2 ===
+Sucesso: SemgHandMovementCh2
+[CodeCarbon] Emissões (SemgHandMovementCh2): 0.000003 kg CO2eq
+
+=== Extraindo Catch22 para SemgHandSubjectCh2 ===
+Sucesso: SemgHandSubjectCh2
+[CodeCarbon] Emissões (SemgHandSubjectCh2): 0.000003 kg CO2eq
+
+=== Extraindo Catch22 para ShapeletSim ===
+Sucesso: ShapeletSim
+[CodeCarbon] Emissões (ShapeletSim): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para ShapesAll ===
+Sucesso: ShapesAll
+[CodeCarbon] Emissões (ShapesAll): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para SmallKitchenAppliances ===
+Sucesso: SmallKitchenAppliances
+[CodeCarbon] Emissões (SmallKitchenAppliances): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para SmoothSubspace ===
+Sucesso: SmoothSubspace
+[CodeCarbon] Emissões (SmoothSubspace): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para SonyAIBORobotSurface1 ===
+Sucesso: SonyAIBORobotSurface1
+[CodeCarbon] Emissões (SonyAIBORobotSurface1): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para SonyAIBORobotSurface2 ===
+Sucesso: SonyAIBORobotSurface2
+[CodeCarbon] Emissões (SonyAIBORobotSurface2): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para StarLightCurves ===
+Sucesso: StarLightCurves
+[CodeCarbon] Emissões (StarLightCurves): 0.000015 kg CO2eq
+
+=== Extraindo Catch22 para Strawberry ===
+Sucesso: Strawberry
+[CodeCarbon] Emissões (Strawberry): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para SwedishLeaf ===
+Sucesso: SwedishLeaf
+[CodeCarbon] Emissões (SwedishLeaf): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para Symbols ===
+Sucesso: Symbols
+[CodeCarbon] Emissões (Symbols): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para SyntheticControl ===
+Sucesso: SyntheticControl
+[CodeCarbon] Emissões (SyntheticControl): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para ToeSegmentation1 ===
+Sucesso: ToeSegmentation1
+[CodeCarbon] Emissões (ToeSegmentation1): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para ToeSegmentation2 ===
+Sucesso: ToeSegmentation2
+[CodeCarbon] Emissões (ToeSegmentation2): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para Trace ===
+Sucesso: Trace
+[CodeCarbon] Emissões (Trace): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para TwoLeadECG ===
+Sucesso: TwoLeadECG
+[CodeCarbon] Emissões (TwoLeadECG): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para TwoPatterns ===
+Sucesso: TwoPatterns
+[CodeCarbon] Emissões (TwoPatterns): 0.000002 kg CO2eq
+
+=== Extraindo Catch22 para UMD ===
+Sucesso: UMD
+[CodeCarbon] Emissões (UMD): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para UWaveGestureLibraryAll ===
+Sucesso: UWaveGestureLibraryAll
+[CodeCarbon] Emissões (UWaveGestureLibraryAll): 0.000007 kg CO2eq
+
+=== Extraindo Catch22 para UWaveGestureLibraryX ===
+Sucesso: UWaveGestureLibraryX
+[CodeCarbon] Emissões (UWaveGestureLibraryX): 0.000003 kg CO2eq
+
+=== Extraindo Catch22 para UWaveGestureLibraryY ===
+Sucesso: UWaveGestureLibraryY
+[CodeCarbon] Emissões (UWaveGestureLibraryY): 0.000003 kg CO2eq
+
+=== Extraindo Catch22 para UWaveGestureLibraryZ ===
+Sucesso: UWaveGestureLibraryZ
+[CodeCarbon] Emissões (UWaveGestureLibraryZ): 0.000003 kg CO2eq
+
+=== Extraindo Catch22 para Wafer ===
+Sucesso: Wafer
+[CodeCarbon] Emissões (Wafer): 0.000004 kg CO2eq
+
+=== Extraindo Catch22 para Wine ===
+Sucesso: Wine
+[CodeCarbon] Emissões (Wine): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para WordSynonyms ===
+Sucesso: WordSynonyms
+[CodeCarbon] Emissões (WordSynonyms): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para Worms ===
+Sucesso: Worms
+[CodeCarbon] Emissões (Worms): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para WormsTwoClass ===
+Sucesso: WormsTwoClass
+[CodeCarbon] Emissões (WormsTwoClass): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para Yoga ===
+Sucesso: Yoga
+[CodeCarbon] Emissões (Yoga): 0.000003 kg CO2eq
+
+=== Extraindo Catch22 para AconityMINIPrinterLarge ===
+Sucesso: AconityMINIPrinterLarge
+[CodeCarbon] Emissões (AconityMINIPrinterLarge): 0.000003 kg CO2eq
+
+=== Extraindo Catch22 para AconityMINIPrinterSmall ===
+Sucesso: AconityMINIPrinterSmall
+[CodeCarbon] Emissões (AconityMINIPrinterSmall): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para AllGestureWiimoteX ===
+Sucesso: AllGestureWiimoteX
+[CodeCarbon] Emissões (AllGestureWiimoteX): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para AllGestureWiimoteY ===
+Sucesso: AllGestureWiimoteY
+[CodeCarbon] Emissões (AllGestureWiimoteY): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para AllGestureWiimoteZ ===
+Sucesso: AllGestureWiimoteZ
+[CodeCarbon] Emissões (AllGestureWiimoteZ): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para AsphaltObstaclesUni ===
+Sucesso: AsphaltObstaclesUni
+[CodeCarbon] Emissões (AsphaltObstaclesUni): 0.000002 kg CO2eq
+
+=== Extraindo Catch22 para AsphaltPavementTypeUni ===
+Sucesso: AsphaltPavementTypeUni
+[CodeCarbon] Emissões (AsphaltPavementTypeUni): 0.000015 kg CO2eq
+
+=== Extraindo Catch22 para AsphaltRegularityUni ===
+Sucesso: AsphaltRegularityUni
+[CodeCarbon] Emissões (AsphaltRegularityUni): 0.000022 kg CO2eq
+
+=== Extraindo Catch22 para Colposcopy ===
+Sucesso: Colposcopy
+[CodeCarbon] Emissões (Colposcopy): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para Covid3Month_disc ===
+Sucesso: Covid3Month_disc
+[CodeCarbon] Emissões (Covid3Month_disc): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para DodgerLoopDay ===
+Sucesso: DodgerLoopDay
+[CodeCarbon] Emissões (DodgerLoopDay): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para DodgerLoopGame ===
+Sucesso: DodgerLoopGame
+[CodeCarbon] Emissões (DodgerLoopGame): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para DodgerLoopWeekend ===
+Sucesso: DodgerLoopWeekend
+[CodeCarbon] Emissões (DodgerLoopWeekend): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para ElectricDeviceDetection ===
+Sucesso: ElectricDeviceDetection
+[CodeCarbon] Emissões (ElectricDeviceDetection): 0.000003 kg CO2eq
+
+=== Extraindo Catch22 para FloodModeling1_disc ===
+Sucesso: FloodModeling1_disc
+[CodeCarbon] Emissões (FloodModeling1_disc): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para FloodModeling2_disc ===
+Sucesso: FloodModeling2_disc
+[CodeCarbon] Emissões (FloodModeling2_disc): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para FloodModeling3_disc ===
+Sucesso: FloodModeling3_disc
+[CodeCarbon] Emissões (FloodModeling3_disc): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para GestureMidAirD1 ===
+Sucesso: GestureMidAirD1
+[CodeCarbon] Emissões (GestureMidAirD1): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para GestureMidAirD2 ===
+Sucesso: GestureMidAirD2
+[CodeCarbon] Emissões (GestureMidAirD2): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para GestureMidAirD3 ===
+Sucesso: GestureMidAirD3
+[CodeCarbon] Emissões (GestureMidAirD3): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para GesturePebbleZ1 ===
+Sucesso: GesturePebbleZ1
+[CodeCarbon] Emissões (GesturePebbleZ1): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para GesturePebbleZ2 ===
+Sucesso: GesturePebbleZ2
+[CodeCarbon] Emissões (GesturePebbleZ2): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para KeplerLightCurves ===
+Sucesso: KeplerLightCurves
+[CodeCarbon] Emissões (KeplerLightCurves): 0.000016 kg CO2eq
+
+=== Extraindo Catch22 para MelbournePedestrian ===
+Sucesso: MelbournePedestrian
+[CodeCarbon] Emissões (MelbournePedestrian): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para PhoneHeartbeatSound ===
+Sucesso: PhoneHeartbeatSound
+[CodeCarbon] Emissões (PhoneHeartbeatSound): 0.000004 kg CO2eq
+
+=== Extraindo Catch22 para PickupGestureWiimoteZ ===
+Sucesso: PickupGestureWiimoteZ
+[CodeCarbon] Emissões (PickupGestureWiimoteZ): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para PLAID ===
+Sucesso: PLAID
+[CodeCarbon] Emissões (PLAID): 0.000003 kg CO2eq
+
+=== Extraindo Catch22 para ShakeGestureWiimoteZ ===
+Sucesso: ShakeGestureWiimoteZ
+[CodeCarbon] Emissões (ShakeGestureWiimoteZ): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para SharePriceIncrease ===
+Sucesso: SharePriceIncrease
+[CodeCarbon] Emissões (SharePriceIncrease): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para Tools ===
+Sucesso: Tools
+[CodeCarbon] Emissões (Tools): 0.000003 kg CO2eq
+DONE!

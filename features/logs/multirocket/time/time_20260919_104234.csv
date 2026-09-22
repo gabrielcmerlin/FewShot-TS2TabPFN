@@ -1,0 +1,4 @@
+dataset,n_samples,n_features,time_seconds
+UCDHE-Rowing-MC,2432,49728,14.0686
+UCIActivity,10299,49728,49.7993
+UIPRMD-DS-C,180,49728,0.6995

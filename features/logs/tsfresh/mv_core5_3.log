@@ -1,0 +1,15 @@
+Benchmark: mv_core | Datasets encontrados: 2
+
+=== Extraindo TSFRESH para PhotoStimulation ===
+[codecarbon WARNING @ 11:09:07] Multiple instances of codecarbon are allowed to run at the same time.
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: PhotoStimulation
+[CodeCarbon] Emissões (PhotoStimulation): 0.008740 kg CO2eq
+
+=== Extraindo TSFRESH para MindReading ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: MindReading
+[CodeCarbon] Emissões (MindReading): 0.003552 kg CO2eq
+DONE!

@@ -1,0 +1,6 @@
+dataset,n_samples,n_features,time_seconds
+MotionSenseHAR,1231,9324,1641.0365
+MotorImagery,378,49728,8891.7358
+NATOPS,360,18648,19.047
+PEMS-SF,440,748251,1142.2655
+PhonemeSpectra,6668,8547,198.6463

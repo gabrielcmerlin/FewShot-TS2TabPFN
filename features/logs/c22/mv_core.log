@@ -1,0 +1,269 @@
+Benchmark: mv_core | Datasets encontrados: 66
+
+=== Extraindo Catch22 para Alzheimers ===
+[codecarbon WARNING @ 10:08:03] Multiple instances of codecarbon are allowed to run at the same time.
+Sucesso: Alzheimers
+[CodeCarbon] Emissões (Alzheimers): 0.000026 kg CO2eq
+
+=== Extraindo Catch22 para AppliancesEnergy_disc ===
+Sucesso: AppliancesEnergy_disc
+[CodeCarbon] Emissões (AppliancesEnergy_disc): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para ArticularyWordRecognition ===
+Sucesso: ArticularyWordRecognition
+[CodeCarbon] Emissões (ArticularyWordRecognition): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para AsphaltObstaclesCoordinates ===
+Sucesso: AsphaltObstaclesCoordinates
+[CodeCarbon] Emissões (AsphaltObstaclesCoordinates): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para AsphaltRegularityCoordinates ===
+Sucesso: AsphaltRegularityCoordinates
+[CodeCarbon] Emissões (AsphaltRegularityCoordinates): 0.000002 kg CO2eq
+
+=== Extraindo Catch22 para AtrialFibrillation ===
+Sucesso: AtrialFibrillation
+[CodeCarbon] Emissões (AtrialFibrillation): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para AustraliaRainfall_disc ===
+Sucesso: AustraliaRainfall_disc
+[CodeCarbon] Emissões (AustraliaRainfall_disc): 0.000018 kg CO2eq
+
+=== Extraindo Catch22 para AutomotiveRoadTrials ===
+Sucesso: AutomotiveRoadTrials
+[CodeCarbon] Emissões (AutomotiveRoadTrials): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para BeijingPM10Quality_disc ===
+Sucesso: BeijingPM10Quality_disc
+[CodeCarbon] Emissões (BeijingPM10Quality_disc): 0.000005 kg CO2eq
+
+=== Extraindo Catch22 para BeijingPM25Quality_disc ===
+Sucesso: BeijingPM25Quality_disc
+[CodeCarbon] Emissões (BeijingPM25Quality_disc): 0.000004 kg CO2eq
+
+=== Extraindo Catch22 para BenzeneConcentration_disc ===
+Sucesso: BenzeneConcentration_disc
+[CodeCarbon] Emissões (BenzeneConcentration_disc): 0.000012 kg CO2eq
+
+=== Extraindo Catch22 para BIDMC32HR_disc ===
+Sucesso: BIDMC32HR_disc
+[CodeCarbon] Emissões (BIDMC32HR_disc): 0.000042 kg CO2eq
+
+=== Extraindo Catch22 para BIDMC32SpO2_disc ===
+Sucesso: BIDMC32SpO2_disc
+[CodeCarbon] Emissões (BIDMC32SpO2_disc): 0.000041 kg CO2eq
+
+=== Extraindo Catch22 para Blink ===
+Sucesso: Blink
+[CodeCarbon] Emissões (Blink): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para BoneIntensitiesAgeGroup ===
+Sucesso: BoneIntensitiesAgeGroup
+[CodeCarbon] Emissões (BoneIntensitiesAgeGroup): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para BoneProbAgeGroup ===
+Sucesso: BoneProbAgeGroup
+[CodeCarbon] Emissões (BoneProbAgeGroup): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para CharacterTrajectories ===
+Sucesso: CharacterTrajectories
+[CodeCarbon] Emissões (CharacterTrajectories): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para CounterMovementJump ===
+Sucesso: CounterMovementJump
+[CodeCarbon] Emissões (CounterMovementJump): 0.000004 kg CO2eq
+
+=== Extraindo Catch22 para Cricket ===
+Sucesso: Cricket
+[CodeCarbon] Emissões (Cricket): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para CrowdSourced ===
+Sucesso: CrowdSourced
+[CodeCarbon] Emissões (CrowdSourced): 0.000029 kg CO2eq
+
+=== Extraindo Catch22 para DuckDuckGeese ===
+Sucesso: DuckDuckGeese
+[CodeCarbon] Emissões (DuckDuckGeese): 0.000021 kg CO2eq
+
+=== Extraindo Catch22 para EigenWorms ===
+Sucesso: EigenWorms
+[CodeCarbon] Emissões (EigenWorms): 0.000024 kg CO2eq
+
+=== Extraindo Catch22 para EmoPain ===
+/home/gcmerlin/miniconda3/envs/thesis/lib/python3.11/site-packages/aeon/base/_base_collection.py:118: UserWarning: Data seen by instance of Catch22 has one or more case/channel pairs with very little variation (std <= 1e-07). Some aeon methods may treat these series as effectively constant. If this is unintended, rescale (e.g., multiply by a constant) or normalise your data.
+  meta = self._check_X(X)
+Sucesso: EmoPain
+[CodeCarbon] Emissões (EmoPain): 0.000005 kg CO2eq
+
+=== Extraindo Catch22 para Epilepsy ===
+Sucesso: Epilepsy
+[CodeCarbon] Emissões (Epilepsy): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para ERing ===
+Sucesso: ERing
+[CodeCarbon] Emissões (ERing): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para EthanolConcentration ===
+Sucesso: EthanolConcentration
+[CodeCarbon] Emissões (EthanolConcentration): 0.000002 kg CO2eq
+
+=== Extraindo Catch22 para EyesOpenShut ===
+Sucesso: EyesOpenShut
+[CodeCarbon] Emissões (EyesOpenShut): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para FaceDetection ===
+Sucesso: FaceDetection
+[CodeCarbon] Emissões (FaceDetection): 0.000068 kg CO2eq
+
+=== Extraindo Catch22 para FordChallenge ===
+Sucesso: FordChallenge
+[CodeCarbon] Emissões (FordChallenge): 0.000037 kg CO2eq
+
+=== Extraindo Catch22 para HandMovementDirection ===
+Sucesso: HandMovementDirection
+[CodeCarbon] Emissões (HandMovementDirection): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para Handwriting ===
+Sucesso: Handwriting
+[CodeCarbon] Emissões (Handwriting): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para Heartbeat ===
+Sucesso: Heartbeat
+[CodeCarbon] Emissões (Heartbeat): 0.000006 kg CO2eq
+
+=== Extraindo Catch22 para HouseholdPowerConsumption1_disc ===
+Sucesso: HouseholdPowerConsumption1_disc
+[CodeCarbon] Emissões (HouseholdPowerConsumption1_disc): 0.000005 kg CO2eq
+
+=== Extraindo Catch22 para HouseholdPowerConsumption2_disc ===
+Sucesso: HouseholdPowerConsumption2_disc
+[CodeCarbon] Emissões (HouseholdPowerConsumption2_disc): 0.000006 kg CO2eq
+
+=== Extraindo Catch22 para IEEEPPG_disc ===
+Sucesso: IEEEPPG_disc
+[CodeCarbon] Emissões (IEEEPPG_disc): 0.000009 kg CO2eq
+
+=== Extraindo Catch22 para IRDS-SFL ===
+Sucesso: IRDS-SFL
+[CodeCarbon] Emissões (IRDS-SFL): 0.000003 kg CO2eq
+
+=== Extraindo Catch22 para JapaneseVowels ===
+Sucesso: JapaneseVowels
+[CodeCarbon] Emissões (JapaneseVowels): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para KERAAL-RTK ===
+Sucesso: KERAAL-RTK
+[CodeCarbon] Emissões (KERAAL-RTK): 0.000005 kg CO2eq
+
+=== Extraindo Catch22 para KIMORE-PR-C ===
+Sucesso: KIMORE-PR-C
+[CodeCarbon] Emissões (KIMORE-PR-C): 0.000003 kg CO2eq
+
+=== Extraindo Catch22 para KINECAL-QSEO ===
+Sucesso: KINECAL-QSEO
+[CodeCarbon] Emissões (KINECAL-QSEO): 0.000004 kg CO2eq
+
+=== Extraindo Catch22 para Libras ===
+Sucesso: Libras
+[CodeCarbon] Emissões (Libras): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para Locust2022 ===
+Sucesso: Locust2022
+[CodeCarbon] Emissões (Locust2022): 0.000011 kg CO2eq
+
+=== Extraindo Catch22 para LowCost ===
+Sucesso: LowCost
+[CodeCarbon] Emissões (LowCost): 0.000006 kg CO2eq
+
+=== Extraindo Catch22 para LSST ===
+Sucesso: LSST
+[CodeCarbon] Emissões (LSST): 0.000002 kg CO2eq
+
+=== Extraindo Catch22 para MindReading ===
+Sucesso: MindReading
+[CodeCarbon] Emissões (MindReading): 0.000002 kg CO2eq
+
+=== Extraindo Catch22 para MotionSenseHAR ===
+Sucesso: MotionSenseHAR
+[CodeCarbon] Emissões (MotionSenseHAR): 0.000011 kg CO2eq
+
+=== Extraindo Catch22 para MotorImagery ===
+Sucesso: MotorImagery
+[CodeCarbon] Emissões (MotorImagery): 0.000044 kg CO2eq
+
+=== Extraindo Catch22 para NATOPS ===
+Sucesso: NATOPS
+[CodeCarbon] Emissões (NATOPS): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para PEMS-SF ===
+Sucesso: PEMS-SF
+[CodeCarbon] Emissões (PEMS-SF): 0.000043 kg CO2eq
+
+=== Extraindo Catch22 para PenDigits ===
+Sucesso: PenDigits
+[CodeCarbon] Emissões (PenDigits): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para PhonemeSpectra ===
+Sucesso: PhonemeSpectra
+[CodeCarbon] Emissões (PhonemeSpectra): 0.000009 kg CO2eq
+
+=== Extraindo Catch22 para PhotoStimulation ===
+Sucesso: PhotoStimulation
+[CodeCarbon] Emissões (PhotoStimulation): 0.000014 kg CO2eq
+
+=== Extraindo Catch22 para RacketSports ===
+Sucesso: RacketSports
+[CodeCarbon] Emissões (RacketSports): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para SelfRegulationSCP1 ===
+Sucesso: SelfRegulationSCP1
+[CodeCarbon] Emissões (SelfRegulationSCP1): 0.000002 kg CO2eq
+
+=== Extraindo Catch22 para Skoda ===
+Sucesso: Skoda
+[CodeCarbon] Emissões (Skoda): 0.000060 kg CO2eq
+
+=== Extraindo Catch22 para SpokenArabicDigits ===
+Sucesso: SpokenArabicDigits
+[CodeCarbon] Emissões (SpokenArabicDigits): 0.000008 kg CO2eq
+
+=== Extraindo Catch22 para StandWalkJump ===
+Sucesso: StandWalkJump
+[CodeCarbon] Emissões (StandWalkJump): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para STEW ===
+Sucesso: STEW
+[CodeCarbon] Emissões (STEW): 0.000068 kg CO2eq
+
+=== Extraindo Catch22 para TactileTextureRecognition ===
+Sucesso: TactileTextureRecognition
+[CodeCarbon] Emissões (TactileTextureRecognition): 0.000014 kg CO2eq
+
+=== Extraindo Catch22 para Tiselac ===
+Sucesso: Tiselac
+[CodeCarbon] Emissões (Tiselac): 0.000023 kg CO2eq
+
+=== Extraindo Catch22 para UCDHE-Rowing-MC ===
+Sucesso: UCDHE-Rowing-MC
+[CodeCarbon] Emissões (UCDHE-Rowing-MC): 0.000004 kg CO2eq
+
+=== Extraindo Catch22 para UCIActivity ===
+Sucesso: UCIActivity
+[CodeCarbon] Emissões (UCIActivity): 0.000008 kg CO2eq
+
+=== Extraindo Catch22 para UIPRMD-DS-C ===
+Sucesso: UIPRMD-DS-C
+[CodeCarbon] Emissões (UIPRMD-DS-C): 0.000001 kg CO2eq
+
+=== Extraindo Catch22 para USCActivity ===
+Sucesso: USCActivity
+[CodeCarbon] Emissões (USCActivity): 0.000025 kg CO2eq
+
+=== Extraindo Catch22 para UWaveGestureLibrary ===
+Sucesso: UWaveGestureLibrary
+[CodeCarbon] Emissões (UWaveGestureLibrary): 0.000000 kg CO2eq
+
+=== Extraindo Catch22 para WISDM ===
+Sucesso: WISDM
+[CodeCarbon] Emissões (WISDM): 0.000006 kg CO2eq
+DONE!

@@ -1,0 +1,7 @@
+dataset,n_samples,n_features,time_seconds
+UCDHE-Rowing-MC,2432,12432,99.3614
+UCIActivity,10299,6993,238.7121
+UIPRMD-DS-C,180,51282,29.3165
+USCActivity,56228,4662,852.9669
+UWaveGestureLibrary,440,2331,5.2925
+WISDM,17166,2331,124.7103

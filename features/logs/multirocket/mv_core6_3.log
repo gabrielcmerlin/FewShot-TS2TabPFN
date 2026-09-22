@@ -1,0 +1,12 @@
+Benchmark: mv_core | Datasets encontrados: 3
+
+=== Extraindo MultiROCKET para UWaveGestureLibrary ===
+[codecarbon WARNING @ 16:06:39] Multiple instances of codecarbon are allowed to run at the same time.
+Ajustando e transformando com MultiROCKET...
+Sucesso: UWaveGestureLibrary
+[CodeCarbon] Emissões (UWaveGestureLibrary): 0.000005 kg CO2eq
+
+=== Extraindo MultiROCKET para WISDM ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: WISDM
+[CodeCarbon] Emissões (WISDM): 0.000122 kg CO2eq

@@ -1,0 +1,17 @@
+Benchmark: mv_core | Datasets encontrados: 6
+
+=== Extraindo MultiROCKET para UCDHE-Rowing-MC ===
+[codecarbon WARNING @ 10:42:34] Multiple instances of codecarbon are allowed to run at the same time.
+Ajustando e transformando com MultiROCKET...
+Sucesso: UCDHE-Rowing-MC
+[CodeCarbon] Emissões (UCDHE-Rowing-MC): 0.000022 kg CO2eq
+
+=== Extraindo MultiROCKET para UCIActivity ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: UCIActivity
+[CodeCarbon] Emissões (UCIActivity): 0.000093 kg CO2eq
+
+=== Extraindo MultiROCKET para UIPRMD-DS-C ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: UIPRMD-DS-C
+[CodeCarbon] Emissões (UIPRMD-DS-C): 0.000002 kg CO2eq

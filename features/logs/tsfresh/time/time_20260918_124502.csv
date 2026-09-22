@@ -1,0 +1,4 @@
+dataset,n_samples,n_features,time_seconds
+HandMovementDirection,234,7770,6.9195
+Handwriting,1000,2331,6.645
+HouseholdPowerConsumption1_disc,1431,3885,1091.4853

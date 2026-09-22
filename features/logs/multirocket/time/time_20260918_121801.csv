@@ -1,0 +1,5 @@
+dataset,n_samples,n_features,time_seconds
+SpokenArabicDigits,8798,49728,50.5524
+StandWalkJump,27,49728,2.1992
+STEW,28512,49728,320.4419
+TactileTextureRecognition,2267,49728,151.791

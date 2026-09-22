@@ -1,0 +1,11 @@
+dataset,n_samples,n_features,time_seconds
+MindReading,1380,49728,52.2822
+MotionSenseHAR,1231,49728,45.5343
+MotorImagery,378,49728,70.3642
+NATOPS,360,49728,0.7382
+PEMS-SF,440,49728,16.2369
+PhonemeSpectra,6668,49728,55.7736
+PhotoStimulation,73,49728,30.1957
+RacketSports,303,49728,0.3716
+SelfRegulationSCP1,561,49728,16.3245
+Skoda,14117,49728,69.2787

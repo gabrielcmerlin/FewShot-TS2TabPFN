@@ -1,0 +1,12 @@
+dataset,n_samples,n_features,time_seconds
+EmoPain,1323,49728,36.9114
+Epilepsy,275,49728,1.85
+ERing,300,49728,0.6533
+EthanolConcentration,524,49728,21.934
+EyesOpenShut,98,49728,0.6067
+FaceDetection,9414,49728,34.0477
+FordChallenge,36257,49728,51.2816
+HandMovementDirection,234,49728,3.791
+Handwriting,1000,49728,4.8775
+Heartbeat,409,49728,9.3136
+HouseholdPowerConsumption1_disc,1431,49728,65.8856

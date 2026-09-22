@@ -1,0 +1,5 @@
+dataset,n_samples,n_features,time_seconds
+CounterMovementJump,598,2331,670.7229
+Cricket,180,4662,152.3064
+DuckDuckGeese,100,1045065,406.1638
+EigenWorms,259,4662,122648.7601

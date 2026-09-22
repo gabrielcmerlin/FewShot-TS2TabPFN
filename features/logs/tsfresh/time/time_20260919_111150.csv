@@ -1,0 +1,11 @@
+dataset,n_samples,n_features,time_seconds
+ArticularyWordRecognition,575,6993,12.8833
+AsphaltObstaclesCoordinates,781,2331,7.2631
+AsphaltRegularityCoordinates,1502,2331,14.6823
+AtrialFibrillation,30,1554,3.6046
+AutomotiveRoadTrials,230,6216,5.5458
+BeijingPM10Quality_disc,16966,6993,321.1308
+BeijingPM25Quality_disc,16966,6993,326.0143
+BenzeneConcentration_disc,8512,6216,197.1545
+AppliancesEnergy_disc,137,18648,9.1728
+Alzheimers,88,14763,96699.4293

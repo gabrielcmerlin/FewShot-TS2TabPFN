@@ -1,0 +1,22 @@
+Benchmark: mv_core | Datasets encontrados: 11
+
+=== Extraindo MultiROCKET para SpokenArabicDigits ===
+[codecarbon WARNING @ 12:18:01] Multiple instances of codecarbon are allowed to run at the same time.
+Ajustando e transformando com MultiROCKET...
+Sucesso: SpokenArabicDigits
+[CodeCarbon] Emissões (SpokenArabicDigits): 0.000093 kg CO2eq
+
+=== Extraindo MultiROCKET para StandWalkJump ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: StandWalkJump
+[CodeCarbon] Emissões (StandWalkJump): 0.000003 kg CO2eq
+
+=== Extraindo MultiROCKET para STEW ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: STEW
+[CodeCarbon] Emissões (STEW): 0.000468 kg CO2eq
+
+=== Extraindo MultiROCKET para TactileTextureRecognition ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: TactileTextureRecognition
+[CodeCarbon] Emissões (TactileTextureRecognition): 0.000189 kg CO2eq

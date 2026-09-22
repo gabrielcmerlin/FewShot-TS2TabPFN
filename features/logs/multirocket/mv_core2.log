@@ -1,0 +1,58 @@
+Benchmark: mv_core | Datasets encontrados: 11
+
+=== Extraindo MultiROCKET para BIDMC32HR_disc ===
+[codecarbon WARNING @ 12:16:56] Multiple instances of codecarbon are allowed to run at the same time.
+Ajustando e transformando com MultiROCKET...
+Sucesso: BIDMC32HR_disc
+[CodeCarbon] Emissões (BIDMC32HR_disc): 0.000685 kg CO2eq
+
+=== Extraindo MultiROCKET para BIDMC32SpO2_disc ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: BIDMC32SpO2_disc
+[CodeCarbon] Emissões (BIDMC32SpO2_disc): 0.000686 kg CO2eq
+
+=== Extraindo MultiROCKET para Blink ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Blink
+[CodeCarbon] Emissões (Blink): 0.000023 kg CO2eq
+
+=== Extraindo MultiROCKET para BoneIntensitiesAgeGroup ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: BoneIntensitiesAgeGroup
+[CodeCarbon] Emissões (BoneIntensitiesAgeGroup): 0.000012 kg CO2eq
+
+=== Extraindo MultiROCKET para BoneProbAgeGroup ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: BoneProbAgeGroup
+[CodeCarbon] Emissões (BoneProbAgeGroup): 0.000012 kg CO2eq
+
+=== Extraindo MultiROCKET para CharacterTrajectories ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: CharacterTrajectories
+[CodeCarbon] Emissões (CharacterTrajectories): 0.000022 kg CO2eq
+
+=== Extraindo MultiROCKET para CounterMovementJump ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: CounterMovementJump
+[CodeCarbon] Emissões (CounterMovementJump): 0.000049 kg CO2eq
+
+=== Extraindo MultiROCKET para Cricket ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Cricket
+[CodeCarbon] Emissões (Cricket): 0.000006 kg CO2eq
+
+=== Extraindo MultiROCKET para CrowdSourced ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: CrowdSourced
+[CodeCarbon] Emissões (CrowdSourced): 0.000165 kg CO2eq
+
+=== Extraindo MultiROCKET para DuckDuckGeese ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: DuckDuckGeese
+[CodeCarbon] Emissões (DuckDuckGeese): 0.000019 kg CO2eq
+
+=== Extraindo MultiROCKET para EigenWorms ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: EigenWorms
+[CodeCarbon] Emissões (EigenWorms): 0.000158 kg CO2eq
+DONE!

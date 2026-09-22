@@ -1,0 +1,59 @@
+Benchmark: mv_core | Datasets encontrados: 11
+
+=== Extraindo MultiROCKET para MindReading ===
+[codecarbon WARNING @ 11:26:49] Multiple instances of codecarbon are allowed to run at the same time.
+Ajustando e transformando com MultiROCKET...
+Sucesso: MindReading
+[CodeCarbon] Emissões (MindReading): 0.000081 kg CO2eq
+
+=== Extraindo MultiROCKET para MotionSenseHAR ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: MotionSenseHAR
+[CodeCarbon] Emissões (MotionSenseHAR): 0.000053 kg CO2eq
+
+=== Extraindo MultiROCKET para MotorImagery ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: MotorImagery
+[CodeCarbon] Emissões (MotorImagery): 0.000097 kg CO2eq
+
+=== Extraindo MultiROCKET para NATOPS ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: NATOPS
+[CodeCarbon] Emissões (NATOPS): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para PEMS-SF ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: PEMS-SF
+[CodeCarbon] Emissões (PEMS-SF): 0.000030 kg CO2eq
+
+=== Extraindo MultiROCKET para PenDigits ===
+Ajustando e transformando com MultiROCKET...
+ERROR!!!
+[ERRO] Falha no dataset PenDigits: ValueError - n_timepoints must be >= 9, but found 8; zero pad shorter series so that n_timepoints == 9
+[CodeCarbon] Emissões (PenDigits): 0.000000 kg CO2eq
+
+=== Extraindo MultiROCKET para PhonemeSpectra ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: PhonemeSpectra
+[CodeCarbon] Emissões (PhonemeSpectra): 0.000087 kg CO2eq
+
+=== Extraindo MultiROCKET para PhotoStimulation ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: PhotoStimulation
+[CodeCarbon] Emissões (PhotoStimulation): 0.000037 kg CO2eq
+
+=== Extraindo MultiROCKET para RacketSports ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: RacketSports
+[CodeCarbon] Emissões (RacketSports): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para SelfRegulationSCP1 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: SelfRegulationSCP1
+[CodeCarbon] Emissões (SelfRegulationSCP1): 0.000019 kg CO2eq
+
+=== Extraindo MultiROCKET para Skoda ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Skoda
+[CodeCarbon] Emissões (Skoda): 0.000133 kg CO2eq
+DONE!

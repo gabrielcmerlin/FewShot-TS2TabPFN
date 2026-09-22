@@ -1,0 +1,58 @@
+Benchmark: mv_core | Datasets encontrados: 11
+
+=== Extraindo MultiROCKET para HouseholdPowerConsumption2_disc ===
+[codecarbon WARNING @ 11:23:37] Multiple instances of codecarbon are allowed to run at the same time.
+Ajustando e transformando com MultiROCKET...
+Sucesso: HouseholdPowerConsumption2_disc
+[CodeCarbon] Emissões (HouseholdPowerConsumption2_disc): 0.000110 kg CO2eq
+
+=== Extraindo MultiROCKET para IEEEPPG_disc ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: IEEEPPG_disc
+[CodeCarbon] Emissões (IEEEPPG_disc): 0.000105 kg CO2eq
+
+=== Extraindo MultiROCKET para IRDS-SFL ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: IRDS-SFL
+[CodeCarbon] Emissões (IRDS-SFL): 0.000005 kg CO2eq
+
+=== Extraindo MultiROCKET para JapaneseVowels ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: JapaneseVowels
+[CodeCarbon] Emissões (JapaneseVowels): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para KERAAL-RTK ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: KERAAL-RTK
+[CodeCarbon] Emissões (KERAAL-RTK): 0.000010 kg CO2eq
+
+=== Extraindo MultiROCKET para KIMORE-PR-C ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: KIMORE-PR-C
+[CodeCarbon] Emissões (KIMORE-PR-C): 0.000008 kg CO2eq
+
+=== Extraindo MultiROCKET para KINECAL-QSEO ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: KINECAL-QSEO
+[CodeCarbon] Emissões (KINECAL-QSEO): 0.000009 kg CO2eq
+
+=== Extraindo MultiROCKET para Libras ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Libras
+[CodeCarbon] Emissões (Libras): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para Locust2022 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Locust2022
+[CodeCarbon] Emissões (Locust2022): 0.000075 kg CO2eq
+
+=== Extraindo MultiROCKET para LowCost ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: LowCost
+[CodeCarbon] Emissões (LowCost): 0.000023 kg CO2eq
+
+=== Extraindo MultiROCKET para LSST ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: LSST
+[CodeCarbon] Emissões (LSST): 0.000018 kg CO2eq
+DONE!

@@ -1,0 +1,203 @@
+Benchmark: redux | Datasets encontrados: 40
+
+=== Extraindo MultiROCKET para ACSF1 ===
+[codecarbon WARNING @ 11:01:49] Multiple instances of codecarbon are allowed to run at the same time.
+Ajustando e transformando com MultiROCKET...
+Sucesso: ACSF1
+[CodeCarbon] Emissões (ACSF1): 0.000021 kg CO2eq
+
+=== Extraindo MultiROCKET para Adiac ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Adiac
+[CodeCarbon] Emissões (Adiac): 0.000003 kg CO2eq
+
+=== Extraindo MultiROCKET para ArrowHead ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: ArrowHead
+[CodeCarbon] Emissões (ArrowHead): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para Beef ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Beef
+[CodeCarbon] Emissões (Beef): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para BeetleFly ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: BeetleFly
+[CodeCarbon] Emissões (BeetleFly): 0.000000 kg CO2eq
+
+=== Extraindo MultiROCKET para BirdChicken ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: BirdChicken
+[CodeCarbon] Emissões (BirdChicken): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para BME ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: BME
+[CodeCarbon] Emissões (BME): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para Car ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Car
+[CodeCarbon] Emissões (Car): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para CBF ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: CBF
+[CodeCarbon] Emissões (CBF): 0.000005 kg CO2eq
+
+=== Extraindo MultiROCKET para Chinatown ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Chinatown
+[CodeCarbon] Emissões (Chinatown): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para ChlorineConcentration ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: ChlorineConcentration
+[CodeCarbon] Emissões (ChlorineConcentration): 0.000026 kg CO2eq
+
+=== Extraindo MultiROCKET para CinCECGTorso ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: CinCECGTorso
+[CodeCarbon] Emissões (CinCECGTorso): 0.000051 kg CO2eq
+
+=== Extraindo MultiROCKET para Coffee ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Coffee
+[CodeCarbon] Emissões (Coffee): 0.000000 kg CO2eq
+
+=== Extraindo MultiROCKET para Computers ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Computers
+[CodeCarbon] Emissões (Computers): 0.000007 kg CO2eq
+
+=== Extraindo MultiROCKET para CricketX ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: CricketX
+[CodeCarbon] Emissões (CricketX): 0.000006 kg CO2eq
+
+=== Extraindo MultiROCKET para CricketY ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: CricketY
+[CodeCarbon] Emissões (CricketY): 0.000006 kg CO2eq
+
+=== Extraindo MultiROCKET para CricketZ ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: CricketZ
+[CodeCarbon] Emissões (CricketZ): 0.000006 kg CO2eq
+
+=== Extraindo MultiROCKET para Crop ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Crop
+[CodeCarbon] Emissões (Crop): 0.000069 kg CO2eq
+
+=== Extraindo MultiROCKET para DiatomSizeReduction ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: DiatomSizeReduction
+[CodeCarbon] Emissões (DiatomSizeReduction): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para DistalPhalanxOutlineCorrect ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: DistalPhalanxOutlineCorrect
+[CodeCarbon] Emissões (DistalPhalanxOutlineCorrect): 0.000003 kg CO2eq
+
+=== Extraindo MultiROCKET para DistalPhalanxOutlineAgeGroup ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: DistalPhalanxOutlineAgeGroup
+[CodeCarbon] Emissões (DistalPhalanxOutlineAgeGroup): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para DistalPhalanxTW ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: DistalPhalanxTW
+[CodeCarbon] Emissões (DistalPhalanxTW): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para Earthquakes ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Earthquakes
+[CodeCarbon] Emissões (Earthquakes): 0.000007 kg CO2eq
+
+=== Extraindo MultiROCKET para ECG200 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: ECG200
+[CodeCarbon] Emissões (ECG200): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para ECG5000 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: ECG5000
+[CodeCarbon] Emissões (ECG5000): 0.000023 kg CO2eq
+
+=== Extraindo MultiROCKET para ECGFiveDays ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: ECGFiveDays
+[CodeCarbon] Emissões (ECGFiveDays): 0.000004 kg CO2eq
+
+=== Extraindo MultiROCKET para ElectricDevices ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: ElectricDevices
+[CodeCarbon] Emissões (ElectricDevices): 0.000058 kg CO2eq
+
+=== Extraindo MultiROCKET para EOGHorizontalSignal ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: EOGHorizontalSignal
+[CodeCarbon] Emissões (EOGHorizontalSignal): 0.000017 kg CO2eq
+
+=== Extraindo MultiROCKET para EOGVerticalSignal ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: EOGVerticalSignal
+[CodeCarbon] Emissões (EOGVerticalSignal): 0.000018 kg CO2eq
+
+=== Extraindo MultiROCKET para EthanolLevel ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: EthanolLevel
+[CodeCarbon] Emissões (EthanolLevel): 0.000029 kg CO2eq
+
+=== Extraindo MultiROCKET para FaceAll ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: FaceAll
+[CodeCarbon] Emissões (FaceAll): 0.000010 kg CO2eq
+
+=== Extraindo MultiROCKET para FaceFour ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: FaceFour
+[CodeCarbon] Emissões (FaceFour): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para FacesUCR ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: FacesUCR
+[CodeCarbon] Emissões (FacesUCR): 0.000010 kg CO2eq
+
+=== Extraindo MultiROCKET para FiftyWords ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: FiftyWords
+[CodeCarbon] Emissões (FiftyWords): 0.000005 kg CO2eq
+
+=== Extraindo MultiROCKET para Fish ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Fish
+[CodeCarbon] Emissões (Fish): 0.000003 kg CO2eq
+
+=== Extraindo MultiROCKET para FordA ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: FordA
+[CodeCarbon] Emissões (FordA): 0.000049 kg CO2eq
+
+=== Extraindo MultiROCKET para FordB ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: FordB
+[CodeCarbon] Emissões (FordB): 0.000043 kg CO2eq
+
+=== Extraindo MultiROCKET para FreezerRegularTrain ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: FreezerRegularTrain
+[CodeCarbon] Emissões (FreezerRegularTrain): 0.000025 kg CO2eq
+
+=== Extraindo MultiROCKET para FreezerSmallTrain ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: FreezerSmallTrain
+[CodeCarbon] Emissões (FreezerSmallTrain): 0.000025 kg CO2eq
+
+=== Extraindo MultiROCKET para GunPoint ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: GunPoint
+[CodeCarbon] Emissões (GunPoint): 0.000001 kg CO2eq
+DONE!

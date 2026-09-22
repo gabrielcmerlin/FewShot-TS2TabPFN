@@ -1,0 +1,293 @@
+Benchmark: redux | Datasets encontrados: 58
+
+=== Extraindo MultiROCKET para SemgHandSubjectCh2 ===
+[codecarbon WARNING @ 11:09:55] Multiple instances of codecarbon are allowed to run at the same time.
+Ajustando e transformando com MultiROCKET...
+Sucesso: SemgHandSubjectCh2
+[CodeCarbon] Emissões (SemgHandSubjectCh2): 0.000067 kg CO2eq
+
+=== Extraindo MultiROCKET para ShapeletSim ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: ShapeletSim
+[CodeCarbon] Emissões (ShapeletSim): 0.000004 kg CO2eq
+
+=== Extraindo MultiROCKET para ShapesAll ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: ShapesAll
+[CodeCarbon] Emissões (ShapesAll): 0.000016 kg CO2eq
+
+=== Extraindo MultiROCKET para SmallKitchenAppliances ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: SmallKitchenAppliances
+[CodeCarbon] Emissões (SmallKitchenAppliances): 0.000012 kg CO2eq
+
+=== Extraindo MultiROCKET para SmoothSubspace ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: SmoothSubspace
+[CodeCarbon] Emissões (SmoothSubspace): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para SonyAIBORobotSurface1 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: SonyAIBORobotSurface1
+[CodeCarbon] Emissões (SonyAIBORobotSurface1): 0.000003 kg CO2eq
+
+=== Extraindo MultiROCKET para SonyAIBORobotSurface2 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: SonyAIBORobotSurface2
+[CodeCarbon] Emissões (SonyAIBORobotSurface2): 0.000004 kg CO2eq
+
+=== Extraindo MultiROCKET para StarLightCurves ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: StarLightCurves
+[CodeCarbon] Emissões (StarLightCurves): 0.000170 kg CO2eq
+
+=== Extraindo MultiROCKET para Strawberry ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Strawberry
+[CodeCarbon] Emissões (Strawberry): 0.000007 kg CO2eq
+
+=== Extraindo MultiROCKET para SwedishLeaf ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: SwedishLeaf
+[CodeCarbon] Emissões (SwedishLeaf): 0.000006 kg CO2eq
+
+=== Extraindo MultiROCKET para Symbols ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Symbols
+[CodeCarbon] Emissões (Symbols): 0.000010 kg CO2eq
+
+=== Extraindo MultiROCKET para SyntheticControl ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: SyntheticControl
+[CodeCarbon] Emissões (SyntheticControl): 0.000003 kg CO2eq
+
+=== Extraindo MultiROCKET para ToeSegmentation1 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: ToeSegmentation1
+[CodeCarbon] Emissões (ToeSegmentation1): 0.000003 kg CO2eq
+
+=== Extraindo MultiROCKET para ToeSegmentation2 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: ToeSegmentation2
+[CodeCarbon] Emissões (ToeSegmentation2): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para Trace ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Trace
+[CodeCarbon] Emissões (Trace): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para TwoLeadECG ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: TwoLeadECG
+[CodeCarbon] Emissões (TwoLeadECG): 0.000005 kg CO2eq
+
+=== Extraindo MultiROCKET para TwoPatterns ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: TwoPatterns
+[CodeCarbon] Emissões (TwoPatterns): 0.000031 kg CO2eq
+
+=== Extraindo MultiROCKET para UMD ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: UMD
+[CodeCarbon] Emissões (UMD): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para UWaveGestureLibraryAll ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: UWaveGestureLibraryAll
+[CodeCarbon] Emissões (UWaveGestureLibraryAll): 0.000099 kg CO2eq
+
+=== Extraindo MultiROCKET para UWaveGestureLibraryX ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: UWaveGestureLibraryX
+[CodeCarbon] Emissões (UWaveGestureLibraryX): 0.000045 kg CO2eq
+
+=== Extraindo MultiROCKET para UWaveGestureLibraryY ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: UWaveGestureLibraryY
+[CodeCarbon] Emissões (UWaveGestureLibraryY): 0.000040 kg CO2eq
+
+=== Extraindo MultiROCKET para UWaveGestureLibraryZ ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: UWaveGestureLibraryZ
+[CodeCarbon] Emissões (UWaveGestureLibraryZ): 0.000041 kg CO2eq
+
+=== Extraindo MultiROCKET para Wafer ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Wafer
+[CodeCarbon] Emissões (Wafer): 0.000054 kg CO2eq
+
+=== Extraindo MultiROCKET para Wine ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Wine
+[CodeCarbon] Emissões (Wine): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para WordSynonyms ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: WordSynonyms
+[CodeCarbon] Emissões (WordSynonyms): 0.000006 kg CO2eq
+
+=== Extraindo MultiROCKET para Worms ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Worms
+[CodeCarbon] Emissões (Worms): 0.000006 kg CO2eq
+
+=== Extraindo MultiROCKET para WormsTwoClass ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: WormsTwoClass
+[CodeCarbon] Emissões (WormsTwoClass): 0.000006 kg CO2eq
+
+=== Extraindo MultiROCKET para Yoga ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Yoga
+[CodeCarbon] Emissões (Yoga): 0.000041 kg CO2eq
+
+=== Extraindo MultiROCKET para AconityMINIPrinterLarge ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: AconityMINIPrinterLarge
+[CodeCarbon] Emissões (AconityMINIPrinterLarge): 0.000046 kg CO2eq
+
+=== Extraindo MultiROCKET para AconityMINIPrinterSmall ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: AconityMINIPrinterSmall
+[CodeCarbon] Emissões (AconityMINIPrinterSmall): 0.000009 kg CO2eq
+
+=== Extraindo MultiROCKET para AllGestureWiimoteX ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: AllGestureWiimoteX
+[CodeCarbon] Emissões (AllGestureWiimoteX): 0.000015 kg CO2eq
+
+=== Extraindo MultiROCKET para AllGestureWiimoteY ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: AllGestureWiimoteY
+[CodeCarbon] Emissões (AllGestureWiimoteY): 0.000016 kg CO2eq
+
+=== Extraindo MultiROCKET para AllGestureWiimoteZ ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: AllGestureWiimoteZ
+[CodeCarbon] Emissões (AllGestureWiimoteZ): 0.000015 kg CO2eq
+
+=== Extraindo MultiROCKET para AsphaltObstaclesUni ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: AsphaltObstaclesUni
+[CodeCarbon] Emissões (AsphaltObstaclesUni): 0.000026 kg CO2eq
+
+=== Extraindo MultiROCKET para AsphaltPavementTypeUni ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: AsphaltPavementTypeUni
+[CodeCarbon] Emissões (AsphaltPavementTypeUni): 0.000150 kg CO2eq
+
+=== Extraindo MultiROCKET para AsphaltRegularityUni ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: AsphaltRegularityUni
+[CodeCarbon] Emissões (AsphaltRegularityUni): 0.000190 kg CO2eq
+
+=== Extraindo MultiROCKET para Colposcopy ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Colposcopy
+[CodeCarbon] Emissões (Colposcopy): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para Covid3Month_disc ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Covid3Month_disc
+[CodeCarbon] Emissões (Covid3Month_disc): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para DodgerLoopDay ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: DodgerLoopDay
+[CodeCarbon] Emissões (DodgerLoopDay): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para DodgerLoopGame ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: DodgerLoopGame
+[CodeCarbon] Emissões (DodgerLoopGame): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para DodgerLoopWeekend ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: DodgerLoopWeekend
+[CodeCarbon] Emissões (DodgerLoopWeekend): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para ElectricDeviceDetection ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: ElectricDeviceDetection
+[CodeCarbon] Emissões (ElectricDeviceDetection): 0.000028 kg CO2eq
+
+=== Extraindo MultiROCKET para FloodModeling1_disc ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: FloodModeling1_disc
+[CodeCarbon] Emissões (FloodModeling1_disc): 0.000007 kg CO2eq
+
+=== Extraindo MultiROCKET para FloodModeling2_disc ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: FloodModeling2_disc
+[CodeCarbon] Emissões (FloodModeling2_disc): 0.000007 kg CO2eq
+
+=== Extraindo MultiROCKET para FloodModeling3_disc ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: FloodModeling3_disc
+[CodeCarbon] Emissões (FloodModeling3_disc): 0.000005 kg CO2eq
+
+=== Extraindo MultiROCKET para GestureMidAirD1 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: GestureMidAirD1
+[CodeCarbon] Emissões (GestureMidAirD1): 0.000004 kg CO2eq
+
+=== Extraindo MultiROCKET para GestureMidAirD2 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: GestureMidAirD2
+[CodeCarbon] Emissões (GestureMidAirD2): 0.000004 kg CO2eq
+
+=== Extraindo MultiROCKET para GestureMidAirD3 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: GestureMidAirD3
+[CodeCarbon] Emissões (GestureMidAirD3): 0.000004 kg CO2eq
+
+=== Extraindo MultiROCKET para GesturePebbleZ1 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: GesturePebbleZ1
+[CodeCarbon] Emissões (GesturePebbleZ1): 0.000004 kg CO2eq
+
+=== Extraindo MultiROCKET para GesturePebbleZ2 ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: GesturePebbleZ2
+[CodeCarbon] Emissões (GesturePebbleZ2): 0.000005 kg CO2eq
+
+=== Extraindo MultiROCKET para KeplerLightCurves ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: KeplerLightCurves
+[CodeCarbon] Emissões (KeplerLightCurves): 0.000137 kg CO2eq
+
+=== Extraindo MultiROCKET para MelbournePedestrian ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: MelbournePedestrian
+[CodeCarbon] Emissões (MelbournePedestrian): 0.000010 kg CO2eq
+
+=== Extraindo MultiROCKET para PhoneHeartbeatSound ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: PhoneHeartbeatSound
+[CodeCarbon] Emissões (PhoneHeartbeatSound): 0.000041 kg CO2eq
+
+=== Extraindo MultiROCKET para PickupGestureWiimoteZ ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: PickupGestureWiimoteZ
+[CodeCarbon] Emissões (PickupGestureWiimoteZ): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para PLAID ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: PLAID
+[CodeCarbon] Emissões (PLAID): 0.000043 kg CO2eq
+
+=== Extraindo MultiROCKET para ShakeGestureWiimoteZ ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: ShakeGestureWiimoteZ
+[CodeCarbon] Emissões (ShakeGestureWiimoteZ): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para SharePriceIncrease ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: SharePriceIncrease
+[CodeCarbon] Emissões (SharePriceIncrease): 0.000008 kg CO2eq
+
+=== Extraindo MultiROCKET para Tools ===
+Ajustando e transformando com MultiROCKET...
+Sucesso: Tools
+[CodeCarbon] Emissões (Tools): 0.000033 kg CO2eq
+DONE!

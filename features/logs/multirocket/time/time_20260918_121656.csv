@@ -1,0 +1,12 @@
+dataset,n_samples,n_features,time_seconds
+BIDMC32HR_disc,7949,49728,699.2796
+BIDMC32SpO2_disc,7949,49728,700.3285
+Blink,950,49728,13.152
+BoneIntensitiesAgeGroup,1045,49728,11.0149
+BoneProbAgeGroup,1045,49728,10.1328
+CharacterTrajectories,2858,49728,9.5917
+CounterMovementJump,598,49728,48.7426
+Cricket,180,49728,6.3732
+CrowdSourced,12289,49728,135.5599
+DuckDuckGeese,100,49728,11.735
+EigenWorms,259,49728,161.108

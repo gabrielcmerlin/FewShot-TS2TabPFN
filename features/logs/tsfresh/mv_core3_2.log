@@ -1,0 +1,28 @@
+Benchmark: mv_core | Datasets encontrados: 4
+
+=== Extraindo TSFRESH para HandMovementDirection ===
+[codecarbon WARNING @ 12:45:02] Multiple instances of codecarbon are allowed to run at the same time.
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: HandMovementDirection
+[CodeCarbon] Emissões (HandMovementDirection): 0.000037 kg CO2eq
+
+=== Extraindo TSFRESH para Handwriting ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: Handwriting
+[CodeCarbon] Emissões (Handwriting): 0.000033 kg CO2eq
+
+=== Extraindo TSFRESH para Heartbeat ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+ERROR!!!
+[ERRO] Falha no dataset Heartbeat: ValueError - Buffer has wrong number of dimensions (expected 1, got 0)
+[CodeCarbon] Emissões (Heartbeat): 0.000331 kg CO2eq
+
+=== Extraindo TSFRESH para HouseholdPowerConsumption1_disc ===
+Convertendo para o formato TSFresh...
+Extraindo features do TSFresh...
+Sucesso: HouseholdPowerConsumption1_disc
+[CodeCarbon] Emissões (HouseholdPowerConsumption1_disc): 0.005473 kg CO2eq
+DONE!

@@ -1,0 +1,6 @@
+dataset,n_samples,n_features,time_seconds
+EmoPain,1323,23310,98.1923
+Epilepsy,275,2331,2.7402
+ERing,300,3108,2.8974
+EthanolConcentration,524,2331,319.7429
+EyesOpenShut,98,10878,3.9979
