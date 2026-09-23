@@ -15,6 +15,7 @@ from sklearn.metrics import (
     roc_auc_score,
     confusion_matrix
 )
+import math
 from .GPUMonitor import GPUMemoryMonitor
 
 
@@ -23,20 +24,30 @@ TABPFN_VERSIONS = {
     "3.5": ModelVersion.V3_5,
 }
 
+MAX_FEATURES_PER_ESTIMATOR = {
+    "2.5": 500,
+    "3.5": 768,
+}
 
-def build_classifier(tabpfn_version: str, SEED: int, run: int, DEVICE: str):
+
+def build_classifier(tabpfn_version: str, SEED: int, run: int, DEVICE: str, n_features: int):
     """Constrói o classificador de acordo com tabpfn_version."""
 
     if tabpfn_version in TABPFN_VERSIONS:
         version = TABPFN_VERSIONS[tabpfn_version]
+        
+        max_feats_per_est = MAX_FEATURES_PER_ESTIMATOR[tabpfn_version]
+        n_est = max(8, math.ceil(n_features / max_feats_per_est))
+
         estimator = TabPFNClassifier.create_default_for_version(
             version,
+            ignore_pretraining_limits=True,
             device=DEVICE,
             random_state=SEED+run,
+            n_estimators=n_est,
         )
-        # ManyClassClassifier decompõe problemas com muitas classes em
-        # vários subproblemas binários/multiclasse menores.
-        return ManyClassClassifier(estimator=estimator, alphabet_size=10)
+        # ManyClassClassifier decompõe problemas com muitas classes em vários subproblemas menores.
+        return ManyClassClassifier(estimator=estimator)
 
     raise ValueError(
         f"Modelo desconhecido: '{tabpfn_version}'. "
@@ -63,7 +74,7 @@ def train_test_model(
         torch.cuda.empty_cache()
         torch.cuda.reset_peak_memory_stats()
  
-    classifier = build_classifier(tabpfn_version, SEED, run, DEVICE)
+    classifier = build_classifier(tabpfn_version, SEED, run, DEVICE, n_features=X_train.shape[1])
  
     # --- Warm-up: força o carregamento real dos pesos na GPU ---
     # create_default_for_version() só monta a config; o TabPFN baixa e
@@ -77,7 +88,7 @@ def train_test_model(
     classifier.fit(dummy_X, dummy_y)
     vram_model_mb = _gpu_mb()
 
-    classifier = build_classifier(tabpfn_version, SEED, run, DEVICE)
+    classifier = build_classifier(tabpfn_version, SEED, run, DEVICE, n_features=X_train.shape[1])
  
     # Reseta o pico ANTES do fit real, senão o pico do warm-up (que inclui
     # o próprio carregamento do checkpoint) contamina vram_peak_fit_mb.

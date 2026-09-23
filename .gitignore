@@ -1,5 +1,6 @@
 __pycache__
 .vscode
+.env
 
 data/download_monster.py
 data/mv_core

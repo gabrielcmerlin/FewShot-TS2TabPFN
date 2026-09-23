@@ -3,6 +3,10 @@ import sys
 import time
 import warnings
 import pandas as pd
+from datetime import datetime
+from dotenv import load_dotenv
+
+load_dotenv()
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 if BASE_DIR not in sys.path:
@@ -38,9 +42,16 @@ def main():
             for feature_name in FEATURES:
                 print(f"\n        -> Running feature {feature_name}  ")
 
-                # Define a estrutura de diretórios
+                # Define a estrutura de diretórios base e subpastas para cada tipo de log
                 model_output_dir = os.path.join(BASE_DIR, "outputs", TABPFN_VERSION, feature_name)
+                emissions_dir = os.path.join(model_output_dir, "emissions")
+                time_dir = os.path.join(model_output_dir, "time")
+                gpu_dir = os.path.join(model_output_dir, "gpu")
+
                 os.makedirs(model_output_dir, exist_ok=True)
+                os.makedirs(emissions_dir, exist_ok=True)
+                os.makedirs(time_dir, exist_ok=True)
+                os.makedirs(gpu_dir, exist_ok=True)
 
                 # Definindo onde salvar o CSV de resultados principais
                 csv_path = os.path.join(model_output_dir, FILENAME)
@@ -67,7 +78,7 @@ def main():
                         DEVICE,
                         dataset_name,
                         TABPFN_VERSION,
-                        emissions_dir=model_output_dir,
+                        emissions_dir=emissions_dir,
                     )
 
                     end_total_time = time.perf_counter()
@@ -83,7 +94,10 @@ def main():
                     print_results(results)
                     store_results(results, csv_path)
 
-                    # Log de tempo
+                    # Gera o timestamp único no formato AAAAMMDD_HHMMSS_microseconds
+                    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+                    # Log de tempo em pasta e arquivo específicos
                     time_record = [{
                         "dataset": dataset_name,
                         "run": SEED+run,
@@ -93,11 +107,10 @@ def main():
                     }]
                     
                     df_time = pd.DataFrame(time_record)
-                    time_csv_path = os.path.join(model_output_dir, "time.csv")
-                    file_exists = os.path.exists(time_csv_path)
-                    df_time.to_csv(time_csv_path, mode='a', header=not file_exists, index=False)
+                    time_csv_path = os.path.join(time_dir, f"time_{timestamp}.csv")
+                    df_time.to_csv(time_csv_path, index=False)
 
-                    # Log de GPU
+                    # Log de GPU em pasta e arquivo específicos
                     gpu_record = [{
                         "dataset": dataset_name,
                         "run": SEED+run,
@@ -109,9 +122,8 @@ def main():
                     }]
 
                     df_gpu = pd.DataFrame(gpu_record)
-                    gpu_csv_path = os.path.join(model_output_dir, "gpu.csv")
-                    file_exists = os.path.exists(gpu_csv_path)
-                    df_gpu.to_csv(gpu_csv_path, mode='a', header=not file_exists, index=False)
+                    gpu_csv_path = os.path.join(gpu_dir, f"gpu_{timestamp}.csv")
+                    df_gpu.to_csv(gpu_csv_path, index=False)
 
                 except Exception as e:
                     print("ERROR!!!")

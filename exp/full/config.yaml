@@ -9,7 +9,7 @@ feature:
 
 tabpfn_version: "3.5"
 
-benchmark: redux
+benchmark: redux          # redux | mv_core
 
 datasets:
 
