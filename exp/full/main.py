@@ -1,5 +1,11 @@
 import os
+
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
+os.environ["CODECARBON_LOG_LEVEL"] = "error"
+
 import sys
+import gc
+import torch
 import time
 import warnings
 import pandas as pd
@@ -17,12 +23,29 @@ from utils.utils_data import get_data_extracted
 from utils.utils_train import store_results, train_test_model, get_results, print_results
 
 warnings.filterwarnings("ignore", category=RuntimeWarning)
+warnings.filterwarnings(
+    "ignore",
+    message=r"Running .* estimators covers at most .* features .* the remaining features are never sampled.*",
+    category=UserWarning,
+)
+warnings.filterwarnings(
+    "ignore",
+    message=r"Auto-scaling n_estimators from .* capped at MAX_AUTO_SCALED_N_ESTIMATORS=.*",
+    category=UserWarning,
+)
+
+def append_to_csv(df: pd.DataFrame, csv_path: str):
+    """Função utilitária para fazer append em CSV criando o cabeçalho apenas se o arquivo não existir."""
+    if not os.path.exists(csv_path):
+        df.to_csv(csv_path, index=False)
+    else:
+        df.to_csv(csv_path, mode="a", header=False, index=False)
+
 
 def main():
     # Load config.yaml.
     parser = Parser()
     config = parser.parse()
-    FILENAME = "results.csv"
 
     # Extract config parameters.
     NUM_RUNS = int(config.get("runs", 1))
@@ -32,8 +55,19 @@ def main():
     SEED = config.get("seed", 0)
     DEVICE = config.get("device", "cuda")
     TABPFN_VERSION = str(config.get("tabpfn_version", "3.5"))
+    SPECIFIC_RESAMPLES = config.get("specific_resamples", None)
 
-    for run in range(NUM_RUNS):
+    # Gera o TIMESTAMP ÚNICO deste processo
+    process_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+    # Determina quais runs serão executadas
+    if SPECIFIC_RESAMPLES is not None and len(SPECIFIC_RESAMPLES) > 0:
+        run_ids = SPECIFIC_RESAMPLES
+        print(f"Modo re-run ativado. Executando resamples específicos: {run_ids}")
+    else:
+        run_ids = list(range(NUM_RUNS))
+
+    for run in run_ids:
         print(f"\n === Started run {SEED+run} === ")
 
         for dataset_name in DATASETS:
@@ -53,8 +87,12 @@ def main():
                 os.makedirs(time_dir, exist_ok=True)
                 os.makedirs(gpu_dir, exist_ok=True)
 
-                # Definindo onde salvar o CSV de resultados principais
-                csv_path = os.path.join(model_output_dir, FILENAME)
+                # CSV de resultados principais ÚNICO por processo
+                csv_path = os.path.join(model_output_dir, f"results_{process_timestamp}.csv")
+
+                # Arquivos CSV únicos DESTE PROCESSO para time e gpu
+                time_csv_path = os.path.join(time_dir, f"time_{process_timestamp}.csv")
+                gpu_csv_path = os.path.join(gpu_dir, f"gpu_{process_timestamp}.csv")
 
                 # Folder com as características pré-extraídas
                 feature_cache_dir = os.path.join(
@@ -69,7 +107,7 @@ def main():
                         feature_cache_dir, dataset_name, SEED+run
                     )
 
-                    y_pred, y_proba, train_time, test_time, gpu_metrics = train_test_model(
+                    y_pred, y_proba, train_time, predict_time, predict_proba_time, test_time, gpu_metrics = train_test_model(
                         X_train,
                         X_test,
                         y_train,
@@ -78,6 +116,7 @@ def main():
                         DEVICE,
                         dataset_name,
                         TABPFN_VERSION,
+                        process_timestamp=process_timestamp,
                         emissions_dir=emissions_dir,
                     )
 
@@ -92,26 +131,24 @@ def main():
                         run=SEED+run,
                     )
                     print_results(results)
+                    
+                    # Salva os resultados no CSV do próprio processo
                     store_results(results, csv_path)
 
-                    # Gera o timestamp único no formato AAAAMMDD_HHMMSS_microseconds
-                    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-
-                    # Log de tempo em pasta e arquivo específicos
-                    time_record = [{
+                    # Append no log de tempo do processo
+                    df_time = pd.DataFrame([{
                         "dataset": dataset_name,
-                        "run": SEED+run,
+                        "run": SEED + run,
                         "train_time": train_time,
+                        "predict_time": predict_time,
+                        "predict_proba_time": predict_proba_time,
                         "test_time": test_time,
                         "total_execution_time": total_time,
-                    }]
-                    
-                    df_time = pd.DataFrame(time_record)
-                    time_csv_path = os.path.join(time_dir, f"time_{timestamp}.csv")
-                    df_time.to_csv(time_csv_path, index=False)
+                    }])
+                    append_to_csv(df_time, time_csv_path)
 
-                    # Log de GPU em pasta e arquivo específicos
-                    gpu_record = [{
+                    # Append no log de GPU do processo
+                    df_gpu = pd.DataFrame([{
                         "dataset": dataset_name,
                         "run": SEED+run,
                         "n_train_samples": len(X_train),
@@ -119,11 +156,8 @@ def main():
                         "vram_model_mb": gpu_metrics["vram_model_mb"],
                         "vram_data_mb": gpu_metrics["vram_data_mb"],
                         "vram_total_mb": gpu_metrics["vram_total_mb"],
-                    }]
-
-                    df_gpu = pd.DataFrame(gpu_record)
-                    gpu_csv_path = os.path.join(gpu_dir, f"gpu_{timestamp}.csv")
-                    df_gpu.to_csv(gpu_csv_path, index=False)
+                    }])
+                    append_to_csv(df_gpu, gpu_csv_path)
 
                 except Exception as e:
                     print("ERROR!!!")
@@ -131,6 +165,12 @@ def main():
                         f"[ERROR] {feature_name} on dataset {dataset_name} failed:"
                     )
                     print(type(e).__name__, e)
+
+                finally:
+                    # Limpeza explícita da RAM e da VRAM ao fim de cada combinação
+                    gc.collect()
+                    if torch.cuda.is_available():
+                        torch.cuda.empty_cache()
 
     print("\nDONE!")
 

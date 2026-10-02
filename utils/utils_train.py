@@ -35,16 +35,13 @@ def build_classifier(tabpfn_version: str, SEED: int, run: int, DEVICE: str, n_fe
 
     if tabpfn_version in TABPFN_VERSIONS:
         version = TABPFN_VERSIONS[tabpfn_version]
-        
-        max_feats_per_est = MAX_FEATURES_PER_ESTIMATOR[tabpfn_version]
-        n_est = max(8, math.ceil(n_features / max_feats_per_est))
 
         estimator = TabPFNClassifier.create_default_for_version(
             version,
             ignore_pretraining_limits=True,
             device=DEVICE,
             random_state=SEED+run,
-            n_estimators=n_est,
+            n_estimators="auto",
         )
         # ManyClassClassifier decompõe problemas com muitas classes em vários subproblemas menores.
         return ManyClassClassifier(estimator=estimator)
@@ -68,77 +65,125 @@ def train_test_model(
     DEVICE,
     dataset_name,
     tabpfn_version,
+    process_timestamp=None,
     emissions_dir=None,
 ):
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
         torch.cuda.reset_peak_memory_stats()
- 
-    classifier = build_classifier(tabpfn_version, SEED, run, DEVICE, n_features=X_train.shape[1])
- 
+
+    classifier = build_classifier(
+        tabpfn_version,
+        SEED,
+        run,
+        DEVICE,
+        n_features=X_train.shape[1],
+    )
+
     # --- Warm-up: força o carregamento real dos pesos na GPU ---
-    # create_default_for_version() só monta a config; o TabPFN baixa e
-    # aloca os pesos na GPU dentro do primeiro .fit(). Sem isso, medir
-    # vram_model_mb logo após build_classifier() dá 0 (ou um valor
-    # contaminado por runs anteriores no mesmo processo).
-    # Usamos um dataset sintético minúsculo, então o custo de "dado" aqui
-    # é desprezível — o que sobra é essencially só o peso do modelo.
     dummy_X = np.random.randn(4, 2).astype(np.float32)
     dummy_y = np.array([0, 1, 0, 1])
+
     classifier.fit(dummy_X, dummy_y)
     vram_model_mb = _gpu_mb()
 
-    classifier = build_classifier(tabpfn_version, SEED, run, DEVICE, n_features=X_train.shape[1])
- 
-    # Reseta o pico ANTES do fit real, senão o pico do warm-up (que inclui
-    # o próprio carregamento do checkpoint) contamina vram_peak_fit_mb.
+    classifier = build_classifier(
+        tabpfn_version,
+        SEED,
+        run,
+        DEVICE,
+        n_features=X_train.shape[1],
+    )
+
+    # Reseta o pico antes do fit real
     if torch.cuda.is_available():
         torch.cuda.reset_peak_memory_stats()
- 
-    monitor = GPUMemoryMonitor(interval=0.005)  # Amostra a cada 5ms
- 
-    # 2. Executa Fit real (Carregamento de contexto ICL do dataset de verdade)
+
+    monitor = GPUMemoryMonitor()
+
+    # ============================================================
+    # 1. FIT
+    # ============================================================
+
     tracker_train = EmissionsTracker(
-        project_name=f"{dataset_name}_run{run + 1}_train",
+        project_name=f"{dataset_name}_run{run}_train",
         output_dir=emissions_dir,
-        output_file="emissions_train.csv",
+        output_file=f"emissions_train_{process_timestamp}.csv",
         log_level="error",
     )
- 
+
     start_train = time.time()
     tracker_train.start()
+
     try:
         classifier.fit(X_train, y_train)
     finally:
         tracker_train.stop()
+
     train_time = time.time() - start_train
- 
-    # 3. Executa Predict (Forward Pass ICL)
-    tracker_test = EmissionsTracker(
-        project_name=f"{dataset_name}_run{run + 1}_test",
+
+    # ============================================================
+    # 2. PREDICT
+    # ============================================================
+
+    tracker_predict = EmissionsTracker(
+        project_name=f"{dataset_name}_run{run}_predict",
         output_dir=emissions_dir,
-        output_file="emissions_test.csv",
+        output_file=f"emissions_predict_{process_timestamp}.csv",
         log_level="error",
     )
- 
-    start_test = time.time()
-    tracker_test.start()
+
+    start_predict = time.time()
+    tracker_predict.start()
     monitor.start()
+
     try:
         y_pred = classifier.predict(X_test)
+    finally:
+        tracker_predict.stop()
+        vram_peak_predict_mb = monitor.stop()
+
+    predict_time = time.time() - start_predict
+
+    # ============================================================
+    # 3. PREDICT PROBA
+    # ============================================================
+
+    tracker_proba = EmissionsTracker(
+        project_name=f"{dataset_name}_run{run}_predict_proba",
+        output_dir=emissions_dir,
+        output_file=f"emissions_predict_proba_{process_timestamp}.csv",
+        log_level="error",
+    )
+
+    start_proba = time.time()
+    tracker_proba.start()
+
+    try:
         y_proba = classifier.predict_proba(X_test)
     finally:
-        tracker_test.stop()
-        vram_peak_predict_mb = monitor.stop()
-    test_time = time.time() - start_test
- 
+        tracker_proba.stop()
+
+    predict_proba_time = time.time() - start_proba
+
+    # Tempo total de inferência
+    test_time = predict_time + predict_proba_time
+
     gpu_metrics = {
         "vram_model_mb": vram_model_mb,
         "vram_data_mb": vram_peak_predict_mb - vram_model_mb,
         "vram_total_mb": vram_peak_predict_mb,
     }
- 
-    return y_pred, y_proba, train_time, test_time, gpu_metrics
+
+    return (
+        y_pred,
+        y_proba,
+        train_time,
+        predict_time,
+        predict_proba_time,
+        test_time,
+        gpu_metrics,
+    )
 
 
 def get_results(y_test, y_pred, y_proba, dataset_name, run):

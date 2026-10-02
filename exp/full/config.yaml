@@ -1,3 +1,5 @@
+specific_resamples: Null             # run ids array | Null
+
 seed: 0
 
 runs: 30
@@ -5,7 +7,7 @@ runs: 30
 feature: 
   - c22
   # - tsfresh
-  # - multirocket_fm
+  # - multirocket
 
 tabpfn_version: "3.5"
 
@@ -181,7 +183,6 @@ datasets:
     # - BenzeneConcentration_disc
     # - AppliancesEnergy_disc
     # - Alzheimers
-    
     # - BIDMC32HR_disc
     # - BIDMC32SpO2_disc
     # - Blink
@@ -192,7 +193,6 @@ datasets:
     # - Cricket
     # - DuckDuckGeese
     # - EigenWorms
-    
     # - EmoPain
     # - Epilepsy
     # - ERing
@@ -213,7 +213,6 @@ datasets:
     # - Locust2022
     # - LowCost
     # - LSST
-
     # - MotionSenseHAR
     # - MotorImagery
     # - NATOPS
@@ -223,13 +222,14 @@ datasets:
     # - SelfRegulationSCP1
     # - PhotoStimulation
     # - MindReading
-
     # - SpokenArabicDigits
     # - StandWalkJump
     # - TactileTextureRecognition
     # - UCDHE-Rowing-MC
     # - UCIActivity
+    # - USCActivity
     # - UIPRMD-DS-C
     # - UWaveGestureLibrary
     # - WISDM
-    # - USCActivity
+
+skipped:

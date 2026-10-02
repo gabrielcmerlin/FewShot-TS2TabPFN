@@ -3,7 +3,7 @@ import torch
 class GPUMemoryMonitor:
     """Monitora o pico de VRAM usando as métricas nativas do PyTorch (sem threads)."""
 
-    def __init__(self, interval=None):
+    def __init__(self):
         # Parâmetro mantido por compatibilidade de assinatura, mas ignorado
         pass
 
