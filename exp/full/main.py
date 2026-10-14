@@ -23,14 +23,25 @@ from utils.utils_data import get_data_extracted
 from utils.utils_train import store_results, train_test_model, get_results, print_results
 
 warnings.filterwarnings("ignore", category=RuntimeWarning)
+
+# 3.5 version
 warnings.filterwarnings(
     "ignore",
     message=r"Running .* estimators covers at most .* features .* the remaining features are never sampled.*",
     category=UserWarning,
 )
+
+# 3.5 version
 warnings.filterwarnings(
     "ignore",
     message=r"Auto-scaling n_estimators from .* capped at MAX_AUTO_SCALED_N_ESTIMATORS=.*",
+    category=UserWarning,
+)
+
+# 2.5 version
+warnings.filterwarnings(
+    "ignore",
+    message=r"Auto-scaling n_estimators from .* to .* so every feature is included.*",
     category=UserWarning,
 )
 

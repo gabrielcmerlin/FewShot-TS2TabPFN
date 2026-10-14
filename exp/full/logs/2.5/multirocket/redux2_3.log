@@ -1,0 +1,576 @@
+
+ === Started run 29 === 
+
+    --- Executing dataset GunPointAgeSpan --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 1.00000000
+           AUROC      : 1.00000000
+           BalAcc     : 1.00000000
+           F1-score   : 1.00000000
+           Log Loss   : 0.00525833
+           Sensitivity: 1.00000000
+           Specificity: 1.00000000
+
+    --- Executing dataset GunPointMaleVersusFemale --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 1.00000000
+           AUROC      : 1.00000000
+           BalAcc     : 1.00000000
+           F1-score   : 1.00000000
+           Log Loss   : 0.00069314
+           Sensitivity: 1.00000000
+           Specificity: 1.00000000
+
+    --- Executing dataset GunPointOldVersusYoung --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 1.00000000
+           AUROC      : 1.00000000
+           BalAcc     : 1.00000000
+           F1-score   : 1.00000000
+           Log Loss   : 0.00062457
+           Sensitivity: 1.00000000
+           Specificity: 1.00000000
+
+    --- Executing dataset Ham --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.90476190
+           AUROC      : 0.96296296
+           BalAcc     : 0.90522876
+           F1-score   : 0.90477918
+           Log Loss   : 0.29694191
+           Sensitivity: 0.88888889
+           Specificity: 0.92156863
+
+    --- Executing dataset HandOutlines --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.97297297
+           AUROC      : 0.99099013
+           BalAcc     : 0.96735510
+           F1-score   : 0.97287974
+           Log Loss   : 0.11431892
+           Sensitivity: 0.98734177
+           Specificity: 0.94736842
+
+    --- Executing dataset Haptics --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.51298701
+           AUROC      : 0.80833343
+           BalAcc     : 0.51314142
+           F1-score   : 0.49313788
+           Log Loss   : 1.25885794
+           Sensitivity: 0.51314142
+           Specificity: 0.87810694
+
+    --- Executing dataset Herring --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.59375000
+           AUROC      : 0.69534413
+           BalAcc     : 0.53643725
+           F1-score   : 0.55051170
+           Log Loss   : 0.62832571
+           Sensitivity: 0.23076923
+           Specificity: 0.84210526
+
+    --- Executing dataset HouseTwenty --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.98319328
+           AUROC      : 0.99478261
+           BalAcc     : 0.98000000
+           F1-score   : 0.98314183
+           Log Loss   : 0.07495715
+           Sensitivity: 0.96000000
+           Specificity: 1.00000000
+
+    --- Executing dataset InlineSkate --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.61818182
+           AUROC      : 0.91162889
+           BalAcc     : 0.62425316
+           F1-score   : 0.61965785
+           Log Loss   : 0.95901428
+           Sensitivity: 0.62425316
+           Specificity: 0.93538937
+
+    --- Executing dataset InsectEPGRegularTrain --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 1.00000000
+           AUROC      : 1.00000000
+           BalAcc     : 1.00000000
+           F1-score   : 1.00000000
+           Log Loss   : 0.00033998
+           Sensitivity: 1.00000000
+           Specificity: 1.00000000
+
+    --- Executing dataset InsectEPGSmallTrain --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 1.00000000
+           AUROC      : 1.00000000
+           BalAcc     : 1.00000000
+           F1-score   : 1.00000000
+           Log Loss   : 0.00453614
+           Sensitivity: 1.00000000
+           Specificity: 1.00000000
+
+    --- Executing dataset InsectWingbeatSound --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.67525253
+           AUROC      : 0.96055247
+           BalAcc     : 0.67525253
+           F1-score   : 0.66710444
+           Log Loss   : 0.87517961
+           Sensitivity: 0.67525253
+           Specificity: 0.96752525
+
+    --- Executing dataset ItalyPowerDemand --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.96987366
+           AUROC      : 0.99200251
+           BalAcc     : 0.96988757
+           F1-score   : 0.96987338
+           Log Loss   : 0.10675387
+           Sensitivity: 0.96511628
+           Specificity: 0.97465887
+
+    --- Executing dataset LargeKitchenAppliances --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.93333333
+           AUROC      : 0.98914133
+           BalAcc     : 0.93333333
+           F1-score   : 0.93333363
+           Log Loss   : 0.21635676
+           Sensitivity: 0.93333333
+           Specificity: 0.96666667
+
+    --- Executing dataset Lightning2 --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.72131148
+           AUROC      : 0.80411255
+           BalAcc     : 0.70995671
+           F1-score   : 0.71476693
+           Log Loss   : 0.60313596
+           Sensitivity: 0.84848485
+           Specificity: 0.57142857
+
+    --- Executing dataset Lightning7 --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.86301370
+           AUROC      : 0.96826910
+           BalAcc     : 0.88051080
+           F1-score   : 0.86061610
+           Log Loss   : 0.55362469
+           Sensitivity: 0.88051080
+           Specificity: 0.97711008
+
+    --- Executing dataset Mallat --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.97142857
+           AUROC      : 0.99908154
+           BalAcc     : 0.97145476
+           F1-score   : 0.97123013
+           Log Loss   : 0.10417775
+           Sensitivity: 0.97145476
+           Specificity: 0.99592537
+
+    --- Executing dataset Meat --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 1.00000000
+           AUROC      : 1.00000000
+           BalAcc     : 1.00000000
+           F1-score   : 1.00000000
+           Log Loss   : 0.01608710
+           Sensitivity: 1.00000000
+           Specificity: 1.00000000
+
+    --- Executing dataset MedicalImages --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.83947368
+           AUROC      : 0.97266680
+           BalAcc     : 0.80016295
+           F1-score   : 0.83701450
+           Log Loss   : 0.55158568
+           Sensitivity: 0.80016295
+           Specificity: 0.97697504
+
+    --- Executing dataset MiddlePhalanxOutlineCorrect --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.85223368
+           AUROC      : 0.94631325
+           BalAcc     : 0.83886747
+           F1-score   : 0.84985368
+           Log Loss   : 0.30863078
+           Sensitivity: 0.93373494
+           Specificity: 0.74400000
+
+    --- Executing dataset MiddlePhalanxOutlineAgeGroup --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.67532468
+           AUROC      : 0.78954805
+           BalAcc     : 0.64154593
+           F1-score   : 0.65825461
+           Log Loss   : 0.77504269
+           Sensitivity: 0.64154593
+           Specificity: 0.79864284
+
+    --- Executing dataset MiddlePhalanxTW --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.60389610
+           AUROC      : 0.83095661
+           BalAcc     : 0.42188155
+           F1-score   : 0.56420894
+           Log Loss   : 1.04440713
+           Sensitivity: 0.42188155
+           Specificity: 0.91372200
+
+    --- Executing dataset MixedShapesRegularTrain --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.98639175
+           AUROC      : 0.99968847
+           BalAcc     : 0.98580891
+           F1-score   : 0.98639438
+           Log Loss   : 0.03899023
+           Sensitivity: 0.98580891
+           Specificity: 0.99651221
+
+    --- Executing dataset MixedShapesSmallTrain --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.96494845
+           AUROC      : 0.99854998
+           BalAcc     : 0.96544235
+           F1-score   : 0.96494932
+           Log Loss   : 0.10007474
+           Sensitivity: 0.96544235
+           Specificity: 0.99120560
+
+    --- Executing dataset MoteStrain --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.88977636
+           AUROC      : 0.96151743
+           BalAcc     : 0.89173888
+           F1-score   : 0.88994208
+           Log Loss   : 0.25577762
+           Sensitivity: 0.91681109
+           Specificity: 0.86666667
+
+    --- Executing dataset NonInvasiveFetalECGThorax1 --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.96743003
+           AUROC      : 0.99953900
+           BalAcc     : 0.96438056
+           F1-score   : 0.96726882
+           Log Loss   : 0.61649052
+           Sensitivity: 0.96438056
+           Specificity: 0.99920671
+
+    --- Executing dataset NonInvasiveFetalECGThorax2 --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.97302799
+           AUROC      : 0.99949107
+           BalAcc     : 0.97101122
+           F1-score   : 0.97338778
+           Log Loss   : 0.55026288
+           Sensitivity: 0.97101122
+           Specificity: 0.99934396
+
+    --- Executing dataset OliveOil --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.93333333
+           AUROC      : 0.99497354
+           BalAcc     : 0.95833333
+           F1-score   : 0.93303208
+           Log Loss   : 0.24492173
+           Sensitivity: 0.95833333
+           Specificity: 0.97847985
+
+    --- Executing dataset OSULeaf --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.99173554
+           AUROC      : 1.00000000
+           BalAcc     : 0.99240856
+           F1-score   : 0.99176369
+           Log Loss   : 0.06112440
+           Sensitivity: 0.99240856
+           Specificity: 0.99844531
+
+    --- Executing dataset PhalangesOutlinesCorrect --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.86130536
+           AUROC      : 0.94727198
+           BalAcc     : 0.84189038
+           F1-score   : 0.85922676
+           Log Loss   : 0.29680224
+           Sensitivity: 0.92775665
+           Specificity: 0.75602410
+
+    --- Executing dataset Phoneme --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.36972574
+           AUROC      : 0.83584191
+           BalAcc     : 0.19195608
+           F1-score   : 0.32547896
+           Log Loss   : 2.72897078
+           Sensitivity: 0.19195608
+           Specificity: 0.98281348
+
+    --- Executing dataset PigAirwayPressure --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.62980769
+           AUROC      : 0.97850679
+           BalAcc     : 0.62980769
+           F1-score   : 0.61079679
+           Log Loss   : 2.64571985
+           Sensitivity: 0.62980769
+           Specificity: 0.99274133
+
+    --- Executing dataset PigArtPressure --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.94230769
+           AUROC      : 0.99783183
+           BalAcc     : 0.94230769
+           F1-score   : 0.93823260
+           Log Loss   : 1.60279386
+           Sensitivity: 0.94230769
+           Specificity: 0.99886878
+
+    --- Executing dataset PigCVP --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.72115385
+           AUROC      : 0.96740667
+           BalAcc     : 0.72115385
+           F1-score   : 0.72897788
+           Log Loss   : 2.46512483
+           Sensitivity: 0.72115385
+           Specificity: 0.99453243
+
+    --- Executing dataset Plane --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 1.00000000
+           AUROC      : 1.00000000
+           BalAcc     : 1.00000000
+           F1-score   : 1.00000000
+           Log Loss   : 0.02254255
+           Sensitivity: 1.00000000
+           Specificity: 1.00000000
+
+    --- Executing dataset PowerCons --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.98888889
+           AUROC      : 1.00000000
+           BalAcc     : 0.98888889
+           F1-score   : 0.98888752
+           Log Loss   : 0.04770591
+           Sensitivity: 0.97777778
+           Specificity: 1.00000000
+
+    --- Executing dataset ProximalPhalanxOutlineCorrect --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.92096220
+           AUROC      : 0.96253004
+           BalAcc     : 0.89253332
+           F1-score   : 0.91951229
+           Log Loss   : 0.22112523
+           Sensitivity: 0.96984925
+           Specificity: 0.81521739
+
+    --- Executing dataset ProximalPhalanxOutlineAgeGroup --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.83414634
+           AUROC      : 0.95049302
+           BalAcc     : 0.73337790
+           F1-score   : 0.83637512
+           Log Loss   : 0.36956815
+           Sensitivity: 0.73337790
+           Specificity: 0.91226543
+
+    --- Executing dataset ProximalPhalanxTW --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.80000000
+           AUROC      : 0.95620419
+           BalAcc     : 0.63643390
+           F1-score   : 0.78396686
+           Log Loss   : 0.48569512
+           Sensitivity: 0.63643390
+           Specificity: 0.95560577
+
+    --- Executing dataset RefrigerationDevices --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.77866667
+           AUROC      : 0.92720000
+           BalAcc     : 0.77866667
+           F1-score   : 0.77750526
+           Log Loss   : 0.51006356
+           Sensitivity: 0.77866667
+           Specificity: 0.88933333
+
+    --- Executing dataset Rock --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.86000000
+           AUROC      : 0.96280114
+           BalAcc     : 0.86706349
+           F1-score   : 0.86068661
+           Log Loss   : 0.45673621
+           Sensitivity: 0.86706349
+           Specificity: 0.95182215
+
+    --- Executing dataset ScreenType --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.74933333
+           AUROC      : 0.89549867
+           BalAcc     : 0.74933333
+           F1-score   : 0.74777126
+           Log Loss   : 0.61529974
+           Sensitivity: 0.74933333
+           Specificity: 0.87466667
+
+    --- Executing dataset SemgHandGenderCh2 --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.97333333
+           AUROC      : 0.99713065
+           BalAcc     : 0.97289377
+           F1-score   : 0.97339039
+           Log Loss   : 0.07266776
+           Sensitivity: 0.97142857
+           Specificity: 0.97435897
+
+    --- Executing dataset SemgHandMovementCh2 --- 
+
+        -> Running feature multirocket  
+
+           ===== Results =====
+           Accuracy   : 0.94444444
+           AUROC      : 0.99669926
+           BalAcc     : 0.94444444
+           F1-score   : 0.94466235
+           Log Loss   : 0.19703066
+           Sensitivity: 0.94444444
+           Specificity: 0.98888889
+
+DONE!
