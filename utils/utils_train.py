@@ -106,7 +106,7 @@ def train_test_model(
     # ============================================================
 
     tracker_train = EmissionsTracker(
-        project_name=f"{dataset_name}_run{run}_train",
+        project_name=f"{dataset_name}_run{SEED+run}_train",
         output_dir=emissions_dir,
         output_file=f"emissions_train_{process_timestamp}.csv",
         log_level="error",
@@ -127,7 +127,7 @@ def train_test_model(
     # ============================================================
 
     tracker_predict = EmissionsTracker(
-        project_name=f"{dataset_name}_run{run}_predict",
+        project_name=f"{dataset_name}_run{SEED+run}_predict",
         output_dir=emissions_dir,
         output_file=f"emissions_predict_{process_timestamp}.csv",
         log_level="error",
@@ -150,7 +150,7 @@ def train_test_model(
     # ============================================================
 
     tracker_proba = EmissionsTracker(
-        project_name=f"{dataset_name}_run{run}_predict_proba",
+        project_name=f"{dataset_name}_run{SEED+run}_predict_proba",
         output_dir=emissions_dir,
         output_file=f"emissions_predict_proba_{process_timestamp}.csv",
         log_level="error",
