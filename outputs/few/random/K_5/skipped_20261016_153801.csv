@@ -1,0 +1,4 @@
+dataset,run,feature,selection,k_shot,reason
+StandWalkJump,0,tsfresh,random,5,skipped_by_selector
+StandWalkJump,1,tsfresh,random,5,skipped_by_selector
+StandWalkJump,2,tsfresh,random,5,skipped_by_selector

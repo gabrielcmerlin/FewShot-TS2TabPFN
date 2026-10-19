@@ -1,0 +1,7 @@
+dataset,run,feature,selection,k_shot,reason
+Handwriting,0,tsfresh,stratified_kmedoids,5,skipped_by_selector
+StandWalkJump,0,tsfresh,stratified_kmedoids,5,skipped_by_selector
+Handwriting,1,tsfresh,stratified_kmedoids,5,skipped_by_selector
+StandWalkJump,1,tsfresh,stratified_kmedoids,5,skipped_by_selector
+Handwriting,2,tsfresh,stratified_kmedoids,5,skipped_by_selector
+StandWalkJump,2,tsfresh,stratified_kmedoids,5,skipped_by_selector

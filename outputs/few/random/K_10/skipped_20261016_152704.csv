@@ -1,0 +1,13 @@
+dataset,run,feature,selection,k_shot,reason
+Beef,0,multirocket,random,10,skipped_by_selector
+DiatomSizeReduction,0,multirocket,random,10,skipped_by_selector
+FaceFour,0,multirocket,random,10,skipped_by_selector
+FiftyWords,0,multirocket,random,10,skipped_by_selector
+Beef,1,multirocket,random,10,skipped_by_selector
+DiatomSizeReduction,1,multirocket,random,10,skipped_by_selector
+FaceFour,1,multirocket,random,10,skipped_by_selector
+FiftyWords,1,multirocket,random,10,skipped_by_selector
+Beef,2,multirocket,random,10,skipped_by_selector
+DiatomSizeReduction,2,multirocket,random,10,skipped_by_selector
+FaceFour,2,multirocket,random,10,skipped_by_selector
+FiftyWords,2,multirocket,random,10,skipped_by_selector

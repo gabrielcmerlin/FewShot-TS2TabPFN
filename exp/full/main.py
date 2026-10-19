@@ -88,7 +88,7 @@ def main():
                 print(f"\n        -> Running feature {feature_name}  ")
 
                 # Define a estrutura de diretórios base e subpastas para cada tipo de log
-                model_output_dir = os.path.join(BASE_DIR, "outputs", TABPFN_VERSION, feature_name)
+                model_output_dir = os.path.join(BASE_DIR, "outputs", "full", TABPFN_VERSION, feature_name)
                 emissions_dir = os.path.join(model_output_dir, "emissions")
                 time_dir = os.path.join(model_output_dir, "time")
                 gpu_dir = os.path.join(model_output_dir, "gpu")

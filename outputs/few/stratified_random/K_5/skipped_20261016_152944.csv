@@ -1,0 +1,7 @@
+dataset,run,feature,selection,k_shot,reason
+Symbols,0,multirocket,stratified_random,5,skipped_by_selector
+WordSynonyms,0,multirocket,stratified_random,5,skipped_by_selector
+Symbols,1,multirocket,stratified_random,5,skipped_by_selector
+WordSynonyms,1,multirocket,stratified_random,5,skipped_by_selector
+Symbols,2,multirocket,stratified_random,5,skipped_by_selector
+WordSynonyms,2,multirocket,stratified_random,5,skipped_by_selector

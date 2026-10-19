@@ -1,6 +1,6 @@
 feature: multirocket            # multirocket | tsfresh
 
-benchmark: redux                # redux | mv_core
+benchmark: redux                # redux (when multirocket above) | mv_core (when tsfresh above)
 
 datasets:
 
