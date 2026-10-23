@@ -1,0 +1,2 @@
+dataset,run,feature,model,selection,k_shot
+MiddlePhalanxOutlineCorrect,0,multirocket,ridge,random,3

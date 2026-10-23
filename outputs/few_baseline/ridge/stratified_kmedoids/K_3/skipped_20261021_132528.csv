@@ -1,0 +1,10 @@
+dataset,run,feature,model,selection,k_shot,reason
+DiatomSizeReduction,0,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+ECG5000,0,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+FiftyWords,0,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+DiatomSizeReduction,1,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+ECG5000,1,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+FiftyWords,1,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+DiatomSizeReduction,2,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+ECG5000,2,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+FiftyWords,2,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector

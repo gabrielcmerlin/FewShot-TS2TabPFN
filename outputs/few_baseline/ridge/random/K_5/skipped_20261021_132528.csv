@@ -1,0 +1,4 @@
+dataset,run,feature,model,selection,k_shot,reason
+DiatomSizeReduction,0,multirocket,ridge,random,5,skipped_by_selector
+DiatomSizeReduction,1,multirocket,ridge,random,5,skipped_by_selector
+DiatomSizeReduction,2,multirocket,ridge,random,5,skipped_by_selector

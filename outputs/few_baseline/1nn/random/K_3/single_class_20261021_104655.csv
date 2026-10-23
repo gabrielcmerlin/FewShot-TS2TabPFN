@@ -1,0 +1,7 @@
+dataset,run,feature,model,selection,k_shot
+MiddlePhalanxOutlineCorrect,0,multirocket,1nn,random,3
+Wafer,0,multirocket,1nn,random,3
+FloodModeling2_disc,0,multirocket,1nn,random,3
+Wafer,2,multirocket,1nn,random,3
+ElectricDeviceDetection,2,multirocket,1nn,random,3
+FloodModeling2_disc,2,multirocket,1nn,random,3

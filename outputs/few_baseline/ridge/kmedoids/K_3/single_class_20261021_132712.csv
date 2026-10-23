@@ -1,0 +1,9 @@
+dataset,run,feature,model,selection,k_shot
+Wafer,0,multirocket,ridge,kmedoids,3
+FloodModeling1_disc,0,multirocket,ridge,kmedoids,3
+FloodModeling2_disc,0,multirocket,ridge,kmedoids,3
+FloodModeling3_disc,0,multirocket,ridge,kmedoids,3
+Wafer,1,multirocket,ridge,kmedoids,3
+Covid3Month_disc,1,multirocket,ridge,kmedoids,3
+FloodModeling1_disc,1,multirocket,ridge,kmedoids,3
+Wafer,2,multirocket,ridge,kmedoids,3

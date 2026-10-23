@@ -1,0 +1,16 @@
+dataset,run,feature,model,selection,k_shot,reason
+AtrialFibrillation,0,tsfresh,ridge,random,10,skipped_by_selector
+Cricket,0,tsfresh,ridge,random,10,skipped_by_selector
+ERing,0,tsfresh,ridge,random,10,skipped_by_selector
+Handwriting,0,tsfresh,ridge,random,10,skipped_by_selector
+StandWalkJump,0,tsfresh,ridge,random,10,skipped_by_selector
+AtrialFibrillation,1,tsfresh,ridge,random,10,skipped_by_selector
+Cricket,1,tsfresh,ridge,random,10,skipped_by_selector
+ERing,1,tsfresh,ridge,random,10,skipped_by_selector
+Handwriting,1,tsfresh,ridge,random,10,skipped_by_selector
+StandWalkJump,1,tsfresh,ridge,random,10,skipped_by_selector
+AtrialFibrillation,2,tsfresh,ridge,random,10,skipped_by_selector
+Cricket,2,tsfresh,ridge,random,10,skipped_by_selector
+ERing,2,tsfresh,ridge,random,10,skipped_by_selector
+Handwriting,2,tsfresh,ridge,random,10,skipped_by_selector
+StandWalkJump,2,tsfresh,ridge,random,10,skipped_by_selector

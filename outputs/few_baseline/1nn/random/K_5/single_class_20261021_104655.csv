@@ -1,0 +1,5 @@
+dataset,run,feature,model,selection,k_shot
+ElectricDeviceDetection,0,multirocket,1nn,random,5
+Earthquakes,2,multirocket,1nn,random,5
+ElectricDeviceDetection,2,multirocket,1nn,random,5
+FloodModeling2_disc,2,multirocket,1nn,random,5

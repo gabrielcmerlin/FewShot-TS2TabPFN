@@ -1,0 +1,3 @@
+dataset,run,feature,model,selection,k_shot
+Earthquakes,1,multirocket,ridge,kmedoids,3
+DistalPhalanxOutlineCorrect,2,multirocket,ridge,kmedoids,3

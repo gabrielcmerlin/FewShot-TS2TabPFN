@@ -1,0 +1,2 @@
+dataset,run,feature,model,selection,k_shot
+SharePriceIncrease,2,multirocket,ridge,kmedoids,5

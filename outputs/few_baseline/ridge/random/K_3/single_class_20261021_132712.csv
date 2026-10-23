@@ -1,0 +1,6 @@
+dataset,run,feature,model,selection,k_shot
+Wafer,0,multirocket,ridge,random,3
+FloodModeling2_disc,0,multirocket,ridge,random,3
+Wafer,2,multirocket,ridge,random,3
+ElectricDeviceDetection,2,multirocket,ridge,random,3
+FloodModeling2_disc,2,multirocket,ridge,random,3

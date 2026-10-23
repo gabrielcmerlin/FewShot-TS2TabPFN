@@ -1,0 +1,4 @@
+dataset,run,feature,model,selection,k_shot,reason
+StandWalkJump,0,tsfresh,1nn,kmedoids,5,skipped_by_selector
+StandWalkJump,1,tsfresh,1nn,kmedoids,5,skipped_by_selector
+StandWalkJump,2,tsfresh,1nn,kmedoids,5,skipped_by_selector

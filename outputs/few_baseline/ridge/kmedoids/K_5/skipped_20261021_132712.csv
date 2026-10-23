@@ -1,0 +1,4 @@
+dataset,run,feature,model,selection,k_shot,reason
+Symbols,0,multirocket,ridge,kmedoids,5,skipped_by_selector
+Symbols,1,multirocket,ridge,kmedoids,5,skipped_by_selector
+Symbols,2,multirocket,ridge,kmedoids,5,skipped_by_selector

@@ -1,0 +1,10 @@
+dataset,run,feature,model,selection,k_shot,reason
+PigAirwayPressure,0,multirocket,1nn,random,3,skipped_by_selector
+PigArtPressure,0,multirocket,1nn,random,3,skipped_by_selector
+PigCVP,0,multirocket,1nn,random,3,skipped_by_selector
+PigAirwayPressure,1,multirocket,1nn,random,3,skipped_by_selector
+PigArtPressure,1,multirocket,1nn,random,3,skipped_by_selector
+PigCVP,1,multirocket,1nn,random,3,skipped_by_selector
+PigAirwayPressure,2,multirocket,1nn,random,3,skipped_by_selector
+PigArtPressure,2,multirocket,1nn,random,3,skipped_by_selector
+PigCVP,2,multirocket,1nn,random,3,skipped_by_selector

@@ -1,0 +1,4 @@
+dataset,run,feature,model,selection,k_shot,reason
+WordSynonyms,0,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+WordSynonyms,1,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+WordSynonyms,2,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector

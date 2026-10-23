@@ -1,0 +1,12 @@
+dataset,run,feature,model,selection,k_shot
+PhalangesOutlinesCorrect,0,multirocket,1nn,kmedoids,3
+Wafer,0,multirocket,1nn,kmedoids,3
+FloodModeling1_disc,0,multirocket,1nn,kmedoids,3
+FloodModeling2_disc,0,multirocket,1nn,kmedoids,3
+FloodModeling3_disc,0,multirocket,1nn,kmedoids,3
+Earthquakes,1,multirocket,1nn,kmedoids,3
+Wafer,1,multirocket,1nn,kmedoids,3
+Covid3Month_disc,1,multirocket,1nn,kmedoids,3
+FloodModeling1_disc,1,multirocket,1nn,kmedoids,3
+DistalPhalanxOutlineCorrect,2,multirocket,1nn,kmedoids,3
+Wafer,2,multirocket,1nn,kmedoids,3

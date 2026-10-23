@@ -1,0 +1,3 @@
+dataset,run,feature,model,selection,k_shot
+MotorImagery,0,tsfresh,1nn,random,1
+SelfRegulationSCP1,0,tsfresh,1nn,random,1

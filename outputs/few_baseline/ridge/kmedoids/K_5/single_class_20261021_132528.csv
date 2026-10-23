@@ -1,0 +1,3 @@
+dataset,run,feature,model,selection,k_shot
+Earthquakes,0,multirocket,ridge,kmedoids,5
+Earthquakes,1,multirocket,ridge,kmedoids,5

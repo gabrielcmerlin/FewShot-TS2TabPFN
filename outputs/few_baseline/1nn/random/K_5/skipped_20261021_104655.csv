@@ -1,0 +1,16 @@
+dataset,run,feature,model,selection,k_shot,reason
+DiatomSizeReduction,0,multirocket,1nn,random,5,skipped_by_selector
+PigAirwayPressure,0,multirocket,1nn,random,5,skipped_by_selector
+PigArtPressure,0,multirocket,1nn,random,5,skipped_by_selector
+PigCVP,0,multirocket,1nn,random,5,skipped_by_selector
+Symbols,0,multirocket,1nn,random,5,skipped_by_selector
+DiatomSizeReduction,1,multirocket,1nn,random,5,skipped_by_selector
+PigAirwayPressure,1,multirocket,1nn,random,5,skipped_by_selector
+PigArtPressure,1,multirocket,1nn,random,5,skipped_by_selector
+PigCVP,1,multirocket,1nn,random,5,skipped_by_selector
+Symbols,1,multirocket,1nn,random,5,skipped_by_selector
+DiatomSizeReduction,2,multirocket,1nn,random,5,skipped_by_selector
+PigAirwayPressure,2,multirocket,1nn,random,5,skipped_by_selector
+PigArtPressure,2,multirocket,1nn,random,5,skipped_by_selector
+PigCVP,2,multirocket,1nn,random,5,skipped_by_selector
+Symbols,2,multirocket,1nn,random,5,skipped_by_selector

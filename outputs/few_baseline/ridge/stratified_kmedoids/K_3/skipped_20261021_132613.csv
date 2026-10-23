@@ -1,0 +1,16 @@
+dataset,run,feature,model,selection,k_shot,reason
+Mallat,0,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+Phoneme,0,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+PigAirwayPressure,0,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+PigArtPressure,0,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+PigCVP,0,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+Mallat,1,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+Phoneme,1,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+PigAirwayPressure,1,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+PigArtPressure,1,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+PigCVP,1,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+Mallat,2,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+Phoneme,2,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+PigAirwayPressure,2,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+PigArtPressure,2,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector
+PigCVP,2,multirocket,ridge,stratified_kmedoids,3,skipped_by_selector

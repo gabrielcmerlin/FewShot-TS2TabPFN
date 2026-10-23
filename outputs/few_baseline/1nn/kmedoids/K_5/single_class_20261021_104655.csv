@@ -1,0 +1,4 @@
+dataset,run,feature,model,selection,k_shot
+Earthquakes,0,multirocket,1nn,kmedoids,5
+Earthquakes,1,multirocket,1nn,kmedoids,5
+SharePriceIncrease,2,multirocket,1nn,kmedoids,5

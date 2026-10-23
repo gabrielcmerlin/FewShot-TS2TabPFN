@@ -1,0 +1,15 @@
+dataset,run,feature,model,selection,k_shot
+Chinatown,0,multirocket,ridge,kmedoids,1
+ChlorineConcentration,0,multirocket,ridge,kmedoids,1
+DistalPhalanxOutlineCorrect,0,multirocket,ridge,kmedoids,1
+Earthquakes,0,multirocket,ridge,kmedoids,1
+FordA,0,multirocket,ridge,kmedoids,1
+Computers,1,multirocket,ridge,kmedoids,1
+DistalPhalanxOutlineCorrect,1,multirocket,ridge,kmedoids,1
+Earthquakes,1,multirocket,ridge,kmedoids,1
+FordA,1,multirocket,ridge,kmedoids,1
+GunPoint,1,multirocket,ridge,kmedoids,1
+Computers,2,multirocket,ridge,kmedoids,1
+DistalPhalanxOutlineCorrect,2,multirocket,ridge,kmedoids,1
+Earthquakes,2,multirocket,ridge,kmedoids,1
+ECGFiveDays,2,multirocket,ridge,kmedoids,1

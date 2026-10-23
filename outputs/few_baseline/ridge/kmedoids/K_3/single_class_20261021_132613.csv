@@ -1,0 +1,2 @@
+dataset,run,feature,model,selection,k_shot
+PhalangesOutlinesCorrect,0,multirocket,ridge,kmedoids,3

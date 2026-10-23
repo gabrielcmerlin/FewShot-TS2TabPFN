@@ -1,0 +1,6 @@
+dataset,run,feature,model,selection,k_shot
+MotorImagery,0,tsfresh,ridge,kmedoids,1
+SelfRegulationSCP1,0,tsfresh,ridge,kmedoids,1
+MotorImagery,1,tsfresh,ridge,kmedoids,1
+SelfRegulationSCP1,1,tsfresh,ridge,kmedoids,1
+MotorImagery,2,tsfresh,ridge,kmedoids,1
