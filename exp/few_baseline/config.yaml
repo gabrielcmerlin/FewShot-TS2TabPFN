@@ -1,0 +1,187 @@
+seed: 0
+
+runs: 1
+
+benchmark: redux          # redux | uea (features follow the benchmark: redux -> multirocket, uea -> tsfresh)
+
+model: 1nn              # ridge | 1nn (scaler fitted on the support set)
+
+datasets:
+
+  # ============================== REDUX ==============================
+
+    - ACSF1
+    # - Adiac
+    # - ArrowHead
+    # - Beef
+    # - BeetleFly
+    # - BirdChicken
+    # - BME
+    # - Car
+    # - CBF
+    # - Chinatown
+    # - ChlorineConcentration
+    # - CinCECGTorso
+    # - Coffee
+    # - Computers
+    # - CricketX
+    # - CricketY
+    # - CricketZ
+    # - DiatomSizeReduction
+    # - DistalPhalanxOutlineCorrect
+    # - DistalPhalanxOutlineAgeGroup
+    # - DistalPhalanxTW
+    # - Earthquakes
+    # - ECG200
+    # - ECG5000
+    # - ECGFiveDays
+    # - ElectricDevices
+    # - EOGHorizontalSignal
+    # - EOGVerticalSignal
+    # - EthanolLevel
+    # - FaceAll
+    # - FaceFour
+    # - FacesUCR
+    # - FiftyWords
+    # - Fish
+    # - FordA
+    # - FordB
+    # - FreezerRegularTrain
+    # - FreezerSmallTrain
+    # - GunPoint
+    
+    # - GunPointAgeSpan
+    # - GunPointMaleVersusFemale
+    # - GunPointOldVersusYoung
+    # - Ham
+    # - HandOutlines
+    # - Haptics
+    # - Herring
+    # - HouseTwenty
+    # - InlineSkate
+    # - InsectEPGRegularTrain
+    # - InsectEPGSmallTrain
+    # - InsectWingbeatSound
+    # - ItalyPowerDemand
+    # - LargeKitchenAppliances
+    # - Lightning2
+    # - Lightning7
+    # - Mallat
+    # - Meat
+    # - MedicalImages
+    # - MiddlePhalanxOutlineCorrect
+    # - MiddlePhalanxOutlineAgeGroup
+    # - MiddlePhalanxTW
+    # - MixedShapesRegularTrain
+    # - MixedShapesSmallTrain
+    # - MoteStrain
+    # - NonInvasiveFetalECGThorax1
+    # - NonInvasiveFetalECGThorax2
+    # - OliveOil
+    # - OSULeaf
+    # - PhalangesOutlinesCorrect
+    # - Phoneme
+    # - PigAirwayPressure
+    # - PigArtPressure
+    # - PigCVP
+    # - Plane
+    # - PowerCons
+    # - ProximalPhalanxOutlineCorrect
+    # - ProximalPhalanxOutlineAgeGroup
+    # - ProximalPhalanxTW
+    # - RefrigerationDevices
+    # - Rock
+    # - ScreenType
+    # - SemgHandGenderCh2
+    # - SemgHandMovementCh2
+
+    # - SemgHandSubjectCh2
+    # - ShapeletSim
+    # - ShapesAll
+    # - SmallKitchenAppliances
+    # - SmoothSubspace
+    # - SonyAIBORobotSurface1
+    # - SonyAIBORobotSurface2
+    # - StarLightCurves
+    # - Strawberry
+    # - SwedishLeaf
+    # - Symbols
+    # - SyntheticControl
+    # - ToeSegmentation1
+    # - ToeSegmentation2
+    # - Trace
+    # - TwoLeadECG
+    # - TwoPatterns
+    # - UMD
+    # - UWaveGestureLibraryAll
+    # - UWaveGestureLibraryX
+    # - UWaveGestureLibraryY
+    # - UWaveGestureLibraryZ
+    # - Wafer
+    # - Wine
+    # - WordSynonyms
+    # - Worms
+    # - WormsTwoClass
+    # - Yoga
+    # - AconityMINIPrinterLarge
+    # - AconityMINIPrinterSmall
+    # - AllGestureWiimoteX
+    # - AllGestureWiimoteY
+    # - AllGestureWiimoteZ
+    # - AsphaltObstaclesUni
+    # - AsphaltPavementTypeUni
+    # - AsphaltRegularityUni
+    # - Colposcopy
+    # - Covid3Month_disc
+    # - DodgerLoopDay
+    # - DodgerLoopGame
+    # - DodgerLoopWeekend
+    # - ElectricDeviceDetection
+    # - FloodModeling1_disc
+    # - FloodModeling2_disc
+    # - FloodModeling3_disc
+    # - GestureMidAirD1
+    # - GestureMidAirD2
+    # - GestureMidAirD3
+    # - GesturePebbleZ1
+    # - GesturePebbleZ2
+    # - KeplerLightCurves
+    # - MelbournePedestrian
+    # - PhoneHeartbeatSound
+    # - PickupGestureWiimoteZ
+    # - PLAID
+    # - ShakeGestureWiimoteZ
+    # - SharePriceIncrease
+    # - Tools
+
+
+
+
+
+
+
+
+
+
+    # ============================== UEA ==============================
+
+    # - ArticularyWordRecognition
+    # - AtrialFibrillation
+    # - Cricket
+    # - DuckDuckGeese
+    # - EigenWorms
+    # - Epilepsy
+    # - EthanolConcentration
+    # - ERing
+    # - HandMovementDirection
+    # - Handwriting
+    # - Libras
+    # - LSST
+    # - MotorImagery
+    # - NATOPS
+    # - PEMS-SF
+    # - PhonemeSpectra
+    # - RacketSports
+    # - SelfRegulationSCP1
+    # - StandWalkJump
+    # - UWaveGestureLibrary
