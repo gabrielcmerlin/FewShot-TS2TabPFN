@@ -1,0 +1,44 @@
+# Pilot extraction (exp/pilot_datasets.yaml): MultiROCKET tables for resamples 0..4, one per resample
+benchmark: redux
+seed: 0
+runs: 5
+specific_resamples: Null
+n_jobs: 16
+
+datasets:
+    - AllGestureWiimoteX
+    - AllGestureWiimoteY
+    - AllGestureWiimoteZ
+    - AsphaltObstaclesUni
+    - BeetleFly
+    - Chinatown
+    - CinCECGTorso
+    - Colposcopy
+    - Computers
+    - Covid3Month_disc
+    - DistalPhalanxOutlineAgeGroup
+    - ECG200
+    - ElectricDeviceDetection
+    - FiftyWords
+    - FloodModeling3_disc
+    - GestureMidAirD3
+    - Ham
+    - HandOutlines
+    - Haptics
+    - Mallat
+    - MedicalImages
+    - MiddlePhalanxOutlineCorrect
+    - MoteStrain
+    - OliveOil
+    - PickupGestureWiimoteZ
+    - PigAirwayPressure
+    - PowerCons
+    - ProximalPhalanxOutlineAgeGroup
+    - RefrigerationDevices
+    - SemgHandSubjectCh2
+    - Symbols
+    - SyntheticControl
+    - ToeSegmentation1
+    - TwoLeadECG
+    - UMD
+    - UWaveGestureLibraryZ

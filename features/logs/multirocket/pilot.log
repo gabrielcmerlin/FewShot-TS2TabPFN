@@ -1,0 +1,795 @@
+Benchmark: redux | Datasets encontrados: 36 | Reamostragens: [0, 1, 2, 3, 4] | n_jobs: 16
+
+=== Extraindo MultiROCKET para AllGestureWiimoteX ===
+  -- reamostragem 0
+[codecarbon WARNING @ 10:51:23] Multiple instances of codecarbon are allowed to run at the same time.
+Ajustando e transformando com MultiROCKET...
+Sucesso: AllGestureWiimoteX (reamostragem 0)
+[CodeCarbon] Emissões (AllGestureWiimoteX, reamostragem 0): 0.000004 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: AllGestureWiimoteX (reamostragem 1)
+[CodeCarbon] Emissões (AllGestureWiimoteX, reamostragem 1): 0.000004 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: AllGestureWiimoteX (reamostragem 2)
+[CodeCarbon] Emissões (AllGestureWiimoteX, reamostragem 2): 0.000004 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: AllGestureWiimoteX (reamostragem 3)
+[CodeCarbon] Emissões (AllGestureWiimoteX, reamostragem 3): 0.000004 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: AllGestureWiimoteX (reamostragem 4)
+[CodeCarbon] Emissões (AllGestureWiimoteX, reamostragem 4): 0.000004 kg CO2eq
+
+=== Extraindo MultiROCKET para AllGestureWiimoteY ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: AllGestureWiimoteY (reamostragem 0)
+[CodeCarbon] Emissões (AllGestureWiimoteY, reamostragem 0): 0.000004 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: AllGestureWiimoteY (reamostragem 1)
+[CodeCarbon] Emissões (AllGestureWiimoteY, reamostragem 1): 0.000004 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: AllGestureWiimoteY (reamostragem 2)
+[CodeCarbon] Emissões (AllGestureWiimoteY, reamostragem 2): 0.000004 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: AllGestureWiimoteY (reamostragem 3)
+[CodeCarbon] Emissões (AllGestureWiimoteY, reamostragem 3): 0.000004 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: AllGestureWiimoteY (reamostragem 4)
+[CodeCarbon] Emissões (AllGestureWiimoteY, reamostragem 4): 0.000004 kg CO2eq
+
+=== Extraindo MultiROCKET para AllGestureWiimoteZ ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: AllGestureWiimoteZ (reamostragem 0)
+[CodeCarbon] Emissões (AllGestureWiimoteZ, reamostragem 0): 0.000005 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: AllGestureWiimoteZ (reamostragem 1)
+[CodeCarbon] Emissões (AllGestureWiimoteZ, reamostragem 1): 0.000004 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: AllGestureWiimoteZ (reamostragem 2)
+[CodeCarbon] Emissões (AllGestureWiimoteZ, reamostragem 2): 0.000005 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: AllGestureWiimoteZ (reamostragem 3)
+[CodeCarbon] Emissões (AllGestureWiimoteZ, reamostragem 3): 0.000004 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: AllGestureWiimoteZ (reamostragem 4)
+[CodeCarbon] Emissões (AllGestureWiimoteZ, reamostragem 4): 0.000004 kg CO2eq
+
+=== Extraindo MultiROCKET para AsphaltObstaclesUni ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: AsphaltObstaclesUni (reamostragem 0)
+[CodeCarbon] Emissões (AsphaltObstaclesUni, reamostragem 0): 0.000004 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: AsphaltObstaclesUni (reamostragem 1)
+[CodeCarbon] Emissões (AsphaltObstaclesUni, reamostragem 1): 0.000004 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: AsphaltObstaclesUni (reamostragem 2)
+[CodeCarbon] Emissões (AsphaltObstaclesUni, reamostragem 2): 0.000004 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: AsphaltObstaclesUni (reamostragem 3)
+[CodeCarbon] Emissões (AsphaltObstaclesUni, reamostragem 3): 0.000004 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: AsphaltObstaclesUni (reamostragem 4)
+[CodeCarbon] Emissões (AsphaltObstaclesUni, reamostragem 4): 0.000004 kg CO2eq
+
+=== Extraindo MultiROCKET para BeetleFly ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: BeetleFly (reamostragem 0)
+[CodeCarbon] Emissões (BeetleFly, reamostragem 0): 0.000000 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: BeetleFly (reamostragem 1)
+[CodeCarbon] Emissões (BeetleFly, reamostragem 1): 0.000000 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: BeetleFly (reamostragem 2)
+[CodeCarbon] Emissões (BeetleFly, reamostragem 2): 0.000000 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: BeetleFly (reamostragem 3)
+[CodeCarbon] Emissões (BeetleFly, reamostragem 3): 0.000000 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: BeetleFly (reamostragem 4)
+[CodeCarbon] Emissões (BeetleFly, reamostragem 4): 0.000000 kg CO2eq
+
+=== Extraindo MultiROCKET para Chinatown ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: Chinatown (reamostragem 0)
+[CodeCarbon] Emissões (Chinatown, reamostragem 0): 0.000001 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: Chinatown (reamostragem 1)
+[CodeCarbon] Emissões (Chinatown, reamostragem 1): 0.000001 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: Chinatown (reamostragem 2)
+[CodeCarbon] Emissões (Chinatown, reamostragem 2): 0.000001 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: Chinatown (reamostragem 3)
+[CodeCarbon] Emissões (Chinatown, reamostragem 3): 0.000001 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: Chinatown (reamostragem 4)
+[CodeCarbon] Emissões (Chinatown, reamostragem 4): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para CinCECGTorso ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: CinCECGTorso (reamostragem 0)
+[CodeCarbon] Emissões (CinCECGTorso, reamostragem 0): 0.000016 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: CinCECGTorso (reamostragem 1)
+[CodeCarbon] Emissões (CinCECGTorso, reamostragem 1): 0.000016 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: CinCECGTorso (reamostragem 2)
+[CodeCarbon] Emissões (CinCECGTorso, reamostragem 2): 0.000016 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: CinCECGTorso (reamostragem 3)
+[CodeCarbon] Emissões (CinCECGTorso, reamostragem 3): 0.000017 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: CinCECGTorso (reamostragem 4)
+[CodeCarbon] Emissões (CinCECGTorso, reamostragem 4): 0.000016 kg CO2eq
+
+=== Extraindo MultiROCKET para Colposcopy ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: Colposcopy (reamostragem 0)
+[CodeCarbon] Emissões (Colposcopy, reamostragem 0): 0.000001 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: Colposcopy (reamostragem 1)
+[CodeCarbon] Emissões (Colposcopy, reamostragem 1): 0.000001 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: Colposcopy (reamostragem 2)
+[CodeCarbon] Emissões (Colposcopy, reamostragem 2): 0.000001 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: Colposcopy (reamostragem 3)
+[CodeCarbon] Emissões (Colposcopy, reamostragem 3): 0.000001 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: Colposcopy (reamostragem 4)
+[CodeCarbon] Emissões (Colposcopy, reamostragem 4): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para Computers ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: Computers (reamostragem 0)
+[CodeCarbon] Emissões (Computers, reamostragem 0): 0.000002 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: Computers (reamostragem 1)
+[CodeCarbon] Emissões (Computers, reamostragem 1): 0.000002 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: Computers (reamostragem 2)
+[CodeCarbon] Emissões (Computers, reamostragem 2): 0.000002 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: Computers (reamostragem 3)
+[CodeCarbon] Emissões (Computers, reamostragem 3): 0.000002 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: Computers (reamostragem 4)
+[CodeCarbon] Emissões (Computers, reamostragem 4): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para Covid3Month_disc ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: Covid3Month_disc (reamostragem 0)
+[CodeCarbon] Emissões (Covid3Month_disc, reamostragem 0): 0.000001 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: Covid3Month_disc (reamostragem 1)
+[CodeCarbon] Emissões (Covid3Month_disc, reamostragem 1): 0.000001 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: Covid3Month_disc (reamostragem 2)
+[CodeCarbon] Emissões (Covid3Month_disc, reamostragem 2): 0.000001 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: Covid3Month_disc (reamostragem 3)
+[CodeCarbon] Emissões (Covid3Month_disc, reamostragem 3): 0.000001 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: Covid3Month_disc (reamostragem 4)
+[CodeCarbon] Emissões (Covid3Month_disc, reamostragem 4): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para DistalPhalanxOutlineAgeGroup ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: DistalPhalanxOutlineAgeGroup (reamostragem 0)
+[CodeCarbon] Emissões (DistalPhalanxOutlineAgeGroup, reamostragem 0): 0.000001 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: DistalPhalanxOutlineAgeGroup (reamostragem 1)
+[CodeCarbon] Emissões (DistalPhalanxOutlineAgeGroup, reamostragem 1): 0.000001 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: DistalPhalanxOutlineAgeGroup (reamostragem 2)
+[CodeCarbon] Emissões (DistalPhalanxOutlineAgeGroup, reamostragem 2): 0.000001 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: DistalPhalanxOutlineAgeGroup (reamostragem 3)
+[CodeCarbon] Emissões (DistalPhalanxOutlineAgeGroup, reamostragem 3): 0.000001 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: DistalPhalanxOutlineAgeGroup (reamostragem 4)
+[CodeCarbon] Emissões (DistalPhalanxOutlineAgeGroup, reamostragem 4): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para ECG200 ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: ECG200 (reamostragem 0)
+[CodeCarbon] Emissões (ECG200, reamostragem 0): 0.000001 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: ECG200 (reamostragem 1)
+[CodeCarbon] Emissões (ECG200, reamostragem 1): 0.000001 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: ECG200 (reamostragem 2)
+[CodeCarbon] Emissões (ECG200, reamostragem 2): 0.000001 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: ECG200 (reamostragem 3)
+[CodeCarbon] Emissões (ECG200, reamostragem 3): 0.000001 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: ECG200 (reamostragem 4)
+[CodeCarbon] Emissões (ECG200, reamostragem 4): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para ElectricDeviceDetection ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: ElectricDeviceDetection (reamostragem 0)
+[CodeCarbon] Emissões (ElectricDeviceDetection, reamostragem 0): 0.000014 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: ElectricDeviceDetection (reamostragem 1)
+[CodeCarbon] Emissões (ElectricDeviceDetection, reamostragem 1): 0.000014 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: ElectricDeviceDetection (reamostragem 2)
+[CodeCarbon] Emissões (ElectricDeviceDetection, reamostragem 2): 0.000014 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: ElectricDeviceDetection (reamostragem 3)
+[CodeCarbon] Emissões (ElectricDeviceDetection, reamostragem 3): 0.000014 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: ElectricDeviceDetection (reamostragem 4)
+[CodeCarbon] Emissões (ElectricDeviceDetection, reamostragem 4): 0.000014 kg CO2eq
+
+=== Extraindo MultiROCKET para FiftyWords ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: FiftyWords (reamostragem 0)
+[CodeCarbon] Emissões (FiftyWords, reamostragem 0): 0.000003 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: FiftyWords (reamostragem 1)
+[CodeCarbon] Emissões (FiftyWords, reamostragem 1): 0.000003 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: FiftyWords (reamostragem 2)
+[CodeCarbon] Emissões (FiftyWords, reamostragem 2): 0.000003 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: FiftyWords (reamostragem 3)
+[CodeCarbon] Emissões (FiftyWords, reamostragem 3): 0.000003 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: FiftyWords (reamostragem 4)
+[CodeCarbon] Emissões (FiftyWords, reamostragem 4): 0.000003 kg CO2eq
+
+=== Extraindo MultiROCKET para FloodModeling3_disc ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: FloodModeling3_disc (reamostragem 0)
+[CodeCarbon] Emissões (FloodModeling3_disc, reamostragem 0): 0.000002 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: FloodModeling3_disc (reamostragem 1)
+[CodeCarbon] Emissões (FloodModeling3_disc, reamostragem 1): 0.000002 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: FloodModeling3_disc (reamostragem 2)
+[CodeCarbon] Emissões (FloodModeling3_disc, reamostragem 2): 0.000002 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: FloodModeling3_disc (reamostragem 3)
+[CodeCarbon] Emissões (FloodModeling3_disc, reamostragem 3): 0.000002 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: FloodModeling3_disc (reamostragem 4)
+[CodeCarbon] Emissões (FloodModeling3_disc, reamostragem 4): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para GestureMidAirD3 ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: GestureMidAirD3 (reamostragem 0)
+[CodeCarbon] Emissões (GestureMidAirD3, reamostragem 0): 0.000001 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: GestureMidAirD3 (reamostragem 1)
+[CodeCarbon] Emissões (GestureMidAirD3, reamostragem 1): 0.000001 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: GestureMidAirD3 (reamostragem 2)
+[CodeCarbon] Emissões (GestureMidAirD3, reamostragem 2): 0.000001 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: GestureMidAirD3 (reamostragem 3)
+[CodeCarbon] Emissões (GestureMidAirD3, reamostragem 3): 0.000001 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: GestureMidAirD3 (reamostragem 4)
+[CodeCarbon] Emissões (GestureMidAirD3, reamostragem 4): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para Ham ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: Ham (reamostragem 0)
+[CodeCarbon] Emissões (Ham, reamostragem 0): 0.000001 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: Ham (reamostragem 1)
+[CodeCarbon] Emissões (Ham, reamostragem 1): 0.000001 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: Ham (reamostragem 2)
+[CodeCarbon] Emissões (Ham, reamostragem 2): 0.000001 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: Ham (reamostragem 3)
+[CodeCarbon] Emissões (Ham, reamostragem 3): 0.000001 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: Ham (reamostragem 4)
+[CodeCarbon] Emissões (Ham, reamostragem 4): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para HandOutlines ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: HandOutlines (reamostragem 0)
+[CodeCarbon] Emissões (HandOutlines, reamostragem 0): 0.000025 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: HandOutlines (reamostragem 1)
+[CodeCarbon] Emissões (HandOutlines, reamostragem 1): 0.000025 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: HandOutlines (reamostragem 2)
+[CodeCarbon] Emissões (HandOutlines, reamostragem 2): 0.000024 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: HandOutlines (reamostragem 3)
+[CodeCarbon] Emissões (HandOutlines, reamostragem 3): 0.000024 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: HandOutlines (reamostragem 4)
+[CodeCarbon] Emissões (HandOutlines, reamostragem 4): 0.000025 kg CO2eq
+
+=== Extraindo MultiROCKET para Haptics ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: Haptics (reamostragem 0)
+[CodeCarbon] Emissões (Haptics, reamostragem 0): 0.000003 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: Haptics (reamostragem 1)
+[CodeCarbon] Emissões (Haptics, reamostragem 1): 0.000003 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: Haptics (reamostragem 2)
+[CodeCarbon] Emissões (Haptics, reamostragem 2): 0.000003 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: Haptics (reamostragem 3)
+[CodeCarbon] Emissões (Haptics, reamostragem 3): 0.000003 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: Haptics (reamostragem 4)
+[CodeCarbon] Emissões (Haptics, reamostragem 4): 0.000003 kg CO2eq
+
+=== Extraindo MultiROCKET para Mallat ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: Mallat (reamostragem 0)
+[CodeCarbon] Emissões (Mallat, reamostragem 0): 0.000018 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: Mallat (reamostragem 1)
+[CodeCarbon] Emissões (Mallat, reamostragem 1): 0.000018 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: Mallat (reamostragem 2)
+[CodeCarbon] Emissões (Mallat, reamostragem 2): 0.000017 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: Mallat (reamostragem 3)
+[CodeCarbon] Emissões (Mallat, reamostragem 3): 0.000018 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: Mallat (reamostragem 4)
+[CodeCarbon] Emissões (Mallat, reamostragem 4): 0.000017 kg CO2eq
+
+=== Extraindo MultiROCKET para MedicalImages ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: MedicalImages (reamostragem 0)
+[CodeCarbon] Emissões (MedicalImages, reamostragem 0): 0.000003 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: MedicalImages (reamostragem 1)
+[CodeCarbon] Emissões (MedicalImages, reamostragem 1): 0.000004 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: MedicalImages (reamostragem 2)
+[CodeCarbon] Emissões (MedicalImages, reamostragem 2): 0.000003 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: MedicalImages (reamostragem 3)
+[CodeCarbon] Emissões (MedicalImages, reamostragem 3): 0.000003 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: MedicalImages (reamostragem 4)
+[CodeCarbon] Emissões (MedicalImages, reamostragem 4): 0.000003 kg CO2eq
+
+=== Extraindo MultiROCKET para MiddlePhalanxOutlineCorrect ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: MiddlePhalanxOutlineCorrect (reamostragem 0)
+[CodeCarbon] Emissões (MiddlePhalanxOutlineCorrect, reamostragem 0): 0.000003 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: MiddlePhalanxOutlineCorrect (reamostragem 1)
+[CodeCarbon] Emissões (MiddlePhalanxOutlineCorrect, reamostragem 1): 0.000002 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: MiddlePhalanxOutlineCorrect (reamostragem 2)
+[CodeCarbon] Emissões (MiddlePhalanxOutlineCorrect, reamostragem 2): 0.000002 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: MiddlePhalanxOutlineCorrect (reamostragem 3)
+[CodeCarbon] Emissões (MiddlePhalanxOutlineCorrect, reamostragem 3): 0.000003 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: MiddlePhalanxOutlineCorrect (reamostragem 4)
+[CodeCarbon] Emissões (MiddlePhalanxOutlineCorrect, reamostragem 4): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para MoteStrain ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: MoteStrain (reamostragem 0)
+[CodeCarbon] Emissões (MoteStrain, reamostragem 0): 0.000003 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: MoteStrain (reamostragem 1)
+[CodeCarbon] Emissões (MoteStrain, reamostragem 1): 0.000003 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: MoteStrain (reamostragem 2)
+[CodeCarbon] Emissões (MoteStrain, reamostragem 2): 0.000003 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: MoteStrain (reamostragem 3)
+[CodeCarbon] Emissões (MoteStrain, reamostragem 3): 0.000003 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: MoteStrain (reamostragem 4)
+[CodeCarbon] Emissões (MoteStrain, reamostragem 4): 0.000003 kg CO2eq
+
+=== Extraindo MultiROCKET para OliveOil ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: OliveOil (reamostragem 0)
+[CodeCarbon] Emissões (OliveOil, reamostragem 0): 0.000000 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: OliveOil (reamostragem 1)
+[CodeCarbon] Emissões (OliveOil, reamostragem 1): 0.000000 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: OliveOil (reamostragem 2)
+[CodeCarbon] Emissões (OliveOil, reamostragem 2): 0.000000 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: OliveOil (reamostragem 3)
+[CodeCarbon] Emissões (OliveOil, reamostragem 3): 0.000000 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: OliveOil (reamostragem 4)
+[CodeCarbon] Emissões (OliveOil, reamostragem 4): 0.000000 kg CO2eq
+
+=== Extraindo MultiROCKET para PickupGestureWiimoteZ ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: PickupGestureWiimoteZ (reamostragem 0)
+[CodeCarbon] Emissões (PickupGestureWiimoteZ, reamostragem 0): 0.000000 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: PickupGestureWiimoteZ (reamostragem 1)
+[CodeCarbon] Emissões (PickupGestureWiimoteZ, reamostragem 1): 0.000000 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: PickupGestureWiimoteZ (reamostragem 2)
+[CodeCarbon] Emissões (PickupGestureWiimoteZ, reamostragem 2): 0.000000 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: PickupGestureWiimoteZ (reamostragem 3)
+[CodeCarbon] Emissões (PickupGestureWiimoteZ, reamostragem 3): 0.000001 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: PickupGestureWiimoteZ (reamostragem 4)
+[CodeCarbon] Emissões (PickupGestureWiimoteZ, reamostragem 4): 0.000000 kg CO2eq
+
+=== Extraindo MultiROCKET para PigAirwayPressure ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: PigAirwayPressure (reamostragem 0)
+[CodeCarbon] Emissões (PigAirwayPressure, reamostragem 0): 0.000003 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: PigAirwayPressure (reamostragem 1)
+[CodeCarbon] Emissões (PigAirwayPressure, reamostragem 1): 0.000003 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: PigAirwayPressure (reamostragem 2)
+[CodeCarbon] Emissões (PigAirwayPressure, reamostragem 2): 0.000003 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: PigAirwayPressure (reamostragem 3)
+[CodeCarbon] Emissões (PigAirwayPressure, reamostragem 3): 0.000003 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: PigAirwayPressure (reamostragem 4)
+[CodeCarbon] Emissões (PigAirwayPressure, reamostragem 4): 0.000003 kg CO2eq
+
+=== Extraindo MultiROCKET para PowerCons ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: PowerCons (reamostragem 0)
+[CodeCarbon] Emissões (PowerCons, reamostragem 0): 0.000001 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: PowerCons (reamostragem 1)
+[CodeCarbon] Emissões (PowerCons, reamostragem 1): 0.000001 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: PowerCons (reamostragem 2)
+[CodeCarbon] Emissões (PowerCons, reamostragem 2): 0.000001 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: PowerCons (reamostragem 3)
+[CodeCarbon] Emissões (PowerCons, reamostragem 3): 0.000001 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: PowerCons (reamostragem 4)
+[CodeCarbon] Emissões (PowerCons, reamostragem 4): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para ProximalPhalanxOutlineAgeGroup ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: ProximalPhalanxOutlineAgeGroup (reamostragem 0)
+[CodeCarbon] Emissões (ProximalPhalanxOutlineAgeGroup, reamostragem 0): 0.000002 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: ProximalPhalanxOutlineAgeGroup (reamostragem 1)
+[CodeCarbon] Emissões (ProximalPhalanxOutlineAgeGroup, reamostragem 1): 0.000002 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: ProximalPhalanxOutlineAgeGroup (reamostragem 2)
+[CodeCarbon] Emissões (ProximalPhalanxOutlineAgeGroup, reamostragem 2): 0.000002 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: ProximalPhalanxOutlineAgeGroup (reamostragem 3)
+[CodeCarbon] Emissões (ProximalPhalanxOutlineAgeGroup, reamostragem 3): 0.000002 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: ProximalPhalanxOutlineAgeGroup (reamostragem 4)
+[CodeCarbon] Emissões (ProximalPhalanxOutlineAgeGroup, reamostragem 4): 0.000002 kg CO2eq
+
+=== Extraindo MultiROCKET para RefrigerationDevices ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: RefrigerationDevices (reamostragem 0)
+[CodeCarbon] Emissões (RefrigerationDevices, reamostragem 0): 0.000004 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: RefrigerationDevices (reamostragem 1)
+[CodeCarbon] Emissões (RefrigerationDevices, reamostragem 1): 0.000004 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: RefrigerationDevices (reamostragem 2)
+[CodeCarbon] Emissões (RefrigerationDevices, reamostragem 2): 0.000004 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: RefrigerationDevices (reamostragem 3)
+[CodeCarbon] Emissões (RefrigerationDevices, reamostragem 3): 0.000004 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: RefrigerationDevices (reamostragem 4)
+[CodeCarbon] Emissões (RefrigerationDevices, reamostragem 4): 0.000004 kg CO2eq
+
+=== Extraindo MultiROCKET para SemgHandSubjectCh2 ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: SemgHandSubjectCh2 (reamostragem 0)
+[CodeCarbon] Emissões (SemgHandSubjectCh2, reamostragem 0): 0.000011 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: SemgHandSubjectCh2 (reamostragem 1)
+[CodeCarbon] Emissões (SemgHandSubjectCh2, reamostragem 1): 0.000011 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: SemgHandSubjectCh2 (reamostragem 2)
+[CodeCarbon] Emissões (SemgHandSubjectCh2, reamostragem 2): 0.000011 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: SemgHandSubjectCh2 (reamostragem 3)
+[CodeCarbon] Emissões (SemgHandSubjectCh2, reamostragem 3): 0.000011 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: SemgHandSubjectCh2 (reamostragem 4)
+[CodeCarbon] Emissões (SemgHandSubjectCh2, reamostragem 4): 0.000011 kg CO2eq
+
+=== Extraindo MultiROCKET para Symbols ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: Symbols (reamostragem 0)
+[CodeCarbon] Emissões (Symbols, reamostragem 0): 0.000004 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: Symbols (reamostragem 1)
+[CodeCarbon] Emissões (Symbols, reamostragem 1): 0.000004 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: Symbols (reamostragem 2)
+[CodeCarbon] Emissões (Symbols, reamostragem 2): 0.000003 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: Symbols (reamostragem 3)
+[CodeCarbon] Emissões (Symbols, reamostragem 3): 0.000003 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: Symbols (reamostragem 4)
+[CodeCarbon] Emissões (Symbols, reamostragem 4): 0.000003 kg CO2eq
+
+=== Extraindo MultiROCKET para SyntheticControl ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: SyntheticControl (reamostragem 0)
+[CodeCarbon] Emissões (SyntheticControl, reamostragem 0): 0.000002 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: SyntheticControl (reamostragem 1)
+[CodeCarbon] Emissões (SyntheticControl, reamostragem 1): 0.000001 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: SyntheticControl (reamostragem 2)
+[CodeCarbon] Emissões (SyntheticControl, reamostragem 2): 0.000002 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: SyntheticControl (reamostragem 3)
+[CodeCarbon] Emissões (SyntheticControl, reamostragem 3): 0.000002 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: SyntheticControl (reamostragem 4)
+[CodeCarbon] Emissões (SyntheticControl, reamostragem 4): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para ToeSegmentation1 ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: ToeSegmentation1 (reamostragem 0)
+[CodeCarbon] Emissões (ToeSegmentation1, reamostragem 0): 0.000001 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: ToeSegmentation1 (reamostragem 1)
+[CodeCarbon] Emissões (ToeSegmentation1, reamostragem 1): 0.000001 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: ToeSegmentation1 (reamostragem 2)
+[CodeCarbon] Emissões (ToeSegmentation1, reamostragem 2): 0.000001 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: ToeSegmentation1 (reamostragem 3)
+[CodeCarbon] Emissões (ToeSegmentation1, reamostragem 3): 0.000001 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: ToeSegmentation1 (reamostragem 4)
+[CodeCarbon] Emissões (ToeSegmentation1, reamostragem 4): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para TwoLeadECG ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: TwoLeadECG (reamostragem 0)
+[CodeCarbon] Emissões (TwoLeadECG, reamostragem 0): 0.000003 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: TwoLeadECG (reamostragem 1)
+[CodeCarbon] Emissões (TwoLeadECG, reamostragem 1): 0.000003 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: TwoLeadECG (reamostragem 2)
+[CodeCarbon] Emissões (TwoLeadECG, reamostragem 2): 0.000003 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: TwoLeadECG (reamostragem 3)
+[CodeCarbon] Emissões (TwoLeadECG, reamostragem 3): 0.000003 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: TwoLeadECG (reamostragem 4)
+[CodeCarbon] Emissões (TwoLeadECG, reamostragem 4): 0.000003 kg CO2eq
+
+=== Extraindo MultiROCKET para UMD ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: UMD (reamostragem 0)
+[CodeCarbon] Emissões (UMD, reamostragem 0): 0.000001 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: UMD (reamostragem 1)
+[CodeCarbon] Emissões (UMD, reamostragem 1): 0.000001 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: UMD (reamostragem 2)
+[CodeCarbon] Emissões (UMD, reamostragem 2): 0.000001 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: UMD (reamostragem 3)
+[CodeCarbon] Emissões (UMD, reamostragem 3): 0.000001 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: UMD (reamostragem 4)
+[CodeCarbon] Emissões (UMD, reamostragem 4): 0.000001 kg CO2eq
+
+=== Extraindo MultiROCKET para UWaveGestureLibraryZ ===
+  -- reamostragem 0
+Ajustando e transformando com MultiROCKET...
+Sucesso: UWaveGestureLibraryZ (reamostragem 0)
+[CodeCarbon] Emissões (UWaveGestureLibraryZ, reamostragem 0): 0.000017 kg CO2eq
+  -- reamostragem 1
+Ajustando e transformando com MultiROCKET...
+Sucesso: UWaveGestureLibraryZ (reamostragem 1)
+[CodeCarbon] Emissões (UWaveGestureLibraryZ, reamostragem 1): 0.000018 kg CO2eq
+  -- reamostragem 2
+Ajustando e transformando com MultiROCKET...
+Sucesso: UWaveGestureLibraryZ (reamostragem 2)
+[CodeCarbon] Emissões (UWaveGestureLibraryZ, reamostragem 2): 0.000017 kg CO2eq
+  -- reamostragem 3
+Ajustando e transformando com MultiROCKET...
+Sucesso: UWaveGestureLibraryZ (reamostragem 3)
+[CodeCarbon] Emissões (UWaveGestureLibraryZ, reamostragem 3): 0.000017 kg CO2eq
+  -- reamostragem 4
+Ajustando e transformando com MultiROCKET...
+Sucesso: UWaveGestureLibraryZ (reamostragem 4)
+[CodeCarbon] Emissões (UWaveGestureLibraryZ, reamostragem 4): 0.000017 kg CO2eq
+DONE!

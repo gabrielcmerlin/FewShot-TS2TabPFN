@@ -16,7 +16,7 @@ Preparing to download 142 datasets to 'redux'
 [14/142] 'BeetleFly' ... done.
 [15/142] 'BirdChicken' ... done.
 [16/142] 'CBF' ... done.
-[17/142] 'Car' ... FAILED (Inconsistent number of dimensions in case 60. Expecting 1 but have read 0)
+[17/142] 'Car' ... done.
 [18/142] 'Chinatown' ... done.
 [19/142] 'ChlorineConcentration' ... done.
 [20/142] 'CinCECGTorso' ... done.
@@ -49,7 +49,7 @@ Preparing to download 142 datasets to 'redux'
 [47/142] 'FacesUCR' ... done.
 [48/142] 'FiftyWords' ... done.
 [49/142] 'Fish' ... done.
-[50/142] 'FloodModeling1_disc' ... FAILED (Inconsistent number of dimensions in case 194. Expecting 1 but have read 0)
+[50/142] 'FloodModeling1_disc' ... done.
 [51/142] 'FloodModeling2_disc' ... done.
 [52/142] 'FloodModeling3_disc' ... done.
 [53/142] 'FordA' ... done.
@@ -145,8 +145,6 @@ Preparing to download 142 datasets to 'redux'
 
 --- Summary ---
 Already had: 0/142
-Newly downloaded: 140/142
-Successful overall: 140/142
-Failed: 2
-  - Car: Inconsistent number of dimensions in case 60. Expecting 1 but have read 0
-  - FloodModeling1_disc: Inconsistent number of dimensions in case 194. Expecting 1 but have read 0
+Newly downloaded: 142/142
+Successful overall: 142/142
+All datasets downloaded successfully.
