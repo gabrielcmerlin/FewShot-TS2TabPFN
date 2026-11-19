@@ -1,5 +1,7 @@
 specific_resamples: Null             # run ids array | Null
 
+features_per_resample: Null          # Null = use the per-resample tables (<dataset>_r<id>_*.npy) when they exist, else the legacy ones | true = require them | false = legacy (<dataset>_*.npy, resample-0 table split again)
+
 seed: 0
 
 runs: 1

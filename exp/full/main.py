@@ -67,6 +67,7 @@ def main():
     DEVICE = config.get("device", "cuda")
     TABPFN_VERSION = str(config.get("tabpfn_version", "3.5"))
     SPECIFIC_RESAMPLES = config.get("specific_resamples", None)
+    PER_RESAMPLE = config.get("features_per_resample", None)
 
     # Gera o TIMESTAMP ÚNICO deste processo
     process_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -115,7 +116,7 @@ def main():
 
                     # Pegando os dados pré-extraídos
                     X_train, y_train, X_test, y_test = get_data_extracted(
-                        feature_cache_dir, dataset_name, SEED+run
+                        feature_cache_dir, dataset_name, SEED+run, per_resample=PER_RESAMPLE
                     )
 
                     y_pred, y_proba, train_time, predict_time, predict_proba_time, test_time, gpu_metrics = train_test_model(

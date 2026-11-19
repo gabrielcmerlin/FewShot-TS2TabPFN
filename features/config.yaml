@@ -1,6 +1,12 @@
 benchmark: redux
 # benchmark: mv_core
 
+# MultiROCKET only (extract_mr.py): one table per resample (<dataset>_r<id>_*.npy), with the transform fitted on that resample's training set
+seed: 0
+runs: 1                         # resamples to extract: ids seed + 0 .. seed + runs - 1 (0 = official split)
+specific_resamples: Null        # run ids array | Null
+n_jobs: 16                      # threads of the transform (aeon uses at most the available cores)
+
 # redux
 datasets:
 

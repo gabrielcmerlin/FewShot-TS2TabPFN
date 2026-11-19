@@ -154,6 +154,7 @@ def run_experiment(
     tabpfn_version,
     process_timestamp,
     instances_dir,
+    per_resample=None,
 ):
     resample_seed = seed + run
     k_tag = f"K_{k_shot}"
@@ -210,7 +211,7 @@ def run_experiment(
 
         # Dados do resample (treino completo = pool de seleção, teste completo)
         X_train, y_train, X_test, y_test = get_data_extracted(
-            feature_cache_dir, dataset_name, resample_seed
+            feature_cache_dir, dataset_name, resample_seed, per_resample=per_resample
         )
         n_pool = len(X_train)
 
@@ -368,6 +369,7 @@ def main():
     DEVICE = config.get("device", "cuda")
     TABPFN_VERSION = str(config.get("tabpfn_version", "3.5"))
     SPECIFIC_RESAMPLES = config.get("specific_resamples", None)
+    PER_RESAMPLE = config.get("features_per_resample", None)
     K_VALUES = as_list(config.get("k", [1, 3, 5, 10]))
     SELECTIONS = as_list(
         config.get("selection", ["random", "stratified_random", "kmedoids", "stratified_kmedoids"])
@@ -415,6 +417,7 @@ def main():
                         tabpfn_version=TABPFN_VERSION,
                         process_timestamp=process_timestamp,
                         instances_dir=INSTANCES_DIR,
+                        per_resample=PER_RESAMPLE,
                     )
 
     print("\nDONE!")

@@ -2,6 +2,8 @@ seed: 0
 
 runs: 1
 
+features_per_resample: Null   # Null = use the per-resample tables (<dataset>_r<id>_*.npy) when they exist, else the legacy ones | true = require them | false = legacy (<dataset>_*.npy, resample-0 table split again)
+
 benchmark: redux          # redux | uea
 
 datasets:

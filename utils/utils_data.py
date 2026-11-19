@@ -150,19 +150,45 @@ def get_data(data_path, dataset_name, folder_name, resample_id, predefined_resam
     
     return X_train, y_train, X_test, y_test
 
-def get_data_extracted(feature_cache_path,dataset_name,resample_id):
+def feature_stem(dataset_name, resample_id):
+    """File prefix of the feature table of one resample: `<dataset>_r<id>` (resample 0 included)."""
+    return f"{dataset_name}_r{resample_id}"
 
-    X_full = np.load(os.path.join(feature_cache_path, f"{dataset_name}_X.npy"))
-    y_full = np.load(os.path.join(feature_cache_path, f"{dataset_name}_y.npy"))
-    n_train = int(np.load(os.path.join(feature_cache_path, f"{dataset_name}_ntrain.npy"))[0])
+
+def get_data_extracted(feature_cache_path, dataset_name, resample_id, per_resample=None):
+    """Train/test split of the pre-extracted features of one resample.
+
+    The cache has two layouts:
+      - one table per resample (`<dataset>_r<id>_X.npy`, resample 0 included), extracted with the extractor fitted on
+        that resample's training set. The table is stored as [train; test] and read as it is: splitting it again would
+        move into the test set series that the extractor was fitted on.
+      - one table extracted on the official split (`<dataset>_X.npy`), split again for resamples other than 0 (the
+        layout of catch22 and tsfresh, and of the first MultiROCKET tables).
+
+    per_resample: None = use the per-resample table when it exists, otherwise the second layout;
+                  True = require the per-resample table (FileNotFoundError if it is missing);
+                  False = always use the second layout.
+    """
+    tagged = feature_stem(dataset_name, resample_id)
+    has_table = os.path.isfile(os.path.join(feature_cache_path, f"{tagged}_X.npy"))
+    if per_resample is True and not has_table:
+        raise FileNotFoundError(
+            f"Tabela por reamostragem não encontrada: {os.path.join(feature_cache_path, tagged + '_X.npy')}"
+        )
+    use_table = has_table and per_resample is not False
+    stem = tagged if use_table else dataset_name
+
+    X_full = np.load(os.path.join(feature_cache_path, f"{stem}_X.npy"))
+    y_full = np.load(os.path.join(feature_cache_path, f"{stem}_y.npy"))
+    n_train = int(np.load(os.path.join(feature_cache_path, f"{stem}_ntrain.npy"))[0])
+    assert len(X_full) == len(y_full), f"{stem}: X e y com tamanhos diferentes"
 
     X_train = X_full[:n_train]
     X_test = X_full[n_train:]
     y_train = y_full[:n_train]
     y_test = y_full[n_train:]
 
-    resample = True if resample_id != 0 else False
-    if resample:
+    if resample_id != 0 and not use_table:
         X_train, y_train, X_test, y_test = stratified_resample_data(
             X_train, y_train, X_test, y_test, random_state=resample_id
         )

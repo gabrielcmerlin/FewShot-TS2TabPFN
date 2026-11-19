@@ -27,6 +27,7 @@ def main():
     FEATURE = config.get("feature", None)
     DATASETS = config.get("datasets", None)
     BENCHMARK = config.get("benchmark", None)
+    PER_RESAMPLE = config.get("features_per_resample", None)
     SELECTION = config.get("selection", ['random', 'stratified_random', 'kmedoids', 'stratified_kmedoids'])
 
     # Cria o diretório de destino se não existir
@@ -51,7 +52,7 @@ def main():
 
                     # Pegando os dados pré-extraídos
                     X_train, y_train, _, _ = get_data_extracted(
-                        feature_cache_dir, dataset_name, SEED + run
+                        feature_cache_dir, dataset_name, SEED + run, per_resample=PER_RESAMPLE
                     )
 
                     # --- SELEÇÃO DE INSTÂNCIAS ---
