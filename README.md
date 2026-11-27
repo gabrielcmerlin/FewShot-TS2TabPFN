@@ -1,6 +1,6 @@
 # Few-Shot Learning for Time Series Classification Using a Tabular Foundation Model
 
-Slides (PT-BR):
+Slides (PT-BR): [link](https://docs.google.com/presentation/d/1SL5xv8OizD_JzcJaVzTXiiVBX8kMoHeeg0aHO_A4KJs/edit?usp=sharing)
 
 ## Description
 
